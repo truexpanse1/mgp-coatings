@@ -5,9 +5,15 @@ import SectionLabel from "@/components/SectionLabel";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Financing Options | MGP Coatings - Affordable Payment Plans",
+  title: "Financing Options - Affordable Payment Plans",
   description:
     "Flexible financing options for concrete coatings and painting projects in San Luis Obispo County. Get the floors you want with payments that work for you.",
+  openGraph: {
+    title: "Financing Options | MGP Coatings",
+    description: "Flexible financing for concrete coatings and painting in SLO County.",
+    images: ["/images/og-image.jpg"],
+  },
+  alternates: { canonical: "https://mgpcoatings.solutions/financing/" },
 };
 
 export default function FinancingPage() {

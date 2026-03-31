@@ -5,9 +5,15 @@ import SectionLabel from "@/components/SectionLabel";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Service Areas | MGP Coatings - San Luis Obispo County",
+  title: "Service Areas - San Luis Obispo County",
   description:
     "MGP Coatings serves all of San Luis Obispo County including SLO, Paso Robles, Atascadero, Pismo Beach, Arroyo Grande, Morro Bay, and surrounding areas.",
+  openGraph: {
+    title: "Service Areas | MGP Coatings",
+    description: "Serving all of SLO County — SLO, Paso Robles, Atascadero, Pismo Beach, and more.",
+    images: ["/images/og-image.jpg"],
+  },
+  alternates: { canonical: "https://mgpcoatings.solutions/service-areas/" },
 };
 
 const cities = [

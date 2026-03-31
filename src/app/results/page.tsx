@@ -5,9 +5,15 @@ import SectionLabel from "@/components/SectionLabel";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Project Gallery | MGP Coatings - See Our Work",
+  title: "Project Gallery - See Our Work",
   description:
     "Browse our gallery of completed concrete coating, epoxy flooring, and painting projects across San Luis Obispo County. Real results from real projects.",
+  openGraph: {
+    title: "Project Gallery | MGP Coatings",
+    description: "Browse completed concrete coating and painting projects across SLO County.",
+    images: ["/images/og-image.jpg"],
+  },
+  alternates: { canonical: "https://mgpcoatings.solutions/results/" },
 };
 
 const galleryItems = [

@@ -6,9 +6,15 @@ import SectionLabel from "@/components/SectionLabel";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "About Matt Gifford | MGP Coatings - 30+ Years of Excellence",
+  title: "About Matt Gifford - 30+ Years of Excellence",
   description:
     "Meet Matt Gifford — 30+ years of professional concrete coatings and painting experience across San Luis Obispo County. Licensed, insured, and trusted.",
+  openGraph: {
+    title: "About Matt Gifford | MGP Coatings",
+    description: "30+ years of professional concrete coatings and painting across SLO County.",
+    images: ["/images/og-image.jpg"],
+  },
+  alternates: { canonical: "https://mgpcoatings.solutions/about-us/" },
 };
 
 export default function AboutPage() {
