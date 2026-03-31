@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X, Phone } from "lucide-react";
+import { X, Phone } from "lucide-react";
 
 const navLinks = [
   { name: "Home", href: "/" },
