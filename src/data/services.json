@@ -66,6 +66,7 @@
       { "q": "How long before we can use the pool area?", "a": "Typically within 24-48 hours after application, depending on the system used." }
     ],
     "gallery": [
+      "/images/hero-1.jpg",
       "/images/gallery-extra/matt-onsite.jpeg",
       "/images/gallery-3.jpg",
       "/images/pool.jpg"
@@ -102,6 +103,7 @@
       { "q": "How does it handle weather?", "a": "Our coatings are UV-stable and weatherproof — designed for the Central Coast climate." }
     ],
     "gallery": [
+      "/images/hero-2.jpg",
       "/images/gallery-2.jpg",
       "/images/gallery-extra/matt-onsite.jpeg",
       "/images/gallery-8.jpg"
@@ -138,6 +140,7 @@
       { "q": "What colors are available?", "a": "We offer decorative flake blends and solid colors — dozens of combinations to complement your home." }
     ],
     "gallery": [
+      "/images/hero-3.jpg",
       "/images/gallery-extra/job-1.webp",
       "/images/gallery-extra/job-2.webp",
       "/images/gallery-extra/penntek-garage.jpg"
