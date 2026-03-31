@@ -60,8 +60,8 @@ export default function HeroSlider() {
       {/* Bottom content bar — Heslin style: logo left, headline center, CTAs right */}
       <div className="absolute bottom-0 left-0 right-0 z-20">
         {/* Content area */}
-        <div className="max-w-site mx-auto px-6 pb-8">
-          <div className="flex items-end justify-between gap-8">
+        <div className="max-w-site mx-auto px-6 pb-16">
+          <div className="flex items-center justify-between gap-10">
             {/* Logo — bottom left like Heslin */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -72,9 +72,9 @@ export default function HeroSlider() {
               <Image
                 src="/images/mgp-logo.png"
                 alt="MGP Coatings"
-                width={200}
-                height={100}
-                className="w-40 lg:w-48 h-auto drop-shadow-[0_0_20px_rgba(255,255,255,0.3)] rounded-md"
+                width={280}
+                height={140}
+                className="w-52 lg:w-60 xl:w-64 h-auto drop-shadow-[0_0_20px_rgba(255,255,255,0.3)] rounded-md"
                 priority
               />
             </motion.div>
