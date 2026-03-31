@@ -5,13 +5,37 @@
     "image": "/images/garage.jpg",
     "description": "Transform your garage with durable, beautiful epoxy and polyaspartic floor coatings that resist stains, chemicals, and daily wear.",
     "hero": "Premium Garage Floor Coatings",
-    "intro": "Your garage is more than storage — it's the first impression of your home. Our professional-grade coatings deliver showroom-quality floors that last decades.",
+    "heroSubtitle": "Transform your garage from eyesore to showroom — in just one day.",
+    "intro": "Your garage is more than storage — it's the first impression of your home. Our professional-grade coatings deliver showroom-quality floors that last decades. We prep, prime, and coat your garage floor with industrial-strength materials that resist hot tires, oil stains, chemicals, and daily wear.",
+    "problem": "Cracked, stained, and ugly garage floors don't just look bad — they decrease your property value and make your entire home feel neglected. DIY kits peel within months. You deserve a permanent solution.",
     "features": [
       "Chip-resistant polyaspartic and epoxy systems",
       "One-day installation — drive on it the next day",
       "Endless color, flake, and metallic finish options",
       "Chemical and stain resistant",
-      "15+ year lifespan with proper care"
+      "15+ year lifespan with proper care",
+      "Hot tire pickup resistant — no peeling or discoloration",
+      "Seamless surface — no grout lines to trap dirt"
+    ],
+    "benefits": [
+      { "title": "One-Day Install", "desc": "Walk on it the same evening. Drive on it within 24 hours." },
+      { "title": "15+ Year Lifespan", "desc": "Professional-grade materials that outlast DIY kits by a decade." },
+      { "title": "Stain Proof", "desc": "Oil, chemicals, and tire marks wipe right off." },
+      { "title": "Boost Home Value", "desc": "A coated garage floor adds instant curb appeal and resale value." }
+    ],
+    "faqs": [
+      { "q": "How long does installation take?", "a": "Most garage floors are completed in a single day. You can walk on it the same evening and park your car within 24 hours." },
+      { "q": "Will it peel like the DIY kits?", "a": "No. We use professional-grade polyaspartic and epoxy systems with proper diamond grinding prep — completely different from big-box store kits." },
+      { "q": "Is it slippery when wet?", "a": "Not at all. Our flake and textured finishes provide excellent grip, even when wet." },
+      { "q": "How do I maintain it?", "a": "Simply sweep and mop as needed. The seamless surface makes cleaning effortless." }
+    ],
+    "gallery": [
+      "/images/garage.jpg",
+      "/images/gallery-1.jpg",
+      "/images/gallery-extra/penntek-garage.jpg",
+      "/images/gallery-extra/garage-scaled.webp",
+      "/images/gallery-extra/job-1.webp",
+      "/images/gallery-extra/job-2.webp"
     ]
   },
   {
@@ -20,13 +44,35 @@
     "image": "/images/pool.jpg",
     "description": "Cool-touch, slip-resistant pool deck coatings that look stunning and keep bare feet comfortable all summer long.",
     "hero": "Cool-Touch Pool Deck Coatings",
-    "intro": "A great pool deserves a great deck. Our textured, slip-resistant coatings keep surfaces cool to the touch while delivering a high-end resort look.",
+    "heroSubtitle": "Keep bare feet cool and safe — even in the peak of summer.",
+    "intro": "A great pool deserves a great deck. Our textured, slip-resistant coatings keep surfaces cool to the touch while delivering a high-end resort look. No more burning feet on hot concrete. No more worrying about slippery surfaces around the pool.",
+    "problem": "Bare concrete around your pool gets dangerously hot, unbearably slippery when wet, and looks worse every year. Cracks widen, colors fade, and your backyard oasis turns into an eyesore.",
     "features": [
       "Cool-touch technology — up to 30% cooler surface",
       "Slip-resistant textured finish for safety",
       "UV-stable colors that won't fade in California sun",
       "Covers cracks and imperfections",
-      "Custom colors to match your outdoor aesthetic"
+      "Custom colors to match your outdoor aesthetic",
+      "Chemical resistant — pool water and chlorine safe",
+      "Comfortable for bare feet all day"
+    ],
+    "benefits": [
+      { "title": "30% Cooler Surface", "desc": "Cool-touch technology keeps your deck comfortable even in July heat." },
+      { "title": "Slip-Resistant", "desc": "Textured finish provides grip when wet — critical for family safety." },
+      { "title": "UV Stable", "desc": "Colors stay vibrant year after year under the California sun." },
+      { "title": "Resort-Quality Look", "desc": "Transform your backyard into a high-end outdoor living space." }
+    ],
+    "faqs": [
+      { "q": "How much cooler does the surface get?", "a": "Our cool-touch coatings can reduce surface temperature by up to 30% compared to bare concrete, making a noticeable difference on hot summer days." },
+      { "q": "Is it safe around water?", "a": "Absolutely. Our textured finish is specifically designed for wet areas, providing excellent traction for bare feet." },
+      { "q": "Will chlorine damage the coating?", "a": "No. Our coatings are chemical resistant and hold up perfectly to pool water, chlorine, and sunscreen." },
+      { "q": "How long before we can use the pool area?", "a": "Typically within 24-48 hours after application, depending on the system used." }
+    ],
+    "gallery": [
+      "/images/pool.jpg",
+      "/images/gallery-2.jpg",
+      "/images/gallery-9.jpg",
+      "/images/gallery-3.jpg"
     ]
   },
   {
@@ -35,13 +81,35 @@
     "image": "/images/patio.jpg",
     "description": "Elevate your outdoor living space with decorative concrete coatings that are beautiful, durable, and low maintenance.",
     "hero": "Designer Patio Coatings",
-    "intro": "Your patio is the heart of outdoor living. We coat, resurface, and transform tired concrete into stunning entertainment spaces that last.",
+    "heroSubtitle": "Turn your tired patio into the outdoor living space you've always wanted.",
+    "intro": "Your patio is the heart of outdoor living. We coat, resurface, and transform tired concrete into stunning entertainment spaces that last. From decorative flake systems to smooth metallic finishes, we create outdoor floors that rival high-end resorts.",
+    "problem": "Your patio should be your favorite room — but cracked, faded, and stained concrete makes it embarrassing to host. Pressure washing only does so much. You need a real transformation, not a temporary fix.",
     "features": [
       "Decorative flake, quartz, and metallic finishes",
       "Weatherproof and UV-resistant",
       "Seamless, easy-to-clean surface",
       "Covers existing cracks and discoloration",
-      "Installed in a single day"
+      "Installed in a single day",
+      "Custom color matching for any outdoor design",
+      "Non-slip texture options for safety"
+    ],
+    "benefits": [
+      { "title": "Instant Transformation", "desc": "Go from cracked concrete to designer finish in just one day." },
+      { "title": "Weatherproof", "desc": "Rain, sun, and temperature swings — your coating stays flawless." },
+      { "title": "Low Maintenance", "desc": "No sealing, no staining. Just sweep and enjoy." },
+      { "title": "Entertaining Ready", "desc": "A patio you're proud to show off at every gathering." }
+    ],
+    "faqs": [
+      { "q": "Can you coat over cracked concrete?", "a": "Yes. We repair cracks and imperfections as part of our prep process, then apply the coating for a seamless finish." },
+      { "q": "What finishes are available?", "a": "We offer decorative flake, quartz aggregate, metallic, and solid color finishes in hundreds of color combinations." },
+      { "q": "Is it slippery?", "a": "No. We add slip-resistant texture to all outdoor coatings for safety in wet conditions." },
+      { "q": "How does it handle weather?", "a": "Our coatings are UV-stable and weatherproof — designed for the Central Coast climate." }
+    ],
+    "gallery": [
+      "/images/patio.jpg",
+      "/images/gallery-3.jpg",
+      "/images/gallery-8.jpg",
+      "/images/gallery-6.jpg"
     ]
   },
   {
@@ -50,13 +118,35 @@
     "image": "/images/driveway.jpg",
     "description": "Boost curb appeal and protect your driveway with professional-grade coatings that resist tire marks, oil, and weather damage.",
     "hero": "Professional Driveway Coatings",
-    "intro": "Your driveway sets the tone for your entire property. Our industrial-strength coatings resist hot tire pickup, oil stains, and California weather — while looking incredible.",
+    "heroSubtitle": "Make your neighbors jealous — starting from the street.",
+    "intro": "Your driveway sets the tone for your entire property. Our industrial-strength coatings resist hot tire pickup, oil stains, and California weather — while looking incredible. This is the single fastest way to boost your home's curb appeal.",
+    "problem": "Oil stains, tire marks, cracks, and faded concrete make even beautiful homes look neglected from the street. Your driveway is the first thing visitors and buyers see — and right now it's making the wrong impression.",
     "features": [
       "Hot tire pickup resistant",
       "Oil and chemical stain protection",
       "Decorative flake and solid color options",
       "Repairs minor cracks before coating",
-      "Significant curb appeal improvement"
+      "Significant curb appeal improvement",
+      "UV-stable — no fading or yellowing",
+      "Professional diamond grinding prep included"
+    ],
+    "benefits": [
+      { "title": "Curb Appeal", "desc": "The single biggest visual upgrade you can make to your home's exterior." },
+      { "title": "Hot Tire Resistant", "desc": "No peeling or discoloration from hot tires — guaranteed." },
+      { "title": "Oil-Proof Surface", "desc": "Spills wipe right off instead of soaking in permanently." },
+      { "title": "Adds Home Value", "desc": "A well-maintained driveway signals a well-maintained home." }
+    ],
+    "faqs": [
+      { "q": "Will hot tires damage the coating?", "a": "No. We use polyaspartic systems specifically designed to resist hot tire pickup — unlike DIY epoxy kits." },
+      { "q": "Can you fix cracks in the concrete first?", "a": "Yes. We repair and prep all cracks and damage before applying the coating system." },
+      { "q": "How long does a driveway take?", "a": "Most driveways are completed in 1-2 days depending on size and condition." },
+      { "q": "What colors are available?", "a": "We offer decorative flake blends and solid colors — dozens of combinations to complement your home." }
+    ],
+    "gallery": [
+      "/images/driveway.jpg",
+      "/images/gallery-4.jpg",
+      "/images/gallery-extra/job-3.webp",
+      "/images/gallery-extra/job-4.jpg"
     ]
   },
   {
@@ -65,13 +155,35 @@
     "image": "/images/epoxy.jpg",
     "description": "Commercial and residential epoxy flooring systems built to handle heavy traffic, impacts, and daily abuse.",
     "hero": "Industrial-Grade Epoxy Flooring",
-    "intro": "From commercial warehouses to residential showrooms, our epoxy flooring systems deliver unmatched durability and a seamless, professional finish.",
+    "heroSubtitle": "Floors that work as hard as you do — and look incredible doing it.",
+    "intro": "From commercial warehouses to residential showrooms, our epoxy flooring systems deliver unmatched durability and a seamless, professional finish. We install high-build systems that handle forklifts, foot traffic, chemicals, and impacts without showing wear.",
+    "problem": "Bare concrete in commercial spaces absorbs stains, cracks under impact, and creates dust that contaminates products and equipment. Residential concrete is cold, ugly, and impossible to keep clean. You need a surface that performs.",
     "features": [
       "High-build epoxy systems for heavy traffic areas",
       "Seamless, hygienic surface — ideal for commercial spaces",
       "Chemical and impact resistant",
       "Metallic, flake, and solid color options",
-      "Low maintenance — sweep and mop"
+      "Low maintenance — sweep and mop",
+      "Anti-dust and anti-static properties",
+      "Commercial-grade thickness for maximum durability"
+    ],
+    "benefits": [
+      { "title": "Heavy-Duty", "desc": "Handles forklifts, equipment, and heavy foot traffic without damage." },
+      { "title": "Seamless & Hygienic", "desc": "No joints or grout lines where bacteria and dirt can hide." },
+      { "title": "Chemical Resistant", "desc": "Stands up to oils, solvents, and industrial chemicals." },
+      { "title": "Professional Image", "desc": "A polished floor makes your space look world-class." }
+    ],
+    "faqs": [
+      { "q": "What's the difference between epoxy and polyaspartic?", "a": "Epoxy is typically thicker and better for heavy industrial use. Polyaspartic cures faster and has better UV stability. We'll recommend the right system for your specific application." },
+      { "q": "Can you coat an active commercial space?", "a": "Yes. We can work in sections to minimize business disruption and complete the project on your schedule." },
+      { "q": "How thick is the coating?", "a": "Our commercial systems range from 10-40 mils depending on use case — significantly thicker than DIY products." },
+      { "q": "Is it slippery?", "a": "We add non-slip additives to all of our epoxy systems for safety in both wet and dry conditions." }
+    ],
+    "gallery": [
+      "/images/epoxy.jpg",
+      "/images/gallery-5.jpg",
+      "/images/gallery-10.jpg",
+      "/images/gallery-7.jpg"
     ]
   },
   {
@@ -80,13 +192,35 @@
     "image": "/images/painting.jpg",
     "description": "30+ years of professional painting experience across San Luis Obispo County — interior, exterior, residential, and commercial.",
     "hero": "Professional Painting Services",
-    "intro": "Matt Gifford has been painting homes and businesses across the Central Coast for over 30 years. From detailed trim work to full commercial repaints, we deliver flawless results every time.",
+    "heroSubtitle": "30+ years of flawless results across the Central Coast.",
+    "intro": "Matt Gifford has been painting homes and businesses across the Central Coast for over 30 years. From detailed trim work to full commercial repaints, we deliver flawless results every time. Meticulous prep, premium paints, and attention to detail that sets us apart.",
+    "problem": "Bad paint jobs are everywhere — drips, missed spots, peeling within a year. Hiring the wrong painter means paying twice. You need someone who takes pride in the craft and stands behind every brushstroke.",
     "features": [
       "Interior and exterior painting",
       "Residential and commercial projects",
       "Color consultation and matching",
       "Surface prep, repair, and priming included",
-      "30+ years of local experience"
+      "30+ years of local experience",
+      "Premium-grade paints and materials only",
+      "Clean, professional job site — every time"
+    ],
+    "benefits": [
+      { "title": "30+ Years Experience", "desc": "Three decades of expertise on every project — no learning curve." },
+      { "title": "Meticulous Prep", "desc": "We never skip the prep work that makes a paint job last." },
+      { "title": "Premium Materials", "desc": "We only use professional-grade paints that look better and last longer." },
+      { "title": "Clean Job Site", "desc": "We treat your home like our own — clean, respectful, professional." }
+    ],
+    "faqs": [
+      { "q": "Do you do interior and exterior?", "a": "Yes. We handle interior painting, exterior painting, trim work, cabinets, and commercial projects." },
+      { "q": "What brands of paint do you use?", "a": "We use premium-grade paints from trusted brands. We'll recommend the right product for your specific surface and conditions." },
+      { "q": "Can you help me pick colors?", "a": "Absolutely. We offer color consultation to help you choose the perfect palette for your space." },
+      { "q": "How long does a typical project take?", "a": "It depends on the scope — a single room can be done in a day, while full exteriors may take 3-5 days. We'll give you a clear timeline upfront." }
+    ],
+    "gallery": [
+      "/images/painting.jpg",
+      "/images/gallery-11.jpg",
+      "/images/gallery-12.jpg",
+      "/images/gallery-extra/matt-onsite.jpeg"
     ]
   }
 ]

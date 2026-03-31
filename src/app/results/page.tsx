@@ -29,6 +29,12 @@ const galleryItems = [
   { src: "/images/gallery-10.jpg", label: "Custom Flake Floor", category: "Garage" },
   { src: "/images/gallery-11.jpg", label: "Interior Painting", category: "Painting" },
   { src: "/images/gallery-12.jpg", label: "Exterior Painting", category: "Painting" },
+  { src: "/images/gallery-extra/job-1.webp", label: "Concrete Coating Project", category: "Garage" },
+  { src: "/images/gallery-extra/job-2.webp", label: "Floor Coating Detail", category: "Garage" },
+  { src: "/images/gallery-extra/job-3.webp", label: "Completed Coating Job", category: "Garage" },
+  { src: "/images/gallery-extra/job-4.jpg", label: "Premium Floor Finish", category: "Epoxy" },
+  { src: "/images/gallery-extra/penntek-garage.jpg", label: "Premium Garage Floor", category: "Garage" },
+  { src: "/images/gallery-extra/garage-scaled.webp", label: "Full Garage Transformation", category: "Garage" },
 ];
 
 export default function GalleryPage() {

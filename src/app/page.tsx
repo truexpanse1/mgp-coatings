@@ -7,6 +7,7 @@ import ProcessSteps from "@/components/ProcessSteps";
 import MeetMatt from "@/components/MeetMatt";
 import GalleryPreview from "@/components/GalleryPreview";
 import Reviews from "@/components/Reviews";
+import Partners from "@/components/Partners";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
@@ -33,6 +34,7 @@ export default function HomePage() {
       <MeetMatt />
       <GalleryPreview />
       <Reviews />
+      <Partners />
       <CTASection />
     </>
   );
