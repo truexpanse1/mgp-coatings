@@ -15,7 +15,7 @@ export default function Footer() {
                 alt="MGP Coatings"
                 width={160}
                 height={60}
-                className="w-36 h-auto brightness-[1.8] contrast-[1.1] drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]"
+                className="w-36 h-auto drop-shadow-[0_0_12px_rgba(255,255,255,0.2)] rounded-md"
               />
             </Link>
             <p className="mt-4 text-muted text-sm leading-relaxed">

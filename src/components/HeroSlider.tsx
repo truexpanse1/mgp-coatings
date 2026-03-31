@@ -74,7 +74,7 @@ export default function HeroSlider() {
                 alt="MGP Coatings"
                 width={200}
                 height={100}
-                className="w-40 lg:w-48 h-auto brightness-[1.8] contrast-[1.1] drop-shadow-[0_0_15px_rgba(255,255,255,0.5)]"
+                className="w-40 lg:w-48 h-auto drop-shadow-[0_0_20px_rgba(255,255,255,0.3)] rounded-md"
                 priority
               />
             </motion.div>
