@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   images: {
-    // Allow placeholder images until real assets are added
-    unoptimized: false,
-    formats: ["image/avif", "image/webp"],
+    unoptimized: true,
   },
+  trailingSlash: true,
 };
 
 export default nextConfig;
