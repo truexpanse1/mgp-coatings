@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "garage-floor-coatings",
+    "title": "Garage Floor Coatings",
+    "image": "/images/garage.jpg",
+    "description": "Transform your garage with durable, beautiful epoxy and polyaspartic floor coatings that resist stains, chemicals, and daily wear.",
+    "hero": "Premium Garage Floor Coatings",
+    "intro": "Your garage is more than storage — it's the first impression of your home. Our professional-grade coatings deliver showroom-quality floors that last decades.",
+    "features": [
+      "Chip-resistant polyaspartic and epoxy systems",
+      "One-day installation — drive on it the next day",
+      "Endless color, flake, and metallic finish options",
+      "Chemical and stain resistant",
+      "15+ year lifespan with proper care"
+    ]
+  },
+  {
+    "slug": "pool-deck-coatings",
+    "title": "Pool Deck Coatings",
+    "image": "/images/pool.jpg",
+    "description": "Cool-touch, slip-resistant pool deck coatings that look stunning and keep bare feet comfortable all summer long.",
+    "hero": "Cool-Touch Pool Deck Coatings",
+    "intro": "A great pool deserves a great deck. Our textured, slip-resistant coatings keep surfaces cool to the touch while delivering a high-end resort look.",
+    "features": [
+      "Cool-touch technology — up to 30% cooler surface",
+      "Slip-resistant textured finish for safety",
+      "UV-stable colors that won't fade in California sun",
+      "Covers cracks and imperfections",
+      "Custom colors to match your outdoor aesthetic"
+    ]
+  },
+  {
+    "slug": "patio-coatings",
+    "title": "Patio Coatings",
+    "image": "/images/patio.jpg",
+    "description": "Elevate your outdoor living space with decorative concrete coatings that are beautiful, durable, and low maintenance.",
+    "hero": "Designer Patio Coatings",
+    "intro": "Your patio is the heart of outdoor living. We coat, resurface, and transform tired concrete into stunning entertainment spaces that last.",
+    "features": [
+      "Decorative flake, quartz, and metallic finishes",
+      "Weatherproof and UV-resistant",
+      "Seamless, easy-to-clean surface",
+      "Covers existing cracks and discoloration",
+      "Installed in a single day"
+    ]
+  },
+  {
+    "slug": "driveway-coatings",
+    "title": "Driveway Coatings",
+    "image": "/images/driveway.jpg",
+    "description": "Boost curb appeal and protect your driveway with professional-grade coatings that resist tire marks, oil, and weather damage.",
+    "hero": "Professional Driveway Coatings",
+    "intro": "Your driveway sets the tone for your entire property. Our industrial-strength coatings resist hot tire pickup, oil stains, and California weather — while looking incredible.",
+    "features": [
+      "Hot tire pickup resistant",
+      "Oil and chemical stain protection",
+      "Decorative flake and solid color options",
+      "Repairs minor cracks before coating",
+      "Significant curb appeal improvement"
+    ]
+  },
+  {
+    "slug": "epoxy-flooring",
+    "title": "Epoxy Flooring",
+    "image": "/images/epoxy.jpg",
+    "description": "Commercial and residential epoxy flooring systems built to handle heavy traffic, impacts, and daily abuse.",
+    "hero": "Industrial-Grade Epoxy Flooring",
+    "intro": "From commercial warehouses to residential showrooms, our epoxy flooring systems deliver unmatched durability and a seamless, professional finish.",
+    "features": [
+      "High-build epoxy systems for heavy traffic areas",
+      "Seamless, hygienic surface — ideal for commercial spaces",
+      "Chemical and impact resistant",
+      "Metallic, flake, and solid color options",
+      "Low maintenance — sweep and mop"
+    ]
+  },
+  {
+    "slug": "painting-slocounty",
+    "title": "Residential & Commercial Painting",
+    "image": "/images/painting.jpg",
+    "description": "30+ years of professional painting experience across San Luis Obispo County — interior, exterior, residential, and commercial.",
+    "hero": "Professional Painting Services",
+    "intro": "Matt Gifford has been painting homes and businesses across the Central Coast for over 30 years. From detailed trim work to full commercial repaints, we deliver flawless results every time.",
+    "features": [
+      "Interior and exterior painting",
+      "Residential and commercial projects",
+      "Color consultation and matching",
+      "Surface prep, repair, and priming included",
+      "30+ years of local experience"
+    ]
+  }
+]
