@@ -164,7 +164,7 @@ export default function ServicePageTemplate({
             <FadeIn direction="left">
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden sticky top-32">
                 <Image
-                  src={gallery && gallery.length > 1 ? gallery[1] : image}
+                  src={gallery && gallery.length > 0 ? gallery[0] : image}
                   alt={title}
                   fill
                   className="object-cover"

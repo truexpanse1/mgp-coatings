@@ -30,18 +30,15 @@
       { "q": "How do I maintain it?", "a": "Simply sweep and mop as needed. The seamless surface makes cleaning effortless." }
     ],
     "gallery": [
-      "/images/garage.jpg",
-      "/images/gallery-1.jpg",
+      "/images/gallery-8.jpg",
       "/images/gallery-extra/penntek-garage.jpg",
-      "/images/gallery-extra/garage-scaled.webp",
-      "/images/gallery-extra/job-1.webp",
-      "/images/gallery-extra/job-2.webp"
+      "/images/gallery-7.jpg"
     ]
   },
   {
     "slug": "pool-deck-coatings",
     "title": "Pool Deck Coatings",
-    "image": "/images/pool.jpg",
+    "image": "/images/gallery-2.jpg",
     "description": "Cool-touch, slip-resistant pool deck coatings that look stunning and keep bare feet comfortable all summer long.",
     "hero": "Cool-Touch Pool Deck Coatings",
     "heroSubtitle": "Keep bare feet cool and safe — even in the peak of summer.",
@@ -69,16 +66,15 @@
       { "q": "How long before we can use the pool area?", "a": "Typically within 24-48 hours after application, depending on the system used." }
     ],
     "gallery": [
-      "/images/pool.jpg",
-      "/images/gallery-2.jpg",
-      "/images/gallery-9.jpg",
-      "/images/gallery-3.jpg"
+      "/images/gallery-extra/matt-onsite.jpeg",
+      "/images/gallery-3.jpg",
+      "/images/pool.jpg"
     ]
   },
   {
     "slug": "patio-coatings",
     "title": "Patio Coatings",
-    "image": "/images/patio.jpg",
+    "image": "/images/gallery-3.jpg",
     "description": "Elevate your outdoor living space with decorative concrete coatings that are beautiful, durable, and low maintenance.",
     "hero": "Designer Patio Coatings",
     "heroSubtitle": "Turn your tired patio into the outdoor living space you've always wanted.",
@@ -106,16 +102,15 @@
       { "q": "How does it handle weather?", "a": "Our coatings are UV-stable and weatherproof — designed for the Central Coast climate." }
     ],
     "gallery": [
-      "/images/patio.jpg",
-      "/images/gallery-3.jpg",
-      "/images/gallery-8.jpg",
-      "/images/gallery-6.jpg"
+      "/images/gallery-2.jpg",
+      "/images/gallery-extra/matt-onsite.jpeg",
+      "/images/gallery-8.jpg"
     ]
   },
   {
     "slug": "driveway-coatings",
     "title": "Driveway Coatings",
-    "image": "/images/driveway.jpg",
+    "image": "/images/gallery-4.jpg",
     "description": "Boost curb appeal and protect your driveway with professional-grade coatings that resist tire marks, oil, and weather damage.",
     "hero": "Professional Driveway Coatings",
     "heroSubtitle": "Make your neighbors jealous — starting from the street.",
@@ -143,16 +138,15 @@
       { "q": "What colors are available?", "a": "We offer decorative flake blends and solid colors — dozens of combinations to complement your home." }
     ],
     "gallery": [
-      "/images/driveway.jpg",
-      "/images/gallery-4.jpg",
-      "/images/gallery-extra/job-3.webp",
-      "/images/gallery-extra/job-4.jpg"
+      "/images/gallery-extra/job-1.webp",
+      "/images/gallery-extra/job-2.webp",
+      "/images/gallery-extra/penntek-garage.jpg"
     ]
   },
   {
     "slug": "epoxy-flooring",
     "title": "Epoxy Flooring",
-    "image": "/images/epoxy.jpg",
+    "image": "/images/gallery-7.jpg",
     "description": "Commercial and residential epoxy flooring systems built to handle heavy traffic, impacts, and daily abuse.",
     "hero": "Industrial-Grade Epoxy Flooring",
     "heroSubtitle": "Floors that work as hard as you do — and look incredible doing it.",
@@ -180,16 +174,15 @@
       { "q": "Is it slippery?", "a": "We add non-slip additives to all of our epoxy systems for safety in both wet and dry conditions." }
     ],
     "gallery": [
-      "/images/epoxy.jpg",
-      "/images/gallery-5.jpg",
-      "/images/gallery-10.jpg",
-      "/images/gallery-7.jpg"
+      "/images/garage.jpg",
+      "/images/gallery-extra/penntek-garage.jpg",
+      "/images/gallery-8.jpg"
     ]
   },
   {
     "slug": "painting-slocounty",
     "title": "Residential & Commercial Painting",
-    "image": "/images/painting.jpg",
+    "image": "/images/gallery-5.jpg",
     "description": "30+ years of professional painting experience across San Luis Obispo County — interior, exterior, residential, and commercial.",
     "hero": "Professional Painting Services",
     "heroSubtitle": "30+ years of flawless results across the Central Coast.",
@@ -217,10 +210,9 @@
       { "q": "How long does a typical project take?", "a": "It depends on the scope — a single room can be done in a day, while full exteriors may take 3-5 days. We'll give you a clear timeline upfront." }
     ],
     "gallery": [
-      "/images/painting.jpg",
-      "/images/gallery-11.jpg",
-      "/images/gallery-12.jpg",
-      "/images/gallery-extra/matt-onsite.jpeg"
+      "/images/gallery-extra/job-1.webp",
+      "/images/gallery-extra/job-2.webp",
+      "/images/gallery-extra/job-3.webp"
     ]
   }
 ]

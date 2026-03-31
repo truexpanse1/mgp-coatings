@@ -17,24 +17,20 @@ export const metadata: Metadata = {
 };
 
 const galleryItems = [
-  { src: "/images/gallery-1.jpg", label: "Garage Floor Coating", category: "Garage" },
-  { src: "/images/gallery-2.jpg", label: "Pool Deck Resurfacing", category: "Pool Deck" },
-  { src: "/images/gallery-3.jpg", label: "Patio Makeover", category: "Patio" },
+  { src: "/images/garage.jpg", label: "Garage Floor Coating", category: "Garage" },
+  { src: "/images/gallery-2.jpg", label: "Patio with Pool View", category: "Pool Deck" },
+  { src: "/images/gallery-3.jpg", label: "Hilltop Patio Transformation", category: "Patio" },
   { src: "/images/gallery-4.jpg", label: "Driveway Coating", category: "Driveway" },
-  { src: "/images/gallery-5.jpg", label: "Metallic Epoxy Floor", category: "Epoxy" },
-  { src: "/images/gallery-6.jpg", label: "Commercial Floor", category: "Commercial" },
-  { src: "/images/gallery-7.jpg", label: "Residential Garage", category: "Garage" },
-  { src: "/images/gallery-8.jpg", label: "Outdoor Patio", category: "Patio" },
-  { src: "/images/gallery-9.jpg", label: "Pool Deck Detail", category: "Pool Deck" },
-  { src: "/images/gallery-10.jpg", label: "Custom Flake Floor", category: "Garage" },
-  { src: "/images/gallery-11.jpg", label: "Interior Painting", category: "Painting" },
-  { src: "/images/gallery-12.jpg", label: "Exterior Painting", category: "Painting" },
-  { src: "/images/gallery-extra/job-1.webp", label: "Concrete Coating Project", category: "Garage" },
-  { src: "/images/gallery-extra/job-2.webp", label: "Floor Coating Detail", category: "Garage" },
-  { src: "/images/gallery-extra/job-3.webp", label: "Completed Coating Job", category: "Garage" },
-  { src: "/images/gallery-extra/job-4.jpg", label: "Premium Floor Finish", category: "Epoxy" },
-  { src: "/images/gallery-extra/penntek-garage.jpg", label: "Premium Garage Floor", category: "Garage" },
-  { src: "/images/gallery-extra/garage-scaled.webp", label: "Full Garage Transformation", category: "Garage" },
+  { src: "/images/gallery-5.jpg", label: "Home Exterior", category: "Painting" },
+  { src: "/images/gallery-7.jpg", label: "Commercial Epoxy Hallway", category: "Epoxy" },
+  { src: "/images/gallery-8.jpg", label: "Residential Garage", category: "Garage" },
+  { src: "/images/pool.jpg", label: "Interior Flooring", category: "Epoxy" },
+  { src: "/images/gallery-extra/penntek-garage.jpg", label: "Flake Coating Close-Up", category: "Garage" },
+  { src: "/images/gallery-extra/job-1.webp", label: "Exterior Painting Project", category: "Painting" },
+  { src: "/images/gallery-extra/job-2.webp", label: "Residential Repaint", category: "Painting" },
+  { src: "/images/gallery-extra/job-3.webp", label: "Curb Appeal Makeover", category: "Painting" },
+  { src: "/images/gallery-extra/job-4.jpg", label: "MGP Coatings Ribbon Cutting", category: "Community" },
+  { src: "/images/gallery-extra/matt-onsite.jpeg", label: "Covered Patio Project", category: "Patio" },
 ];
 
 export default function GalleryPage() {
