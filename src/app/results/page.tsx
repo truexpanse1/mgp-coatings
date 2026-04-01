@@ -25,7 +25,7 @@ const galleryItems = [
   { src: "/images/gallery-7.jpg", label: "Commercial Epoxy Hallway", category: "Epoxy" },
   { src: "/images/gallery-8.jpg", label: "Residential Garage", category: "Garage" },
   { src: "/images/pool.jpg", label: "Interior Flooring", category: "Epoxy" },
-  { src: "/images/gallery-extra/penntek-garage.jpg", label: "Flake Coating Close-Up", category: "Garage" },
+  { src: "/images/gallery-extra/job-4.jpg", label: "MGP Coatings at Work", category: "Garage" },
   { src: "/images/gallery-extra/job-1.webp", label: "Exterior Painting Project", category: "Painting" },
   { src: "/images/gallery-extra/job-2.webp", label: "Residential Repaint", category: "Painting" },
   { src: "/images/gallery-extra/job-3.webp", label: "Curb Appeal Makeover", category: "Painting" },
