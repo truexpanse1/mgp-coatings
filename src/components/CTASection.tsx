@@ -4,19 +4,23 @@ import { Phone, Mail, Clock, MapPin } from "lucide-react";
 import FadeIn from "./FadeIn";
 import SectionLabel from "./SectionLabel";
 import ContactForm from "./ContactForm";
+import IrresistibleOffer from "./IrresistibleOffer";
 
 export default function CTASection() {
   return (
-    <section className="bg-primary py-24">
+    <section id="estimate-form" className="bg-primary py-24">
       <div className="max-w-site mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Form */}
           <FadeIn direction="left">
             <div>
               <SectionLabel label="Request an Estimate" />
-              <h2 className="font-playfair text-3xl md:text-4xl text-cream mt-3 mb-8">
+              <h2 className="font-playfair text-3xl md:text-4xl text-cream mt-3 mb-6">
                 Let&apos;s Transform Your Space
               </h2>
+              <div className="mb-6">
+                <IrresistibleOffer variant="inline" />
+              </div>
               <ContactForm />
             </div>
           </FadeIn>

@@ -5,14 +5,55 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Image cache — long-lived immutable
 [[headers]]
   for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# Next.js static asset cache
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Security headers on all pages
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+
+# Redirects from old Squarespace URL patterns to preserve link equity
+[[redirects]]
+  from = "/services"
+  to = "/garage-floor-coatings/"
+  status = 301
+
+[[redirects]]
+  from = "/services/*"
+  to = "/garage-floor-coatings/"
+  status = 301
+
+[[redirects]]
+  from = "/about"
+  to = "/about-us/"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio"
+  to = "/results/"
+  status = 301
+
+[[redirects]]
+  from = "/gallery"
+  to = "/results/"
+  status = 301
+
+[[redirects]]
+  from = "/booking"
+  to = "/contact/"
+  status = 301

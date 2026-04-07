@@ -1,3 +1,12 @@
+# MGP Coatings — robots.txt
+# Bronze QM client — aggressive indexing welcome
+
 User-agent: *
 Allow: /
+
+# Block crawl-trap query strings (no canonical impact)
+Disallow: /*?utm_*
+Disallow: /*?fbclid=*
+Disallow: /*?gclid=*
+
 Sitemap: https://mgpcoatings.solutions/sitemap.xml

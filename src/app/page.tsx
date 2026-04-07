@@ -9,11 +9,13 @@ import GalleryPreview from "@/components/GalleryPreview";
 import Reviews from "@/components/Reviews";
 import Partners from "@/components/Partners";
 import CTASection from "@/components/CTASection";
+import IrresistibleOffer from "@/components/IrresistibleOffer";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "MGP Coatings | Premium Concrete Coatings & Painting in SLO County",
   description:
-    "MGP Coatings delivers premium concrete coatings, epoxy flooring, and professional painting across San Luis Obispo County. 30+ years experience. One-day installation. Call (805) 952-5301 for a free estimate.",
+    "MGP Coatings delivers premium concrete coatings, epoxy flooring, epoxy countertops, and professional painting across San Luis Obispo County. 30+ years experience. One-day installation. Free estimate + $250 off any project. Call (805) 952-5301.",
   alternates: {
     canonical: "https://mgpcoatings.solutions",
   },
@@ -24,10 +26,11 @@ export default function HomePage() {
     <>
       {/* Visually hidden h1 for SEO — visible headline is in HeroSlider */}
       <h1 className="sr-only">
-        MGP Coatings — Premium Concrete Coatings and Painting in San Luis Obispo County
+        MGP Coatings — Premium Concrete Coatings, Epoxy Flooring, Epoxy Countertops, and Professional Painting in San Luis Obispo County, California
       </h1>
       <HeroSlider />
       <StatsBar />
+      <IrresistibleOffer variant="band" />
       <ServicesGrid />
       <WhyMGP />
       <ProcessSteps />
@@ -36,6 +39,7 @@ export default function HomePage() {
       <Reviews />
       <Partners />
       <CTASection />
+      <RelatedLinks />
     </>
   );
 }

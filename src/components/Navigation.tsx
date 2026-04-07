@@ -6,21 +6,23 @@ import { X, Phone } from "lucide-react";
 
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "About", href: "/about-us" },
-  { name: "Services", href: "/garage-floor-coatings" },
-  { name: "Gallery", href: "/results" },
-  { name: "Service Areas", href: "/service-areas" },
-  { name: "Financing", href: "/financing" },
-  { name: "Contact", href: "/contact" },
+  { name: "About", href: "/about-us/" },
+  { name: "Services", href: "/garage-floor-coatings/" },
+  { name: "Gallery", href: "/results/" },
+  { name: "Blog", href: "/blog/" },
+  { name: "Service Areas", href: "/service-areas/" },
+  { name: "Financing", href: "/financing/" },
+  { name: "Contact", href: "/contact/" },
 ];
 
 const serviceLinks = [
-  { name: "Garage Floor Coatings", href: "/garage-floor-coatings" },
-  { name: "Pool Deck Coatings", href: "/pool-deck-coatings" },
-  { name: "Patio Coatings", href: "/patio-coatings" },
-  { name: "Driveway Coatings", href: "/driveway-coatings" },
-  { name: "Epoxy Flooring", href: "/epoxy-flooring" },
-  { name: "Painting", href: "/painting-slocounty" },
+  { name: "Garage Floor Coatings", href: "/garage-floor-coatings/" },
+  { name: "Pool Deck Coatings", href: "/pool-deck-coatings/" },
+  { name: "Patio Coatings", href: "/patio-coatings/" },
+  { name: "Driveway Coatings", href: "/driveway-coatings/" },
+  { name: "Epoxy Flooring", href: "/epoxy-flooring/" },
+  { name: "Epoxy Countertops", href: "/epoxy-countertops/" },
+  { name: "Painting", href: "/painting-slocounty/" },
 ];
 
 export default function Navigation() {
@@ -110,11 +112,11 @@ export default function Navigation() {
             </a>
 
             <Link
-              href="/contact"
+              href="/contact/"
               onClick={() => setMenuOpen(false)}
-              className="mt-4 font-montserrat text-xs uppercase tracking-[0.2em] border border-gold text-gold px-8 py-3 hover:bg-gold hover:text-primary transition-all duration-300"
+              className="mt-4 font-montserrat text-xs uppercase tracking-[0.2em] bg-gold text-primary px-8 py-3 hover:bg-gold/90 transition-all duration-300 font-bold"
             >
-              Free Estimate
+              Get $250 Off
             </Link>
           </nav>
         </div>

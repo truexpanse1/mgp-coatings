@@ -3,6 +3,7 @@ import { Playfair_Display, Montserrat, Inter } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import StickyMobileCTA from "@/components/StickyMobileCTA";
 import { LocalBusinessJsonLd } from "@/components/JsonLd";
 
 const playfair = Playfair_Display({
@@ -32,22 +33,44 @@ export const metadata: Metadata = {
     template: "%s | MGP Coatings",
   },
   description:
-    "30+ years of professional concrete coatings, epoxy flooring, and painting services across SLO County. Garage floors, pool decks, patios, driveways. One-day installation. Call (805) 952-5301.",
+    "30+ years of professional concrete coatings, epoxy flooring, epoxy countertops, and painting across San Luis Obispo County. Garage floors, pool decks, patios, driveways. One-day installation. Free estimate + $250 off. Call (805) 952-5301.",
   keywords: [
-    "concrete coatings",
-    "epoxy flooring",
+    "concrete coatings san luis obispo",
+    "epoxy flooring slo county",
     "garage floor coatings",
     "pool deck coatings",
     "patio coatings",
     "driveway coatings",
-    "painting",
-    "San Luis Obispo",
-    "SLO County",
-    "Paso Robles",
-    "Atascadero",
-    "Central Coast",
+    "epoxy countertops",
+    "polyaspartic flooring",
+    "metallic epoxy",
+    "concrete resurfacing",
+    "concrete sealing",
+    "professional painting",
+    "interior painting",
+    "exterior painting",
+    "commercial painting",
+    "house painters",
+    "central coast contractor",
+    "san luis obispo",
+    "slo county",
+    "paso robles",
+    "atascadero",
+    "templeton",
+    "morro bay",
+    "pismo beach",
+    "arroyo grande",
+    "cambria",
+    "los osos",
+    "cayucos",
+    "nipomo",
+    "central coast california",
     "MGP Coatings",
     "Matt Gifford",
+    "matt gifford painting",
+    "licensed contractor 1061424",
+    "free estimate",
+    "one day install",
   ],
   authors: [{ name: "MGP Coatings" }],
   creator: "TrueXpanse",
@@ -109,6 +132,7 @@ export default function RootLayout({
         <Navigation />
         <main>{children}</main>
         <Footer />
+        <StickyMobileCTA />
       </body>
     </html>
   );

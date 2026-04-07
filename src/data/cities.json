@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "san-luis-obispo",
+    "name": "San Luis Obispo",
+    "shortName": "SLO",
+    "county": "San Luis Obispo County",
+    "population": "47,500",
+    "intro": "San Luis Obispo homeowners and businesses trust MGP Coatings to deliver durable, beautiful surface transformations that hold up to the Central Coast climate. From historic homes near downtown to new builds in Edna Valley and Los Verdes, we have completed hundreds of coating projects across the city.",
+    "neighborhoods": [
+      "Downtown SLO",
+      "Edna Valley",
+      "Laguna Lake",
+      "Los Verdes",
+      "Cal Poly area",
+      "Foothill",
+      "Country Club"
+    ],
+    "localContext": "As the county seat and home to Cal Poly, San Luis Obispo sees a steady mix of homeowners, faculty, and business owners who want professional results without the hassle of replacement. Our coatings outperform DIY kits and traditional epoxy, especially in coastal humidity.",
+    "responseTime": "Same-day estimates available across SLO city limits",
+    "lat": 35.2828,
+    "lng": -120.6596
+  },
+  {
+    "slug": "paso-robles",
+    "name": "Paso Robles",
+    "shortName": "Paso",
+    "county": "San Luis Obispo County",
+    "population": "31,500",
+    "intro": "Paso Robles is wine country, ranch country, and home to some of the most ambitious custom builds in San Luis Obispo County. MGP Coatings has installed garage floors, patio coatings, and epoxy systems for homeowners across Paso — from downtown bungalows to wine-country estates on the east side.",
+    "neighborhoods": [
+      "Downtown Paso",
+      "Vineyard Drive corridor",
+      "Templeton border",
+      "Linne Road",
+      "Creston Road",
+      "Estrella Road",
+      "Adelaida"
+    ],
+    "localContext": "Paso Robles temperatures swing dramatically — over 100°F in summer and freezing in winter. Our polyaspartic and high-build epoxy systems are specifically chosen to handle that thermal cycling without cracking, peeling, or delaminating. Wine cellar floors and tasting room patios are a specialty.",
+    "responseTime": "Estimates within 48 hours throughout Paso Robles and the surrounding wine country",
+    "lat": 35.6266,
+    "lng": -120.6910
+  },
+  {
+    "slug": "atascadero",
+    "name": "Atascadero",
+    "shortName": "Atascadero",
+    "county": "San Luis Obispo County",
+    "population": "30,500",
+    "intro": "Atascadero is a community of pride-of-ownership homeowners — and pride of ownership starts with the surfaces people see first. MGP Coatings is the trusted choice in Atascadero for garage floor coatings, patio transformations, and epoxy flooring that lasts decades.",
+    "neighborhoods": [
+      "Downtown Atascadero",
+      "Lake Park",
+      "El Camino Real corridor",
+      "Garcia Road",
+      "Santa Rosa Road",
+      "Eagle Ranch"
+    ],
+    "localContext": "Atascadero residents care deeply about maintaining their property values. A coated garage floor or refreshed patio can add thousands to a home's perceived value with one weekend of work. We have completed projects all across Atascadero.",
+    "responseTime": "Free estimates throughout Atascadero — usually within 48 hours",
+    "lat": 35.4894,
+    "lng": -120.6707
+  },
+  {
+    "slug": "morro-bay",
+    "name": "Morro Bay",
+    "shortName": "Morro Bay",
+    "county": "San Luis Obispo County",
+    "population": "10,500",
+    "intro": "Morro Bay's coastal climate is brutal on bare concrete. Salt air, marine fog, and constant moisture eat away at unprotected surfaces year after year. MGP Coatings installs marine-tough coating systems specifically chosen to handle Morro Bay's environment — and they last.",
+    "neighborhoods": [
+      "Embarcadero",
+      "North Morro Bay",
+      "South Morro Bay",
+      "Morro Heights",
+      "Atascadero Road"
+    ],
+    "localContext": "Coastal coating projects require materials that can handle UV, salt, humidity, and temperature swings. We specify polyaspartic and chemically-resistant epoxy systems that hold up in marine environments where standard coatings fail within a year.",
+    "responseTime": "Free coastal estimates throughout Morro Bay and Cayucos",
+    "lat": 35.3658,
+    "lng": -120.8499
+  },
+  {
+    "slug": "templeton",
+    "name": "Templeton",
+    "shortName": "Templeton",
+    "county": "San Luis Obispo County",
+    "population": "8,000",
+    "intro": "Templeton is small, tight-knit, and full of homeowners who do not settle. When Templeton residents want their garage, patio, or epoxy floor done right the first time, they call MGP Coatings. Matt has been serving Templeton for years and stands behind every job.",
+    "neighborhoods": [
+      "Old Templeton",
+      "Vineyard Drive",
+      "El Pomar",
+      "Las Tablas",
+      "South Main Street"
+    ],
+    "localContext": "Templeton sits in the same thermal cycling zone as Paso Robles, so we use the same robust polyaspartic systems here. Many of our Templeton clients are long-time residents who refer their friends and neighbors after seeing our work in person.",
+    "responseTime": "Free estimates throughout Templeton — usually within 48 hours",
+    "lat": 35.5494,
+    "lng": -120.7060
+  }
+]

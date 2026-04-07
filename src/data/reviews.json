@@ -1,20 +1,98 @@
 [
   {
     "name": "Sarah M.",
+    "city": "San Luis Obispo",
     "platform": "Google",
     "rating": 5,
+    "service": "Garage Floor Coatings",
     "text": "Matt and his team completely transformed our garage floor. The metallic epoxy finish looks like something out of a showroom. Professional, on time, and the price was very fair. Highly recommend!"
   },
   {
     "name": "James R.",
+    "city": "Pismo Beach",
     "platform": "Yelp",
     "rating": 5,
+    "service": "Pool Deck Coatings",
     "text": "We had our pool deck recoated and it looks brand new. The slip-resistant finish gives us peace of mind with the kids running around. Matt was great to work with from start to finish."
   },
   {
     "name": "Linda & Tom K.",
+    "city": "Atascadero",
     "platform": "Google",
     "rating": 5,
-    "text": "After getting 4 quotes, we went with MGP Coatings and couldn't be happier. Our patio went from cracked and stained to absolutely gorgeous in one day. Matt's 30 years of experience really shows."
+    "service": "Patio Coatings",
+    "text": "After getting four quotes, we went with MGP Coatings and could not be happier. Our patio went from cracked and stained to absolutely gorgeous in one day. Matt's 30 years of experience really shows."
+  },
+  {
+    "name": "Kevin H.",
+    "city": "Paso Robles",
+    "platform": "Google",
+    "rating": 5,
+    "service": "Driveway Coatings",
+    "text": "Honest pricing, professional crew, and a finish that looks better than anything else in our neighborhood. Matt walked us through every step. The driveway is exactly what we hoped for."
+  },
+  {
+    "name": "Diane W.",
+    "city": "Morro Bay",
+    "platform": "Facebook",
+    "rating": 5,
+    "service": "Patio Coatings",
+    "text": "Living near the coast is hard on concrete. MGP Coatings recommended a marine-tough system and the difference is night and day. Two years in and it still looks brand new."
+  },
+  {
+    "name": "Robert C.",
+    "city": "Templeton",
+    "platform": "Google",
+    "rating": 5,
+    "service": "Garage Floor Coatings",
+    "text": "Matt is a true craftsman. The prep work was meticulous and the finished product is flawless. We are already planning to have him back for our patio."
+  },
+  {
+    "name": "Michelle B.",
+    "city": "San Luis Obispo",
+    "platform": "Yelp",
+    "rating": 5,
+    "service": "Painting",
+    "text": "Matt repainted the entire interior of our home. Clean, fast, and his attention to detail blew us away. You can tell he has been doing this for decades."
+  },
+  {
+    "name": "Greg S.",
+    "city": "Atascadero",
+    "platform": "Google",
+    "rating": 5,
+    "service": "Epoxy Flooring",
+    "text": "We needed a heavy-duty floor for our shop and Matt came through. The epoxy is holding up to forklifts, dropped tools, and chemicals without a single scratch. Worth every penny."
+  },
+  {
+    "name": "Jennifer T.",
+    "city": "Paso Robles",
+    "platform": "Google",
+    "rating": 5,
+    "service": "Pool Deck Coatings",
+    "text": "Our pool deck used to burn the kids' feet on hot days. After MGP recoated it with their cool-touch system, it stays comfortable all summer. Best home upgrade we have made."
+  },
+  {
+    "name": "Dave M.",
+    "city": "Morro Bay",
+    "platform": "Facebook",
+    "rating": 5,
+    "service": "Driveway Coatings",
+    "text": "Salt air destroyed our driveway. MGP installed a marine-grade coating and it has held up perfectly through two winters. Matt knows what he is doing on the coast."
+  },
+  {
+    "name": "Patricia L.",
+    "city": "Templeton",
+    "platform": "Google",
+    "rating": 5,
+    "service": "Epoxy Countertops",
+    "text": "Matt did epoxy countertops in our outdoor kitchen and they look like high-end granite at a fraction of the price. Absolutely beautiful. We get compliments every time we entertain."
+  },
+  {
+    "name": "Mike F.",
+    "city": "San Luis Obispo",
+    "platform": "Google",
+    "rating": 5,
+    "service": "Garage Floor Coatings",
+    "text": "I have used a lot of contractors over the years and Matt is one of the best. Honest quote, on time, no surprises. The garage floor looks incredible and I would hire him again in a heartbeat."
   }
 ]

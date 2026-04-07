@@ -2,20 +2,30 @@
   {
     "slug": "garage-floor-coatings",
     "title": "Garage Floor Coatings",
-    "image": "/images/garage.jpg",
-    "description": "Transform your garage with durable, beautiful epoxy and polyaspartic floor coatings that resist stains, chemicals, and daily wear.",
-    "hero": "Premium Garage Floor Coatings",
-    "heroSubtitle": "Transform your garage from eyesore to showroom — in just one day.",
-    "intro": "Your garage is more than storage — it's the first impression of your home. Our professional-grade coatings deliver showroom-quality floors that last decades. We prep, prime, and coat your garage floor with industrial-strength materials that resist hot tires, oil stains, chemicals, and daily wear.",
+    "image": "/images/scraped/scraped-garage-moderno-1.jpg",
+    "description": "Transform your garage with durable, beautiful epoxy and polyaspartic floor coatings that resist stains, chemicals, and daily wear. Installed in one day across San Luis Obispo County.",
+    "audienceCallout": "For SLO County Homeowners Tired of Looking at a Stained, Cracked Garage Floor",
+    "hero": "Garage Floor Coatings That Last 15+ Years",
+    "heroSubtitle": "Walk on it tonight. Drive on it tomorrow. Showroom-quality finish in one day — guaranteed.",
+    "intro": "Your garage is more than storage. It is the first impression of your home, the place you spend Saturday mornings, and the room visitors see before they ever step inside. Our professional-grade polyaspartic and epoxy coatings deliver showroom-quality floors that last decades. We diamond grind, prime, and coat your floor with industrial-strength materials that resist hot tires, oil stains, chemicals, and daily wear.",
+    "problemHeadline": "Your Garage Floor Is Embarrassing You — And You Know It",
     "problem": "Cracked, stained, and ugly garage floors don't just look bad — they decrease your property value and make your entire home feel neglected. DIY kits peel within months. You deserve a permanent solution.",
+    "painPoints": [
+      { "title": "Hot Tire Pickup", "desc": "DIY kits peel where your tires sit. We use polyaspartic systems that resist hot tire pickup permanently." },
+      { "title": "Oil & Chemical Stains", "desc": "Bare concrete absorbs everything. Stains become permanent within hours of a spill." },
+      { "title": "Concrete Dust", "desc": "Untreated floors shed dust constantly — coating your tools, cars, and storage." },
+      { "title": "DIY Disasters", "desc": "Big-box store kits look great for a year, then peel, bubble, and look worse than the bare concrete." }
+    ],
     "features": [
       "Chip-resistant polyaspartic and epoxy systems",
       "One-day installation — drive on it the next day",
       "Endless color, flake, and metallic finish options",
+      "Diamond-grinding prep included (most contractors skip this)",
       "Chemical and stain resistant",
       "15+ year lifespan with proper care",
       "Hot tire pickup resistant — no peeling or discoloration",
-      "Seamless surface — no grout lines to trap dirt"
+      "Seamless surface — no grout lines to trap dirt",
+      "Industrial-grade materials, not big-box DIY kits"
     ],
     "benefits": [
       { "title": "One-Day Install", "desc": "Walk on it the same evening. Drive on it within 24 hours." },
@@ -23,27 +33,68 @@
       { "title": "Stain Proof", "desc": "Oil, chemicals, and tire marks wipe right off." },
       { "title": "Boost Home Value", "desc": "A coated garage floor adds instant curb appeal and resale value." }
     ],
+    "valueStack": [
+      { "label": "On-site consultation & color design session", "value": "$197" },
+      { "label": "Professional diamond grinding floor prep", "value": "$650" },
+      { "label": "Premium polyaspartic / epoxy materials", "value": "$1,200" },
+      { "label": "Expert installation by 30-year veteran crew", "value": "$1,500" },
+      { "label": "Custom flake or metallic finish blend", "value": "$300" },
+      { "label": "5-year written workmanship guarantee", "value": "$500" },
+      { "label": "Care & maintenance kit", "value": "$97" }
+    ],
+    "valueTotal": "$4,444",
+    "bonuses": [
+      { "title": "BONUS #1: Free Color Consultation", "value": "$197", "desc": "Sit down with Matt and design your perfect floor — flake colors, finish, layout, the works." },
+      { "title": "BONUS #2: Care & Maintenance Kit", "value": "$97", "desc": "Walk away with the cleaning tools and instructions to keep your floor looking brand new for years." },
+      { "title": "BONUS #3: 5-Year Written Guarantee", "value": "$500", "desc": "We back every garage floor with a 5-year written warranty against peeling, hot tire pickup, and adhesion failure." }
+    ],
+    "guarantee": {
+      "title": "The MGP 5-Year Promise",
+      "body": "If your garage floor peels, lifts, or fails for any reason within 5 years of installation, we will fix it — no questions, no charges, no hassle. We stand behind every job because Matt has been doing this for over 30 years and we are not going anywhere."
+    },
+    "warning": {
+      "title": "What It Costs to Wait",
+      "body": "Every month you delay, your concrete absorbs more oil, develops more cracks, and becomes harder (and more expensive) to repair. The job that costs $X today can cost 50% more in two years if the substrate degrades. Worse, your home shows worse to buyers and visitors every single day you wait."
+    },
+    "scarcity": "We only book 3 garage floor projects per week to maintain quality. Spots for the next 30 days fill quickly — especially in spring and fall.",
+    "pricingNote": "Most residential garage floors run $1,500–$4,500 depending on size, prep needs, and finish complexity. Get an exact, transparent quote in 24 hours.",
     "faqs": [
       { "q": "How long does installation take?", "a": "Most garage floors are completed in a single day. You can walk on it the same evening and park your car within 24 hours." },
       { "q": "Will it peel like the DIY kits?", "a": "No. We use professional-grade polyaspartic and epoxy systems with proper diamond grinding prep — completely different from big-box store kits." },
       { "q": "Is it slippery when wet?", "a": "Not at all. Our flake and textured finishes provide excellent grip, even when wet." },
-      { "q": "How do I maintain it?", "a": "Simply sweep and mop as needed. The seamless surface makes cleaning effortless." }
+      { "q": "How do I maintain it?", "a": "Simply sweep and mop as needed. The seamless surface makes cleaning effortless." },
+      { "q": "How much does a garage floor coating cost?", "a": "Most residential garages run $1,500–$4,500 depending on size, condition, and finish. We provide exact, transparent quotes after a free on-site estimate." },
+      { "q": "Do you offer financing?", "a": "Yes. We have flexible payment options to fit any budget. Ask about it during your free estimate." }
     ],
     "gallery": [
+      "/images/scraped/scraped-garage-moderno-1.jpg",
+      "/images/scraped/scraped-garage-moderno-2.jpg",
+      "/images/scraped/scraped-garage-moderno-3.jpg",
+      "/images/scraped/scraped-garage-scott-weyer.jpg",
       "/images/gallery-8.jpg",
-      "/images/gallery-extra/job-4.jpg",
-      "/images/gallery-7.jpg"
+      "/images/gallery-extra/job-4.jpg"
+    ],
+    "beforeAfter": [
+      { "before": "/images/gallery-7.jpg", "after": "/images/scraped/scraped-garage-moderno-1.jpg", "label": "Atascadero garage transformation" }
     ]
   },
   {
     "slug": "pool-deck-coatings",
     "title": "Pool Deck Coatings",
-    "image": "/images/gallery-2.jpg",
-    "description": "Cool-touch, slip-resistant pool deck coatings that look stunning and keep bare feet comfortable all summer long.",
+    "image": "/images/scraped/scraped-pool-deck-1.jpg",
+    "description": "Cool-touch, slip-resistant pool deck coatings that look stunning and keep bare feet comfortable all summer long. Custom finishes for SLO County backyards.",
+    "audienceCallout": "For Pool Owners Whose Bare Concrete Burns Feet and Looks Worse Every Year",
     "hero": "Cool-Touch Pool Deck Coatings",
-    "heroSubtitle": "Keep bare feet cool and safe — even in the peak of summer.",
-    "intro": "A great pool deserves a great deck. Our textured, slip-resistant coatings keep surfaces cool to the touch while delivering a high-end resort look. No more burning feet on hot concrete. No more worrying about slippery surfaces around the pool.",
+    "heroSubtitle": "Comfortable bare feet. Resort-quality looks. Slip-resistant safety. All in one day.",
+    "intro": "A great pool deserves a great deck. Our textured, slip-resistant coatings keep surfaces cool to the touch while delivering a high-end resort look. No more burning feet on hot concrete. No more worrying about slippery surfaces around the pool. Our cool-touch technology can drop deck temperatures by up to 30% on the hottest days.",
+    "problemHeadline": "Your Pool Deck Should Be Your Favorite Place — Not a Hazard",
     "problem": "Bare concrete around your pool gets dangerously hot, unbearably slippery when wet, and looks worse every year. Cracks widen, colors fade, and your backyard oasis turns into an eyesore.",
+    "painPoints": [
+      { "title": "Burning Feet", "desc": "Bare concrete reaches 140°F+ in California summers. Kids and guests can't walk on it." },
+      { "title": "Slip Hazards", "desc": "Wet smooth concrete is one of the leading causes of pool injuries." },
+      { "title": "Cracks & Stains", "desc": "Pool chemicals, sunscreen, and weather destroy bare concrete year after year." },
+      { "title": "Outdated Look", "desc": "A tired pool deck makes your entire backyard feel dated and uninviting." }
+    ],
     "features": [
       "Cool-touch technology — up to 30% cooler surface",
       "Slip-resistant textured finish for safety",
@@ -59,28 +110,65 @@
       { "title": "UV Stable", "desc": "Colors stay vibrant year after year under the California sun." },
       { "title": "Resort-Quality Look", "desc": "Transform your backyard into a high-end outdoor living space." }
     ],
+    "valueStack": [
+      { "label": "On-site consultation & color design", "value": "$197" },
+      { "label": "Concrete prep, crack repair, surface profile", "value": "$750" },
+      { "label": "Cool-touch coating system materials", "value": "$1,400" },
+      { "label": "Expert installation by 30-year veteran", "value": "$1,800" },
+      { "label": "Slip-resistant texture additive", "value": "$250" },
+      { "label": "5-year written workmanship guarantee", "value": "$500" }
+    ],
+    "valueTotal": "$4,897",
+    "bonuses": [
+      { "title": "BONUS #1: Free Cool-Touch Demo", "value": "$97", "desc": "We'll bring a sample to your deck so you can see and feel the difference before you commit." },
+      { "title": "BONUS #2: Free Pool Safety Edging", "value": "$300", "desc": "We'll add slip-resistant pool-edge detail at no charge — critical for family safety." },
+      { "title": "BONUS #3: 5-Year Guarantee", "value": "$500", "desc": "Backed by a written 5-year warranty against peeling, fading, or adhesion failure." }
+    ],
+    "guarantee": {
+      "title": "The MGP Cool-Touch Promise",
+      "body": "If your pool deck doesn't run noticeably cooler, doesn't grip when wet, or starts showing wear within 5 years, we will fix it free. No fine print. No fights. Just a craftsman who stands behind his work."
+    },
+    "warning": {
+      "title": "Every Summer You Wait Costs You",
+      "body": "Bare concrete absorbs UV damage every single day. Cracks widen with each heat cycle. The longer you wait, the more prep work the surface needs, and the higher the project cost climbs. Plus — every pool day spent on a deck you don't love is a day you don't get back."
+    },
+    "scarcity": "Pool deck season is short on the Central Coast. We only book 2 pool deck projects per week from April through September.",
+    "pricingNote": "Most residential pool decks run $2,500–$6,500 depending on size, condition, and finish. Free on-site estimate gives you an exact transparent quote.",
     "faqs": [
       { "q": "How much cooler does the surface get?", "a": "Our cool-touch coatings can reduce surface temperature by up to 30% compared to bare concrete, making a noticeable difference on hot summer days." },
       { "q": "Is it safe around water?", "a": "Absolutely. Our textured finish is specifically designed for wet areas, providing excellent traction for bare feet." },
       { "q": "Will chlorine damage the coating?", "a": "No. Our coatings are chemical resistant and hold up perfectly to pool water, chlorine, and sunscreen." },
-      { "q": "How long before we can use the pool area?", "a": "Typically within 24-48 hours after application, depending on the system used." }
+      { "q": "How long before we can use the pool area?", "a": "Typically within 24-48 hours after application, depending on the system used." },
+      { "q": "What does a pool deck coating cost?", "a": "Most residential pool decks run $2,500–$6,500 depending on size, prep work needed, and finish. Free on-site estimates give you exact pricing." }
     ],
     "gallery": [
+      "/images/scraped/scraped-pool-deck-1.jpg",
       "/images/hero-1.jpg",
       "/images/gallery-extra/matt-onsite.jpeg",
       "/images/gallery-3.jpg",
       "/images/pool.jpg"
+    ],
+    "beforeAfter": [
+      { "before": "/images/gallery-3.jpg", "after": "/images/scraped/scraped-pool-deck-1.jpg", "label": "SLO pool deck cool-touch upgrade" }
     ]
   },
   {
     "slug": "patio-coatings",
     "title": "Patio Coatings",
-    "image": "/images/gallery-3.jpg",
-    "description": "Elevate your outdoor living space with decorative concrete coatings that are beautiful, durable, and low maintenance.",
+    "image": "/images/scraped/scraped-patio-1.jpg",
+    "description": "Elevate your outdoor living space with decorative concrete coatings that are beautiful, durable, and low maintenance. Custom finishes for SLO County patios.",
+    "audienceCallout": "For SLO County Homeowners Whose Patio Should Be the Favorite Room — But Isn't",
     "hero": "Designer Patio Coatings",
-    "heroSubtitle": "Turn your tired patio into the outdoor living space you've always wanted.",
-    "intro": "Your patio is the heart of outdoor living. We coat, resurface, and transform tired concrete into stunning entertainment spaces that last. From decorative flake systems to smooth metallic finishes, we create outdoor floors that rival high-end resorts.",
+    "heroSubtitle": "Cracked concrete to designer finish — in one day. Entertain like you mean it.",
+    "intro": "Your patio is the heart of outdoor living. We coat, resurface, and transform tired concrete into stunning entertainment spaces that last. From decorative flake systems to smooth metallic finishes, we create outdoor floors that rival high-end resorts. Most patios are finished in a single day — so you can start enjoying it that weekend.",
+    "problemHeadline": "Your Patio Should Be the Most Used Room in Your House",
     "problem": "Your patio should be your favorite room — but cracked, faded, and stained concrete makes it embarrassing to host. Pressure washing only does so much. You need a real transformation, not a temporary fix.",
+    "painPoints": [
+      { "title": "Cracks Everywhere", "desc": "Concrete cracks from settling, weather, and time. Once they start, they spread fast." },
+      { "title": "Stained & Faded", "desc": "BBQ grease, planter rust, sunscreen, and sun damage make your patio look neglected." },
+      { "title": "Embarrassing to Host", "desc": "You stop inviting people over because the patio is the first thing they see." },
+      { "title": "Replacement Quotes", "desc": "Tearing out and replacing concrete costs 5-10x more than coating it. Coating gives you the same look for a fraction." }
+    ],
     "features": [
       "Decorative flake, quartz, and metallic finishes",
       "Weatherproof and UV-resistant",
@@ -96,28 +184,65 @@
       { "title": "Low Maintenance", "desc": "No sealing, no staining. Just sweep and enjoy." },
       { "title": "Entertaining Ready", "desc": "A patio you're proud to show off at every gathering." }
     ],
+    "valueStack": [
+      { "label": "On-site consultation & color design", "value": "$197" },
+      { "label": "Crack repair & surface preparation", "value": "$650" },
+      { "label": "Decorative coating system materials", "value": "$1,300" },
+      { "label": "Expert installation by 30-year veteran crew", "value": "$1,600" },
+      { "label": "Custom flake / metallic finish design", "value": "$300" },
+      { "label": "5-year written workmanship guarantee", "value": "$500" }
+    ],
+    "valueTotal": "$4,547",
+    "bonuses": [
+      { "title": "BONUS #1: Free Color & Finish Sample", "value": "$97", "desc": "We bring real samples to your patio so you see exactly what your finished floor will look like." },
+      { "title": "BONUS #2: Free Crack Repair", "value": "$250", "desc": "We repair existing cracks as part of every patio install — included in your quote." },
+      { "title": "BONUS #3: 5-Year Guarantee", "value": "$500", "desc": "Backed by a written 5-year warranty. We stand behind every job." }
+    ],
+    "guarantee": {
+      "title": "The MGP Patio Promise",
+      "body": "If your patio coating cracks, peels, or fails within 5 years, we will fix it at no cost. Our prep is the most thorough in the county, and our installations are built to last."
+    },
+    "warning": {
+      "title": "Cracks Don't Stop. They Spread.",
+      "body": "Every freeze, every heatwave, every rainstorm widens the cracks already in your patio. The longer you wait, the more substrate work the project requires — and the more it costs. Coating now seals everything in place and stops the damage."
+    },
+    "scarcity": "Most homeowners book patio projects in spring and fall — our calendar fills 4-6 weeks out during peak season.",
+    "pricingNote": "Most patios run $2,000–$5,000 depending on size, finish, and prep. Free on-site estimate provides exact transparent pricing.",
     "faqs": [
       { "q": "Can you coat over cracked concrete?", "a": "Yes. We repair cracks and imperfections as part of our prep process, then apply the coating for a seamless finish." },
       { "q": "What finishes are available?", "a": "We offer decorative flake, quartz aggregate, metallic, and solid color finishes in hundreds of color combinations." },
       { "q": "Is it slippery?", "a": "No. We add slip-resistant texture to all outdoor coatings for safety in wet conditions." },
-      { "q": "How does it handle weather?", "a": "Our coatings are UV-stable and weatherproof — designed for the Central Coast climate." }
+      { "q": "How does it handle weather?", "a": "Our coatings are UV-stable and weatherproof — designed for the Central Coast climate." },
+      { "q": "How long until we can use the patio?", "a": "Most patios are walkable the same evening and fully usable within 24 hours." }
     ],
     "gallery": [
+      "/images/scraped/scraped-patio-1.jpg",
       "/images/hero-2.jpg",
       "/images/gallery-2.jpg",
       "/images/gallery-extra/matt-onsite.jpeg",
       "/images/gallery-8.jpg"
+    ],
+    "beforeAfter": [
+      { "before": "/images/gallery-8.jpg", "after": "/images/scraped/scraped-patio-1.jpg", "label": "Atascadero patio transformation" }
     ]
   },
   {
     "slug": "driveway-coatings",
     "title": "Driveway Coatings",
     "image": "/images/gallery-4.jpg",
-    "description": "Boost curb appeal and protect your driveway with professional-grade coatings that resist tire marks, oil, and weather damage.",
+    "description": "Boost curb appeal and protect your driveway with professional-grade coatings that resist tire marks, oil, and weather damage. Installed across San Luis Obispo County.",
+    "audienceCallout": "For SLO County Homeowners Whose Driveway Is Killing Their Curb Appeal",
     "hero": "Professional Driveway Coatings",
-    "heroSubtitle": "Make your neighbors jealous — starting from the street.",
-    "intro": "Your driveway sets the tone for your entire property. Our industrial-strength coatings resist hot tire pickup, oil stains, and California weather — while looking incredible. This is the single fastest way to boost your home's curb appeal.",
+    "heroSubtitle": "The fastest curb-appeal upgrade you can make. One day. 15-year lifespan.",
+    "intro": "Your driveway sets the tone for your entire property. Our industrial-strength coatings resist hot tire pickup, oil stains, and California weather — while looking incredible. This is the single fastest way to boost your home's curb appeal and signal to neighbors and buyers that your home is well maintained.",
+    "problemHeadline": "Your Driveway Is the First Thing People See — Make It Count",
     "problem": "Oil stains, tire marks, cracks, and faded concrete make even beautiful homes look neglected from the street. Your driveway is the first thing visitors and buyers see — and right now it's making the wrong impression.",
+    "painPoints": [
+      { "title": "Oil Stains", "desc": "Bare concrete absorbs every drop. Stains become permanent within 24 hours." },
+      { "title": "Hot Tire Pickup", "desc": "Most coatings peel where your tires sit. Ours don't — guaranteed." },
+      { "title": "Cracks Spreading", "desc": "Hairline cracks become wide cracks fast in California weather." },
+      { "title": "Curb Appeal Killer", "desc": "A faded, stained driveway can take 5-10% off your home's perceived value." }
+    ],
     "features": [
       "Hot tire pickup resistant",
       "Oil and chemical stain protection",
@@ -133,28 +258,64 @@
       { "title": "Oil-Proof Surface", "desc": "Spills wipe right off instead of soaking in permanently." },
       { "title": "Adds Home Value", "desc": "A well-maintained driveway signals a well-maintained home." }
     ],
+    "valueStack": [
+      { "label": "On-site consultation & color design", "value": "$197" },
+      { "label": "Diamond-grinding floor prep", "value": "$850" },
+      { "label": "Polyaspartic coating system materials", "value": "$1,500" },
+      { "label": "Expert installation", "value": "$1,800" },
+      { "label": "Crack repair & surface profile", "value": "$300" },
+      { "label": "5-year written workmanship guarantee", "value": "$500" }
+    ],
+    "valueTotal": "$5,147",
+    "bonuses": [
+      { "title": "BONUS #1: Free Color Sample", "value": "$97", "desc": "See your finish before installation with a real sample on-site." },
+      { "title": "BONUS #2: Free Driveway Crack Repair", "value": "$250", "desc": "Hairline crack repair included in every driveway project." },
+      { "title": "BONUS #3: 5-Year Guarantee", "value": "$500", "desc": "Written warranty against peeling, hot-tire pickup, and adhesion failure." }
+    ],
+    "guarantee": {
+      "title": "The MGP Driveway Promise",
+      "body": "If your driveway coating peels, lifts, or fails for any reason within 5 years, we fix it on our dime. Period. Our prep work and material selection make this an easy promise to keep."
+    },
+    "warning": {
+      "title": "Every Day You Wait, the Damage Compounds",
+      "body": "Oil that soaks in today is a permanent stain tomorrow. Hairline cracks today become structural cracks next year. The longer you wait, the more the prep work costs and the more your home shows tired from the curb."
+    },
+    "scarcity": "We only book 3 driveway projects per week. Spring and fall fill up 4-6 weeks in advance.",
+    "pricingNote": "Most residential driveways run $2,500–$6,500 depending on square footage and finish. Get a free on-site estimate for exact pricing.",
     "faqs": [
       { "q": "Will hot tires damage the coating?", "a": "No. We use polyaspartic systems specifically designed to resist hot tire pickup — unlike DIY epoxy kits." },
       { "q": "Can you fix cracks in the concrete first?", "a": "Yes. We repair and prep all cracks and damage before applying the coating system." },
       { "q": "How long does a driveway take?", "a": "Most driveways are completed in 1-2 days depending on size and condition." },
-      { "q": "What colors are available?", "a": "We offer decorative flake blends and solid colors — dozens of combinations to complement your home." }
+      { "q": "What colors are available?", "a": "We offer decorative flake blends and solid colors — dozens of combinations to complement your home." },
+      { "q": "How much does a driveway coating cost?", "a": "Most run $2,500–$6,500. Free on-site estimates give you exact transparent pricing." }
     ],
     "gallery": [
       "/images/hero-3.jpg",
       "/images/gallery-extra/job-1.webp",
       "/images/gallery-extra/job-2.webp",
       "/images/gallery-extra/job-3.webp"
+    ],
+    "beforeAfter": [
+      { "before": "/images/gallery-4.jpg", "after": "/images/hero-3.jpg", "label": "Paso Robles driveway" }
     ]
   },
   {
     "slug": "epoxy-flooring",
     "title": "Epoxy Flooring",
     "image": "/images/gallery-7.jpg",
-    "description": "Commercial and residential epoxy flooring systems built to handle heavy traffic, impacts, and daily abuse.",
+    "description": "Commercial and residential epoxy flooring systems built to handle heavy traffic, impacts, and daily abuse. Industrial-grade installations across SLO County.",
+    "audienceCallout": "For Business Owners and Homeowners Who Need Floors That Actually Hold Up",
     "hero": "Industrial-Grade Epoxy Flooring",
-    "heroSubtitle": "Floors that work as hard as you do — and look incredible doing it.",
-    "intro": "From commercial warehouses to residential showrooms, our epoxy flooring systems deliver unmatched durability and a seamless, professional finish. We install high-build systems that handle forklifts, foot traffic, chemicals, and impacts without showing wear.",
+    "heroSubtitle": "Floors built for forklifts, foot traffic, and the worst your day can throw at them.",
+    "intro": "From commercial warehouses to residential showrooms, our epoxy flooring systems deliver unmatched durability and a seamless, professional finish. We install high-build systems that handle forklifts, foot traffic, chemicals, and impacts without showing wear. Whether you need food-safe seamless flooring or decorative metallic for a retail space, we have the system for the job.",
+    "problemHeadline": "Bare Concrete Is Costing You — Whether You Realize It or Not",
     "problem": "Bare concrete in commercial spaces absorbs stains, cracks under impact, and creates dust that contaminates products and equipment. Residential concrete is cold, ugly, and impossible to keep clean. You need a surface that performs.",
+    "painPoints": [
+      { "title": "Concrete Dust", "desc": "Untreated floors shed dust constantly — coating products, ruining inventory." },
+      { "title": "Impact Damage", "desc": "Dropped tools and forklifts crack and chip bare concrete fast." },
+      { "title": "Chemical Stains", "desc": "Oils, solvents, and chemicals destroy concrete — and your professional image." },
+      { "title": "OSHA & Safety", "desc": "Bare concrete can fail OSHA cleanliness standards in food, medical, and manufacturing facilities." }
+    ],
     "features": [
       "High-build epoxy systems for heavy traffic areas",
       "Seamless, hygienic surface — ideal for commercial spaces",
@@ -170,27 +331,134 @@
       { "title": "Chemical Resistant", "desc": "Stands up to oils, solvents, and industrial chemicals." },
       { "title": "Professional Image", "desc": "A polished floor makes your space look world-class." }
     ],
+    "valueStack": [
+      { "label": "On-site consultation & system spec", "value": "$297" },
+      { "label": "Diamond-grinding & surface preparation", "value": "$1,200" },
+      { "label": "Commercial-grade epoxy materials", "value": "$2,000" },
+      { "label": "Expert installation by 30-year veteran", "value": "$2,500" },
+      { "label": "Anti-slip / anti-static additives", "value": "$400" },
+      { "label": "5-year written workmanship guarantee", "value": "$750" }
+    ],
+    "valueTotal": "$7,147",
+    "bonuses": [
+      { "title": "BONUS #1: Free System Recommendation", "value": "$197", "desc": "We assess your space and recommend the exact system for your traffic, chemicals, and use case." },
+      { "title": "BONUS #2: Free Floor Care Plan", "value": "$150", "desc": "Custom maintenance plan to keep your epoxy floor performing for the next 10+ years." },
+      { "title": "BONUS #3: 5-Year Guarantee", "value": "$750", "desc": "Written warranty against peeling, delamination, and adhesion failure." }
+    ],
+    "guarantee": {
+      "title": "The MGP Industrial Promise",
+      "body": "If your epoxy floor delaminates, peels, or fails to perform under spec'd loads within 5 years, we will repair or replace it. We have built epoxy floors for warehouses, shops, and showrooms across SLO County and they are still going strong."
+    },
+    "warning": {
+      "title": "Bare Concrete Costs You Money Every Day",
+      "body": "Lost product. Failed inspections. Ugly spaces that drive away customers. Slip injuries. Cleanup labor. The cost of doing nothing is rarely zero — and often higher than the cost of installing the right system."
+    },
+    "scarcity": "Commercial epoxy projects book 4-8 weeks out. Residential epoxy fits between commercial jobs.",
+    "pricingNote": "Commercial and high-build epoxy systems run $4–$15 per sq ft depending on system spec and prep. Residential metallic finishes run $6–$12 per sq ft. Free on-site assessment.",
     "faqs": [
-      { "q": "What's the difference between epoxy and polyaspartic?", "a": "Epoxy is typically thicker and better for heavy industrial use. Polyaspartic cures faster and has better UV stability. We'll recommend the right system for your specific application." },
+      { "q": "What's the difference between epoxy and polyaspartic?", "a": "Epoxy is typically thicker and better for heavy industrial use. Polyaspartic cures faster and has better UV stability. We recommend the right system for your specific application." },
       { "q": "Can you coat an active commercial space?", "a": "Yes. We can work in sections to minimize business disruption and complete the project on your schedule." },
       { "q": "How thick is the coating?", "a": "Our commercial systems range from 10-40 mils depending on use case — significantly thicker than DIY products." },
-      { "q": "Is it slippery?", "a": "We add non-slip additives to all of our epoxy systems for safety in both wet and dry conditions." }
+      { "q": "Is it slippery?", "a": "We add non-slip additives to all of our epoxy systems for safety in both wet and dry conditions." },
+      { "q": "Can it handle forklifts?", "a": "Yes. Our high-build commercial systems are spec'd for forklift traffic and heavy machinery." }
     ],
     "gallery": [
       "/images/garage.jpg",
+      "/images/scraped/scraped-garage-scott-weyer.jpg",
       "/images/gallery-extra/job-4.jpg",
       "/images/gallery-8.jpg"
+    ],
+    "beforeAfter": [
+      { "before": "/images/gallery-7.jpg", "after": "/images/garage.jpg", "label": "SLO commercial epoxy" }
     ]
+  },
+  {
+    "slug": "epoxy-countertops",
+    "title": "Epoxy Countertops",
+    "image": "/images/scraped/scraped-garage-moderno-3.jpg",
+    "description": "Custom epoxy countertops that look like high-end granite, marble, or quartz at a fraction of the cost. Indoor and outdoor applications across SLO County.",
+    "audienceCallout": "For SLO County Homeowners Who Want a High-End Kitchen or Outdoor Bar Without the High-End Price",
+    "hero": "Custom Epoxy Countertops",
+    "heroSubtitle": "Granite-look, marble-look, or completely custom. Half the price of natural stone. Installed in days, not weeks.",
+    "intro": "Epoxy countertops let you have the look of high-end natural stone without ripping out your existing counters or paying tens of thousands for slab. We pour custom finishes in your home — kitchens, bathrooms, outdoor bars, vanities — that resemble granite, marble, or quartz at a fraction of the cost. Each pour is one of a kind.",
+    "problemHeadline": "Stone Countertops Cost a Fortune. Laminate Looks Cheap. There's a Better Way.",
+    "problem": "Tearing out your existing countertops to install granite or quartz costs $5,000–$15,000+ and weeks of disruption. But staring at outdated tile or laminate every day is killing the look of your home.",
+    "painPoints": [
+      { "title": "Outdated Look", "desc": "Tile, laminate, and old surfaces make even nice kitchens feel dated." },
+      { "title": "Stone Sticker Shock", "desc": "Granite and quartz can run $80–$200 per sq ft installed." },
+      { "title": "Replacement Hassle", "desc": "Tearing out counters means weeks without a kitchen. Plus plumbing, demo, dust." },
+      { "title": "Outdoor Bar Limits", "desc": "Most stone is brittle outdoors. Epoxy is purpose-built for outdoor durability." }
+    ],
+    "features": [
+      "Custom granite, marble, and quartz-look finishes",
+      "Direct overlay onto existing surfaces — no tear-out",
+      "Indoor and outdoor applications",
+      "Hundreds of color and pattern combinations",
+      "Heat, stain, and UV resistant",
+      "Seamless, easy-to-clean surface",
+      "Half the cost of natural stone replacement"
+    ],
+    "benefits": [
+      { "title": "Half the Cost", "desc": "Get a high-end stone look at a fraction of granite or quartz pricing." },
+      { "title": "No Tear-Out", "desc": "We pour directly over your existing counters. No demo, no plumbing, no chaos." },
+      { "title": "Custom Finish", "desc": "Every pour is unique. Choose your colors, veining, and finish style." },
+      { "title": "Outdoor Tough", "desc": "UV-stable and weatherproof — perfect for outdoor kitchens and bars." }
+    ],
+    "valueStack": [
+      { "label": "Design consultation & color matching", "value": "$197" },
+      { "label": "Surface preparation & priming", "value": "$350" },
+      { "label": "Premium epoxy & pigment materials", "value": "$800" },
+      { "label": "Expert hand-poured installation", "value": "$1,200" },
+      { "label": "Sealing & topcoat protection", "value": "$300" },
+      { "label": "5-year written workmanship guarantee", "value": "$500" }
+    ],
+    "valueTotal": "$3,347",
+    "bonuses": [
+      { "title": "BONUS #1: Free Color & Pattern Design", "value": "$197", "desc": "Sit down with Matt and design your exact countertop look. Granite vibe? Marble vibe? Custom? You pick." },
+      { "title": "BONUS #2: Care & Cleaning Kit", "value": "$97", "desc": "Walk away with the right cleaning products to keep your epoxy countertops looking new for years." },
+      { "title": "BONUS #3: 5-Year Guarantee", "value": "$500", "desc": "Written warranty against peeling, yellowing, or finish failure." }
+    ],
+    "guarantee": {
+      "title": "The MGP Countertop Promise",
+      "body": "If your epoxy countertop yellows, peels, or fails within 5 years, we will refinish or replace it free. Matt has been pouring epoxy for years and stands behind every single project."
+    },
+    "warning": {
+      "title": "Every Day with Outdated Counters Is a Day Your Home Underperforms",
+      "body": "Buyers and visitors judge a home on the kitchen and bathrooms first. Outdated counters can drag down the perceived value of your entire home. The fix is faster and cheaper than you think."
+    },
+    "scarcity": "Custom countertop pours are scheduled around our coating jobs. We typically have 1-2 countertop slots per month.",
+    "pricingNote": "Most epoxy countertop projects run $1,500–$4,500 depending on square footage and finish complexity. Free on-site estimate.",
+    "faqs": [
+      { "q": "Can you really make it look like granite or marble?", "a": "Yes. Our hand-pouring technique creates the veining, depth, and color variation that mimics natural stone. Most people can't tell the difference at arm's length." },
+      { "q": "Do I have to remove my existing counters?", "a": "No. We pour epoxy directly over your existing counters in most cases. No tear-out, no plumbing disruption." },
+      { "q": "Is it heat resistant?", "a": "Yes for normal use. We always recommend using trivets for hot pots — same as you would on natural stone." },
+      { "q": "How long does the install take?", "a": "Most kitchen countertops are completed in 2-3 days including cure time. You can use them within a week." },
+      { "q": "How much does it cost?", "a": "Most projects run $1,500–$4,500 depending on size. Roughly half the cost of granite or quartz." }
+    ],
+    "gallery": [
+      "/images/scraped/scraped-garage-moderno-3.jpg",
+      "/images/scraped/scraped-garage-moderno-2.jpg",
+      "/images/scraped/scraped-garage-moderno-1.jpg"
+    ],
+    "beforeAfter": []
   },
   {
     "slug": "painting-slocounty",
     "title": "Residential & Commercial Painting",
-    "image": "/images/gallery-5.jpg",
-    "description": "30+ years of professional painting experience across San Luis Obispo County — interior, exterior, residential, and commercial.",
+    "image": "/images/scraped/scraped-painting.png",
+    "description": "30+ years of professional painting experience across San Luis Obispo County — interior, exterior, residential, and commercial. Meticulous prep, premium materials, flawless results.",
+    "audienceCallout": "For SLO County Homeowners Who Have Been Burned by a Bad Paint Job Before",
     "hero": "Professional Painting Services",
-    "heroSubtitle": "30+ years of flawless results across the Central Coast.",
-    "intro": "Matt Gifford has been painting homes and businesses across the Central Coast for over 30 years. From detailed trim work to full commercial repaints, we deliver flawless results every time. Meticulous prep, premium paints, and attention to detail that sets us apart.",
+    "heroSubtitle": "30+ years. Meticulous prep. Premium materials. The job done right the first time.",
+    "intro": "Matt Gifford has been painting homes and businesses across the Central Coast for over 30 years. From detailed trim work to full commercial repaints, we deliver flawless results every time. Meticulous prep, premium paints, and attention to detail that sets us apart from the discount painters who cut corners on prep and use cheap product.",
+    "problemHeadline": "Bad Paint Jobs Are Everywhere. Yours Doesn't Have to Be One.",
     "problem": "Bad paint jobs are everywhere — drips, missed spots, peeling within a year. Hiring the wrong painter means paying twice. You need someone who takes pride in the craft and stands behind every brushstroke.",
+    "painPoints": [
+      { "title": "Skipped Prep", "desc": "Most painters skip the prep that makes a job last. The result peels within a year." },
+      { "title": "Cheap Paint", "desc": "Discount contractors use bottom-shelf paint to hit a low quote. You pay twice when it fades or peels." },
+      { "title": "Drips & Misses", "desc": "Rushed crews leave drips, missed spots, and overspray. You're embarrassed to show your home." },
+      { "title": "Disappearing Acts", "desc": "The painter who quoted you is impossible to reach when you find problems six months later." }
+    ],
     "features": [
       "Interior and exterior painting",
       "Residential and commercial projects",
@@ -206,16 +474,43 @@
       { "title": "Premium Materials", "desc": "We only use professional-grade paints that look better and last longer." },
       { "title": "Clean Job Site", "desc": "We treat your home like our own — clean, respectful, professional." }
     ],
+    "valueStack": [
+      { "label": "Color consultation & sample boards", "value": "$197" },
+      { "label": "Full prep — patch, sand, prime, mask", "value": "$650" },
+      { "label": "Premium paint & material allowance", "value": "$1,200" },
+      { "label": "Expert painting by 30-year veteran", "value": "$1,800" },
+      { "label": "Daily clean-up & site protection", "value": "$200" },
+      { "label": "Workmanship guarantee", "value": "$300" }
+    ],
+    "valueTotal": "$4,347",
+    "bonuses": [
+      { "title": "BONUS #1: Free Color Consultation", "value": "$197", "desc": "We help you pick the perfect colors for your home or business — no extra charge." },
+      { "title": "BONUS #2: Free Touch-Up Kit", "value": "$50", "desc": "We leave you a labeled touch-up kit so you can fix scuffs years later without re-buying paint." },
+      { "title": "BONUS #3: Workmanship Guarantee", "value": "$300", "desc": "If a coat fails, we fix it. Period." }
+    ],
+    "guarantee": {
+      "title": "The MGP Painting Promise",
+      "body": "Matt has been painting on the Central Coast for over 30 years. If anything about our paint job fails or you are not happy with the result, we come back and make it right. Your satisfaction is our reputation."
+    },
+    "warning": {
+      "title": "A Bad Paint Job Costs You Twice",
+      "body": "Cheap painters skip prep, use thin paint, and rush. You pay them. Then in a year you pay a real painter to fix it. The cost of doing it right the first time is always less than the cost of doing it twice."
+    },
+    "scarcity": "We typically book interior projects 2-3 weeks out and exterior projects 4-6 weeks out, especially during peak season.",
+    "pricingNote": "Interior rooms typically run $400–$1,200 each. Exterior houses run $4,000–$12,000+ depending on size, prep, and stories. Free on-site estimate.",
     "faqs": [
       { "q": "Do you do interior and exterior?", "a": "Yes. We handle interior painting, exterior painting, trim work, cabinets, and commercial projects." },
       { "q": "What brands of paint do you use?", "a": "We use premium-grade paints from trusted brands. We'll recommend the right product for your specific surface and conditions." },
       { "q": "Can you help me pick colors?", "a": "Absolutely. We offer color consultation to help you choose the perfect palette for your space." },
-      { "q": "How long does a typical project take?", "a": "It depends on the scope — a single room can be done in a day, while full exteriors may take 3-5 days. We'll give you a clear timeline upfront." }
+      { "q": "How long does a typical project take?", "a": "It depends on the scope — a single room can be done in a day, while full exteriors may take 3-5 days. We give you a clear timeline upfront." },
+      { "q": "How much does painting cost?", "a": "Interior rooms are usually $400–$1,200 each. Exteriors run $4,000–$12,000+ depending on home size." }
     ],
     "gallery": [
+      "/images/scraped/scraped-painting.png",
       "/images/gallery-extra/job-1.webp",
       "/images/gallery-extra/job-2.webp",
       "/images/gallery-extra/job-3.webp"
-    ]
+    ],
+    "beforeAfter": []
   }
 ]

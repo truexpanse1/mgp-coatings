@@ -32,11 +32,12 @@ export default function Footer() {
             <ul className="space-y-3">
               {[
                 { name: "Home", href: "/" },
-                { name: "About Matt", href: "/about-us" },
-                { name: "Gallery", href: "/results" },
-                { name: "Financing", href: "/financing" },
-                { name: "Service Areas", href: "/service-areas" },
-                { name: "Contact", href: "/contact" },
+                { name: "About Matt", href: "/about-us/" },
+                { name: "Gallery", href: "/results/" },
+                { name: "Blog", href: "/blog/" },
+                { name: "Financing", href: "/financing/" },
+                { name: "Service Areas", href: "/service-areas/" },
+                { name: "Contact", href: "/contact/" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
@@ -57,12 +58,13 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               {[
-                { name: "Garage Floor Coatings", href: "/garage-floor-coatings" },
-                { name: "Pool Deck Coatings", href: "/pool-deck-coatings" },
-                { name: "Patio Coatings", href: "/patio-coatings" },
-                { name: "Driveway Coatings", href: "/driveway-coatings" },
-                { name: "Epoxy Flooring", href: "/epoxy-flooring" },
-                { name: "Painting", href: "/painting-slocounty" },
+                { name: "Garage Floor Coatings", href: "/garage-floor-coatings/" },
+                { name: "Pool Deck Coatings", href: "/pool-deck-coatings/" },
+                { name: "Patio Coatings", href: "/patio-coatings/" },
+                { name: "Driveway Coatings", href: "/driveway-coatings/" },
+                { name: "Epoxy Flooring", href: "/epoxy-flooring/" },
+                { name: "Epoxy Countertops", href: "/epoxy-countertops/" },
+                { name: "Painting", href: "/painting-slocounty/" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
