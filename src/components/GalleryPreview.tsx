@@ -6,12 +6,12 @@ import FadeIn from "./FadeIn";
 import SectionLabel from "./SectionLabel";
 
 const galleryImages = [
-  { src: "/images/garage.jpg", label: "Garage Floor Coating" },
-  { src: "/images/gallery-2.jpg", label: "Pool Deck Coating" },
-  { src: "/images/gallery-3.jpg", label: "Patio Transformation" },
-  { src: "/images/gallery-4.jpg", label: "Driveway Coating" },
-  { src: "/images/gallery-7.jpg", label: "Commercial Epoxy" },
+  { src: "/images/garage.jpg", label: "Residential Garage Floor" },
+  { src: "/images/gallery-8.jpg", label: "Garage Epoxy Coating" },
+  { src: "/images/gallery-7.jpg", label: "Commercial Epoxy Hallway" },
+  { src: "/images/gallery-extra/matt-onsite.jpeg", label: "Covered Patio Project" },
   { src: "/images/gallery-extra/job-1.webp", label: "Exterior Painting" },
+  { src: "/images/gallery-extra/job-2.webp", label: "Residential Repaint" },
 ];
 
 export default function GalleryPreview() {

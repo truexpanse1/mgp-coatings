@@ -22,8 +22,8 @@ export default function WhyMGP() {
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden">
               <div className="absolute inset-0 bg-surface" />
               <Image
-                src="/images/why-mgp.jpg"
-                alt="Professional garage floor coating by MGP Coatings"
+                src="/images/garage.jpg"
+                alt="Professional flake epoxy garage floor coating by MGP Coatings"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

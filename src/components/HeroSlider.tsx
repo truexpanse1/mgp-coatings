@@ -9,20 +9,20 @@ import offers from "@/data/offers.json";
 
 const slides = [
   {
-    image: "/images/scraped/scraped-garage-moderno-1.jpg",
-    alt: "Premium metallic garage floor coating by MGP Coatings",
+    image: "/images/garage.jpg",
+    alt: "Premium flake epoxy garage floor coating by MGP Coatings",
   },
   {
-    image: "/images/scraped/scraped-pool-deck-1.jpg",
-    alt: "Cool-touch pool deck coating in San Luis Obispo County",
+    image: "/images/gallery-8.jpg",
+    alt: "Showroom-quality garage floor coating in SLO County",
   },
   {
-    image: "/images/scraped/scraped-patio-1.jpg",
-    alt: "Designer patio coating transformation by MGP Coatings",
+    image: "/images/gallery-7.jpg",
+    alt: "Commercial epoxy flooring across San Luis Obispo County",
   },
   {
-    image: "/images/scraped/scraped-garage-scott-weyer.jpg",
-    alt: "Showroom-quality garage floor by MGP Coatings",
+    image: "/images/gallery-extra/job-1.webp",
+    alt: "30+ years of professional residential painting on the Central Coast",
   },
 ];
 

@@ -2,7 +2,7 @@
   {
     "slug": "garage-floor-coatings",
     "title": "Garage Floor Coatings",
-    "image": "/images/scraped/scraped-garage-moderno-1.jpg",
+    "image": "/images/garage.jpg",
     "description": "Transform your garage with durable, beautiful epoxy and polyaspartic floor coatings that resist stains, chemicals, and daily wear. Installed in one day across San Luis Obispo County.",
     "audienceCallout": "For SLO County Homeowners Tired of Looking at a Stained, Cracked Garage Floor",
     "hero": "Garage Floor Coatings That Last 15+ Years",
@@ -67,21 +67,16 @@
       { "q": "Do you offer financing?", "a": "Yes. We have flexible payment options to fit any budget. Ask about it during your free estimate." }
     ],
     "gallery": [
-      "/images/scraped/scraped-garage-moderno-1.jpg",
-      "/images/scraped/scraped-garage-moderno-2.jpg",
-      "/images/scraped/scraped-garage-moderno-3.jpg",
-      "/images/scraped/scraped-garage-scott-weyer.jpg",
+      "/images/garage.jpg",
       "/images/gallery-8.jpg",
-      "/images/gallery-extra/job-4.jpg"
+      "/images/gallery-extra/garage-scaled.webp"
     ],
-    "beforeAfter": [
-      { "before": "/images/gallery-7.jpg", "after": "/images/scraped/scraped-garage-moderno-1.jpg", "label": "Atascadero garage transformation" }
-    ]
+    "beforeAfter": []
   },
   {
     "slug": "pool-deck-coatings",
     "title": "Pool Deck Coatings",
-    "image": "/images/scraped/scraped-pool-deck-1.jpg",
+    "image": "/images/garage.jpg",
     "description": "Cool-touch, slip-resistant pool deck coatings that look stunning and keep bare feet comfortable all summer long. Custom finishes for SLO County backyards.",
     "audienceCallout": "For Pool Owners Whose Bare Concrete Burns Feet and Looks Worse Every Year",
     "hero": "Cool-Touch Pool Deck Coatings",
@@ -141,21 +136,13 @@
       { "q": "How long before we can use the pool area?", "a": "Typically within 24-48 hours after application, depending on the system used." },
       { "q": "What does a pool deck coating cost?", "a": "Most residential pool decks run $2,500–$6,500 depending on size, prep work needed, and finish. Free on-site estimates give you exact pricing." }
     ],
-    "gallery": [
-      "/images/scraped/scraped-pool-deck-1.jpg",
-      "/images/hero-1.jpg",
-      "/images/gallery-extra/matt-onsite.jpeg",
-      "/images/gallery-3.jpg",
-      "/images/pool.jpg"
-    ],
-    "beforeAfter": [
-      { "before": "/images/gallery-3.jpg", "after": "/images/scraped/scraped-pool-deck-1.jpg", "label": "SLO pool deck cool-touch upgrade" }
-    ]
+    "gallery": [],
+    "beforeAfter": []
   },
   {
     "slug": "patio-coatings",
     "title": "Patio Coatings",
-    "image": "/images/scraped/scraped-patio-1.jpg",
+    "image": "/images/gallery-extra/matt-onsite.jpeg",
     "description": "Elevate your outdoor living space with decorative concrete coatings that are beautiful, durable, and low maintenance. Custom finishes for SLO County patios.",
     "audienceCallout": "For SLO County Homeowners Whose Patio Should Be the Favorite Room — But Isn't",
     "hero": "Designer Patio Coatings",
@@ -216,20 +203,14 @@
       { "q": "How long until we can use the patio?", "a": "Most patios are walkable the same evening and fully usable within 24 hours." }
     ],
     "gallery": [
-      "/images/scraped/scraped-patio-1.jpg",
-      "/images/hero-2.jpg",
-      "/images/gallery-2.jpg",
-      "/images/gallery-extra/matt-onsite.jpeg",
-      "/images/gallery-8.jpg"
+      "/images/gallery-extra/matt-onsite.jpeg"
     ],
-    "beforeAfter": [
-      { "before": "/images/gallery-8.jpg", "after": "/images/scraped/scraped-patio-1.jpg", "label": "Atascadero patio transformation" }
-    ]
+    "beforeAfter": []
   },
   {
     "slug": "driveway-coatings",
     "title": "Driveway Coatings",
-    "image": "/images/gallery-4.jpg",
+    "image": "/images/garage.jpg",
     "description": "Boost curb appeal and protect your driveway with professional-grade coatings that resist tire marks, oil, and weather damage. Installed across San Luis Obispo County.",
     "audienceCallout": "For SLO County Homeowners Whose Driveway Is Killing Their Curb Appeal",
     "hero": "Professional Driveway Coatings",
@@ -289,15 +270,8 @@
       { "q": "What colors are available?", "a": "We offer decorative flake blends and solid colors — dozens of combinations to complement your home." },
       { "q": "How much does a driveway coating cost?", "a": "Most run $2,500–$6,500. Free on-site estimates give you exact transparent pricing." }
     ],
-    "gallery": [
-      "/images/hero-3.jpg",
-      "/images/gallery-extra/job-1.webp",
-      "/images/gallery-extra/job-2.webp",
-      "/images/gallery-extra/job-3.webp"
-    ],
-    "beforeAfter": [
-      { "before": "/images/gallery-4.jpg", "after": "/images/hero-3.jpg", "label": "Paso Robles driveway" }
-    ]
+    "gallery": [],
+    "beforeAfter": []
   },
   {
     "slug": "epoxy-flooring",
@@ -363,19 +337,16 @@
       { "q": "Can it handle forklifts?", "a": "Yes. Our high-build commercial systems are spec'd for forklift traffic and heavy machinery." }
     ],
     "gallery": [
+      "/images/gallery-7.jpg",
       "/images/garage.jpg",
-      "/images/scraped/scraped-garage-scott-weyer.jpg",
-      "/images/gallery-extra/job-4.jpg",
       "/images/gallery-8.jpg"
     ],
-    "beforeAfter": [
-      { "before": "/images/gallery-7.jpg", "after": "/images/garage.jpg", "label": "SLO commercial epoxy" }
-    ]
+    "beforeAfter": []
   },
   {
     "slug": "epoxy-countertops",
     "title": "Epoxy Countertops",
-    "image": "/images/scraped/scraped-garage-moderno-3.jpg",
+    "image": "/images/gallery-7.jpg",
     "description": "Custom epoxy countertops that look like high-end granite, marble, or quartz at a fraction of the cost. Indoor and outdoor applications across SLO County.",
     "audienceCallout": "For SLO County Homeowners Who Want a High-End Kitchen or Outdoor Bar Without the High-End Price",
     "hero": "Custom Epoxy Countertops",
@@ -435,17 +406,13 @@
       { "q": "How long does the install take?", "a": "Most kitchen countertops are completed in 2-3 days including cure time. You can use them within a week." },
       { "q": "How much does it cost?", "a": "Most projects run $1,500–$4,500 depending on size. Roughly half the cost of granite or quartz." }
     ],
-    "gallery": [
-      "/images/scraped/scraped-garage-moderno-3.jpg",
-      "/images/scraped/scraped-garage-moderno-2.jpg",
-      "/images/scraped/scraped-garage-moderno-1.jpg"
-    ],
+    "gallery": [],
     "beforeAfter": []
   },
   {
     "slug": "painting-slocounty",
     "title": "Residential & Commercial Painting",
-    "image": "/images/scraped/scraped-painting.png",
+    "image": "/images/gallery-extra/job-1.webp",
     "description": "30+ years of professional painting experience across San Luis Obispo County — interior, exterior, residential, and commercial. Meticulous prep, premium materials, flawless results.",
     "audienceCallout": "For SLO County Homeowners Who Have Been Burned by a Bad Paint Job Before",
     "hero": "Professional Painting Services",
@@ -506,7 +473,6 @@
       { "q": "How much does painting cost?", "a": "Interior rooms are usually $400–$1,200 each. Exteriors run $4,000–$12,000+ depending on home size." }
     ],
     "gallery": [
-      "/images/scraped/scraped-painting.png",
       "/images/gallery-extra/job-1.webp",
       "/images/gallery-extra/job-2.webp",
       "/images/gallery-extra/job-3.webp"

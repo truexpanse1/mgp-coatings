@@ -17,20 +17,15 @@ export const metadata: Metadata = {
 };
 
 const galleryItems = [
-  { src: "/images/garage.jpg", label: "Garage Floor Coating", category: "Garage" },
-  { src: "/images/gallery-2.jpg", label: "Patio with Pool View", category: "Pool Deck" },
-  { src: "/images/gallery-3.jpg", label: "Hilltop Patio Transformation", category: "Patio" },
-  { src: "/images/gallery-4.jpg", label: "Driveway Coating", category: "Driveway" },
-  { src: "/images/gallery-5.jpg", label: "Home Exterior", category: "Painting" },
-  { src: "/images/gallery-7.jpg", label: "Commercial Epoxy Hallway", category: "Epoxy" },
-  { src: "/images/gallery-8.jpg", label: "Residential Garage", category: "Garage" },
-  { src: "/images/pool.jpg", label: "Interior Flooring", category: "Epoxy" },
-  { src: "/images/gallery-extra/job-4.jpg", label: "MGP Coatings at Work", category: "Garage" },
+  { src: "/images/garage.jpg", label: "Residential Garage Floor — Flake Epoxy", category: "Garage" },
+  { src: "/images/gallery-8.jpg", label: "Residential Garage Floor", category: "Garage" },
+  { src: "/images/gallery-extra/garage-scaled.webp", label: "Garage Floor Coating", category: "Garage" },
+  { src: "/images/gallery-7.jpg", label: "Commercial Epoxy Flooring", category: "Epoxy" },
   { src: "/images/gallery-extra/job-1.webp", label: "Exterior Painting Project", category: "Painting" },
   { src: "/images/gallery-extra/job-2.webp", label: "Residential Repaint", category: "Painting" },
-  { src: "/images/gallery-extra/job-3.webp", label: "Curb Appeal Makeover", category: "Painting" },
-  { src: "/images/gallery-extra/job-4.jpg", label: "MGP Coatings Ribbon Cutting", category: "Community" },
+  { src: "/images/gallery-extra/job-3.webp", label: "Exterior Refresh", category: "Painting" },
   { src: "/images/gallery-extra/matt-onsite.jpeg", label: "Covered Patio Project", category: "Patio" },
+  { src: "/images/gallery-extra/job-4.jpg", label: "MGP Coatings Ribbon Cutting", category: "Community" },
 ];
 
 export default function GalleryPage() {
