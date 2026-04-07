@@ -116,7 +116,7 @@ export default function Navigation() {
               onClick={() => setMenuOpen(false)}
               className="mt-4 font-montserrat text-xs uppercase tracking-[0.2em] bg-gold text-primary px-8 py-3 hover:bg-gold/90 transition-all duration-300 font-bold"
             >
-              Get $250 Off
+              Free Estimate
             </Link>
           </nav>
         </div>

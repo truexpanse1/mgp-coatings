@@ -172,7 +172,7 @@ export default function ServicePageTemplate({
                 href="/contact/"
                 className="inline-flex items-center gap-2 font-montserrat text-xs uppercase tracking-[0.15em] bg-gold text-primary px-8 py-4 rounded hover:bg-gold/90 transition-all duration-300 font-bold shadow-2xl"
               >
-                Get $250 Off Your Project
+                Get Your Free Estimate
               </Link>
               <a
                 href="tel:8059525301"
@@ -466,7 +466,7 @@ export default function ServicePageTemplate({
               <div>
                 <SectionLabel label="Get Started Today" />
                 <h2 className="font-playfair text-3xl md:text-5xl text-cream mt-3 leading-tight">
-                  Claim Your $250 Off
+                  Request Your Free Estimate
                 </h2>
                 <p className="text-muted mt-4 leading-relaxed text-lg">
                   Fill out the form and we&apos;ll get back to you within 24 hours with a free on-site estimate. No pressure. No obligation. Just an honest quote from a craftsman with 30+ years of experience.

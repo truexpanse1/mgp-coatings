@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     template: "%s | MGP Coatings",
   },
   description:
-    "30+ years of professional concrete coatings, epoxy flooring, epoxy countertops, and painting across San Luis Obispo County. Garage floors, pool decks, patios, driveways. One-day installation. Free estimate + $250 off. Call (805) 952-5301.",
+    "30+ years of professional concrete coatings, epoxy flooring, epoxy countertops, and painting across San Luis Obispo County. Garage floors, pool decks, patios, driveways. One-day installation. Free on-site estimate. Call (805) 952-5301.",
   keywords: [
     "concrete coatings san luis obispo",
     "epoxy flooring slo county",

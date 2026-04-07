@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const title = `${service.title} in ${city.name}, CA | MGP Coatings`;
-  const description = `Premium ${service.title.toLowerCase()} for ${city.name} homeowners and businesses. 30+ years of experience. Free on-site estimate plus $250 off any project. Call (805) 952-5301.`;
+  const description = `Premium ${service.title.toLowerCase()} for ${city.name} homeowners and businesses. 30+ years of experience. Free on-site estimate. Call (805) 952-5301.`;
 
   return {
     title,
@@ -127,7 +127,7 @@ export default async function CityServicePage({ params }: PageProps) {
                 href="/contact/"
                 className="inline-flex items-center gap-2 font-montserrat text-xs uppercase tracking-[0.15em] bg-gold text-primary px-8 py-4 rounded hover:bg-gold/90 transition-all duration-300 font-bold shadow-2xl"
               >
-                Get $250 Off Your Project
+                Get Your Free Estimate
               </Link>
               <a
                 href="tel:8059525301"

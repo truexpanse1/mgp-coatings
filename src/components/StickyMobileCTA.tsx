@@ -24,7 +24,7 @@ export default function StickyMobileCTA() {
           className="flex items-center justify-center gap-2 py-4 bg-gold text-primary font-montserrat text-xs uppercase tracking-[0.1em] font-bold hover:bg-gold/90 transition-colors"
           aria-label="Get free estimate"
         >
-          Get $250 Off
+          Free Estimate
         </Link>
       </div>
     </div>
