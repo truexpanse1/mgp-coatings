@@ -20,7 +20,7 @@ const steps = [
     number: "03",
     title: "We Get Started",
     description:
-      "Our crew arrives on time, preps the surface properly, and installs your coating — most projects completed in a single day.",
+      "Our crew arrives on time, preps the surface properly, and installs your coating — most projects completed in 1-2 days.",
   },
 ];
 

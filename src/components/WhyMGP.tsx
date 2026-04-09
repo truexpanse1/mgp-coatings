@@ -7,7 +7,7 @@ import SectionLabel from "./SectionLabel";
 
 const points = [
   "No chipping or peeling",
-  "Installed in a single day",
+  "Most projects completed in 1-2 days",
   "30+ years professional experience",
   "Endless color and finish options",
 ];
@@ -39,7 +39,7 @@ export default function WhyMGP() {
               <h2 className="font-playfair text-3xl md:text-4xl text-cream mt-3 leading-tight">
                 Professional Results.
                 <br />
-                One Day Installation.
+                Fast, Expert Installation.
               </h2>
               <p className="text-muted mt-6 leading-relaxed">
                 With over three decades of hands-on experience, Matt Gifford delivers

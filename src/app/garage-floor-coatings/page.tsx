@@ -6,7 +6,7 @@ import services from "@/data/services.json";
 const service = services.find((s) => s.slug === "garage-floor-coatings")!;
 
 export const metadata: Metadata = {
-  title: "Garage Floor Coatings San Luis Obispo County | One-Day Install | MGP Coatings",
+  title: "Garage Floor Coatings San Luis Obispo County | Fast Professional Install | MGP Coatings",
   description: service.description,
   keywords: ["garage floor coatings", "epoxy garage floor", "polyaspartic", "san luis obispo", "paso robles", "atascadero", "metallic epoxy"],
   openGraph: {

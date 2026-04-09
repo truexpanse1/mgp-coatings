@@ -16,7 +16,7 @@ export function LocalBusinessJsonLd() {
     alternateName: "Matt Gifford Painting LLC",
     legalName: "Matt Gifford Painting LLC",
     description:
-      "Premium concrete coatings, epoxy flooring, epoxy countertops, and professional painting services across San Luis Obispo County. 30+ years of experience. One-day installation. Family owned since 2019.",
+      "Premium concrete coatings, epoxy flooring, epoxy countertops, and professional painting services across San Luis Obispo County. 30+ years of experience. Most projects completed in 1-2 days. Family owned since 2019.",
     slogan: "Transforming Surfaces.",
     url: SITE_URL,
     telephone: "+1-805-952-5301",
