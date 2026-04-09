@@ -9,15 +9,15 @@ import offers from "@/data/offers.json";
 
 const slides = [
   {
-    image: "/images/heroes/home.jpg",
-    alt: "Showroom-quality garage floor coating by MGP Coatings",
+    image: "/images/heroes/driveway.jpg",
+    alt: "Premium driveway coating by MGP Coatings",
   },
   {
     image: "/images/heroes/pool-deck.jpg",
     alt: "Premium pool deck coating across San Luis Obispo County",
   },
   {
-    image: "/images/heroes/driveway.jpg",
+    image: "/images/heroes/driveway-alt.jpg",
     alt: "Luxury driveway coating by MGP Coatings",
   },
   {
