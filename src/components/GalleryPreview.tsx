@@ -6,12 +6,12 @@ import FadeIn from "./FadeIn";
 import SectionLabel from "./SectionLabel";
 
 const galleryImages = [
-  { src: "/images/garage.jpg", label: "Residential Garage Floor" },
-  { src: "/images/gallery-8.jpg", label: "Garage Epoxy Coating" },
-  { src: "/images/gallery-7.jpg", label: "Commercial Epoxy Hallway" },
-  { src: "/images/gallery-extra/matt-onsite.jpeg", label: "Covered Patio Project" },
-  { src: "/images/gallery-extra/job-1.webp", label: "Exterior Painting" },
-  { src: "/images/gallery-extra/job-2.webp", label: "Residential Repaint" },
+  { src: "/images/gallery/garage-001-ocean-1.jpg", label: "Metallic Ocean Garage Floor" },
+  { src: "/images/gallery/pool-036-summer-1.jpg", label: "Pool Deck Coating" },
+  { src: "/images/gallery/patio-042-wow-2.jpg", label: "Front Porch Coating" },
+  { src: "/images/gallery/epoxy-003-commercial-1.jpg", label: "Commercial Epoxy Floor" },
+  { src: "/images/gallery/counter-010-earth-1.jpg", label: "Epoxy Countertop" },
+  { src: "/images/gallery/paint-012-cayucos-1.jpg", label: "Exterior Painting" },
 ];
 
 export default function GalleryPreview() {

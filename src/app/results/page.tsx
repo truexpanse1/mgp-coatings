@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 import SectionLabel from "@/components/SectionLabel";
 import CTASection from "@/components/CTASection";
+import GalleryGrid from "@/components/GalleryGrid";
 
 export const metadata: Metadata = {
-  title: "Project Gallery - See Our Work",
+  title: "Project Gallery - See Our Work | MGP Coatings",
   description:
-    "Browse our gallery of completed concrete coating, epoxy flooring, and painting projects across San Luis Obispo County. Real results from real projects.",
+    "Browse our gallery of completed concrete coating, epoxy flooring, epoxy countertop, and painting projects across San Luis Obispo County. Real results from real projects.",
   openGraph: {
     title: "Project Gallery | MGP Coatings",
     description: "Browse completed concrete coating and painting projects across SLO County.",
@@ -16,22 +16,183 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://mgpcoatings.solutions/results/" },
 };
 
-const galleryItems = [
-  { src: "/images/garage.jpg", label: "Residential Garage Floor — Flake Epoxy", category: "Garage" },
-  { src: "/images/gallery-8.jpg", label: "Residential Garage Floor", category: "Garage" },
-  { src: "/images/gallery-extra/garage-scaled.webp", label: "Garage Floor Coating", category: "Garage" },
-  { src: "/images/gallery-7.jpg", label: "Commercial Epoxy Flooring", category: "Epoxy" },
-  { src: "/images/gallery-extra/job-1.webp", label: "Exterior Painting Project", category: "Painting" },
-  { src: "/images/gallery-extra/job-2.webp", label: "Residential Repaint", category: "Painting" },
-  { src: "/images/gallery-extra/job-3.webp", label: "Exterior Refresh", category: "Painting" },
-  { src: "/images/gallery-extra/matt-onsite.jpeg", label: "Covered Patio Project", category: "Patio" },
-  { src: "/images/gallery-extra/job-4.jpg", label: "MGP Coatings Ribbon Cutting", category: "Community" },
+const galleryProjects = [
+  {
+    category: "Garage Floor Coatings",
+    slug: "garage",
+    projects: [
+      {
+        title: "Ocean Metallic Floor",
+        location: "Atascadero, CA",
+        images: [
+          { src: "/images/gallery/garage-001-ocean-1.jpg", alt: "Metallic ocean blue epoxy garage floor" },
+          { src: "/images/gallery/garage-001-ocean-2.jpg", alt: "Swirling blue metallic epoxy floor detail" },
+          { src: "/images/gallery/garage-001-ocean-3.jpg", alt: "Completed ocean metallic garage floor" },
+        ],
+      },
+      {
+        title: "Granite Chip Garage",
+        location: "Paso Robles, CA",
+        images: [
+          { src: "/images/gallery/garage-007-granite-1.jpg", alt: "Granite chip system garage floor" },
+          { src: "/images/gallery/garage-007-granite-2.jpg", alt: "Granite chip garage floor detail" },
+        ],
+      },
+      {
+        title: "Domino Chip Man Cave",
+        location: "San Luis Obispo, CA",
+        images: [
+          { src: "/images/gallery/garage-005-domino-1.jpg", alt: "Domino chip garage floor coating" },
+          { src: "/images/gallery/garage-005-domino-2.jpg", alt: "Domino chip system detail" },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Pool Deck Coatings",
+    slug: "pool-deck",
+    projects: [
+      {
+        title: "Summer-Ready Pool Deck",
+        location: "Atascadero, CA",
+        images: [
+          { src: "/images/gallery/pool-036-summer-1.jpg", alt: "Chip coated pool deck with pool" },
+          { src: "/images/gallery/pool-036-summer-2.jpg", alt: "Pool deck coating detail" },
+          { src: "/images/gallery/pool-036-summer-3.jpg", alt: "Pool deck surrounding backyard pool" },
+        ],
+      },
+      {
+        title: "Two-Tone Quartz Pool Deck",
+        location: "Paso Robles, CA",
+        images: [
+          { src: "/images/gallery/pool-008-quartz-1.jpg", alt: "Two-tone quartz pool deck" },
+          { src: "/images/gallery/pool-008-quartz-2.jpg", alt: "Quartz pool deck border detail" },
+          { src: "/images/gallery/pool-008-quartz-3.jpg", alt: "Quartz coated pool walkway" },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Patio Coatings",
+    slug: "patio",
+    projects: [
+      {
+        title: "Front Porch & Back Patio Makeover",
+        location: "Templeton, CA",
+        images: [
+          { src: "/images/gallery/patio-042-wow-1.jpg", alt: "Coated front porch with Adirondack chairs" },
+          { src: "/images/gallery/patio-042-wow-2.jpg", alt: "Chip coated front porch close-up" },
+          { src: "/images/gallery/patio-042-wow-3.jpg", alt: "Back patio with chip coating" },
+        ],
+      },
+      {
+        title: "Covered Back Porch — Flint Chip",
+        location: "Templeton, CA",
+        images: [
+          { src: "/images/gallery/patio-038-flint-1.jpg", alt: "Flint chip covered back porch" },
+          { src: "/images/gallery/patio-038-flint-2.jpg", alt: "Flint chip porch sitting area" },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Driveway Coatings",
+    slug: "driveway",
+    projects: [
+      {
+        title: "Custom Chip Driveway & Carport",
+        location: "Pismo Beach, CA",
+        images: [
+          { src: "/images/gallery/driveway-029-chips-1.jpg", alt: "Custom chip driveway coating" },
+          { src: "/images/gallery/driveway-029-chips-2.jpg", alt: "Glossy chip coated carport surface" },
+          { src: "/images/gallery/driveway-029-chips-3.jpg", alt: "Custom chip driveway detail" },
+        ],
+      },
+      {
+        title: "Drab to Rad — Smoke Chip",
+        location: "Pismo Beach, CA",
+        images: [
+          { src: "/images/gallery/driveway-037-rad-1.jpg", alt: "Smoke chip driveway with MGP truck" },
+          { src: "/images/gallery/driveway-037-rad-2.jpg", alt: "Smoke chip driveway coating detail" },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Epoxy Flooring",
+    slug: "epoxy",
+    projects: [
+      {
+        title: "Commercial Space — Morro Bay",
+        location: "Morro Bay, CA",
+        images: [
+          { src: "/images/gallery/epoxy-003-commercial-1.jpg", alt: "Commercial epoxy chip floor" },
+          { src: "/images/gallery/epoxy-003-commercial-2.jpg", alt: "Commercial chip floor with roll-up door" },
+          { src: "/images/gallery/epoxy-003-commercial-3.jpg", alt: "Commercial hallway chip floor" },
+        ],
+      },
+      {
+        title: "Jet Engine Testing Facility",
+        location: "San Luis Obispo, CA",
+        images: [
+          { src: "/images/gallery/epoxy-002-sleek-1.jpg", alt: "Sleek solid-color epoxy industrial floor" },
+          { src: "/images/gallery/epoxy-002-sleek-2.jpg", alt: "Dark epoxy floor in testing facility" },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Painting",
+    slug: "painting",
+    projects: [
+      {
+        title: "Coastal Home Repaint",
+        location: "Cayucos, CA",
+        images: [
+          { src: "/images/gallery/paint-012-cayucos-1.jpg", alt: "Exterior residential repaint in Cayucos" },
+          { src: "/images/gallery/paint-012-cayucos-2.jpg", alt: "Fresh exterior paint detail" },
+          { src: "/images/gallery/paint-012-cayucos-3.jpg", alt: "Cayucos home repaint completed" },
+        ],
+      },
+      {
+        title: "Full Exterior Transformation",
+        location: "Atascadero, CA",
+        images: [
+          { src: "/images/gallery/paint-043-transform-1.jpg", alt: "Repainted deck and stairway" },
+          { src: "/images/gallery/paint-043-transform-2.jpg", alt: "Full exterior house repaint" },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Epoxy Countertops",
+    slug: "countertops",
+    projects: [
+      {
+        title: "Earth Tone Kitchen Island",
+        location: "Paso Robles, CA",
+        images: [
+          { src: "/images/gallery/counter-010-earth-1.jpg", alt: "Epoxy kitchen island in earth tones" },
+          { src: "/images/gallery/counter-010-earth-2.jpg", alt: "Earth tone epoxy countertop edge" },
+          { src: "/images/gallery/counter-010-earth-3.jpg", alt: "Full kitchen countertop with epoxy finish" },
+        ],
+      },
+      {
+        title: "Grey Marble Countertops",
+        location: "Santa Margarita, CA",
+        images: [
+          { src: "/images/gallery/counter-011-marble-1.jpg", alt: "Grey marble epoxy on white cabinets" },
+          { src: "/images/gallery/counter-011-marble-2.jpg", alt: "Grey marble countertop detail" },
+        ],
+      },
+    ],
+  },
 ];
 
 export default function GalleryPage() {
   return (
     <>
-      <section className="relative pt-32 pb-24 bg-primary">
+      <section className="relative pt-32 pb-16 bg-primary">
         <div className="max-w-site mx-auto px-6">
           <FadeIn>
             <SectionLabel label="Our Work" />
@@ -39,41 +200,14 @@ export default function GalleryPage() {
               Project Gallery
             </h1>
             <p className="text-muted text-lg mt-4 max-w-2xl">
-              Real projects. Real results. Every photo represents a satisfied client
-              and a surface transformed.
+              Real projects. Real results. Browse by service to see the quality
+              of work MGP Coatings delivers across San Luis Obispo County.
             </p>
           </FadeIn>
         </div>
       </section>
 
-      <section className="bg-primary pb-24">
-        <div className="max-w-site mx-auto px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {galleryItems.map((item, i) => (
-              <FadeIn key={item.src} delay={i * 0.05}>
-                <div className="group relative aspect-square rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-surface" />
-                  <Image
-                    src={item.src}
-                    alt={item.label}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-700"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                  <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/60 transition-colors duration-300 flex flex-col items-center justify-center">
-                    <span className="font-playfair text-lg text-cream opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      {item.label}
-                    </span>
-                    <span className="font-montserrat text-[10px] uppercase tracking-[0.15em] text-gold opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">
-                      {item.category}
-                    </span>
-                  </div>
-                </div>
-              </FadeIn>
-            ))}
-          </div>
-        </div>
-      </section>
+      <GalleryGrid categories={galleryProjects} />
 
       <CTASection />
     </>

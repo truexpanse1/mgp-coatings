@@ -2,7 +2,7 @@
   {
     "slug": "garage-floor-coatings",
     "title": "Garage Floor Coatings",
-    "image": "/images/garage.jpg",
+    "image": "/images/heroes/home.jpg",
     "description": "Transform your garage with durable, beautiful epoxy and polyaspartic floor coatings that resist stains, chemicals, and daily wear. Installed in one day across San Luis Obispo County.",
     "audienceCallout": "For SLO County Homeowners Tired of Looking at a Stained, Cracked Garage Floor",
     "hero": "Garage Floor Coatings That Last 15+ Years",
@@ -109,16 +109,19 @@
       }
     ],
     "gallery": [
-      "/images/garage.jpg",
-      "/images/gallery-8.jpg",
-      "/images/gallery-extra/garage-scaled.webp"
+      "/images/gallery/garage-001-ocean-1.jpg",
+      "/images/gallery/garage-001-ocean-2.jpg",
+      "/images/gallery/garage-001-ocean-3.jpg",
+      "/images/gallery/garage-007-granite-1.jpg",
+      "/images/gallery/garage-007-granite-2.jpg",
+      "/images/gallery/garage-005-domino-1.jpg"
     ],
     "beforeAfter": []
   },
   {
     "slug": "pool-deck-coatings",
     "title": "Pool Deck Coatings",
-    "image": "/images/garage.jpg",
+    "image": "/images/heroes/pool-deck.jpg",
     "description": "Cool-touch, slip-resistant pool deck coatings that look stunning and keep bare feet comfortable all summer long. Custom finishes for SLO County backyards.",
     "audienceCallout": "For Pool Owners Whose Bare Concrete Burns Feet and Looks Worse Every Year",
     "hero": "Cool-Touch Pool Deck Coatings",
@@ -214,13 +217,20 @@
         "a": "Typically within 24-48 hours after application, depending on the system used."
       }
     ],
-    "gallery": [],
+    "gallery": [
+      "/images/gallery/pool-036-summer-1.jpg",
+      "/images/gallery/pool-036-summer-2.jpg",
+      "/images/gallery/pool-036-summer-3.jpg",
+      "/images/gallery/pool-008-quartz-1.jpg",
+      "/images/gallery/pool-008-quartz-2.jpg",
+      "/images/gallery/pool-008-quartz-3.jpg"
+    ],
     "beforeAfter": []
   },
   {
     "slug": "patio-coatings",
     "title": "Patio Coatings",
-    "image": "/images/gallery-extra/matt-onsite.jpeg",
+    "image": "/images/heroes/patio.jpg",
     "description": "Elevate your outdoor living space with decorative concrete coatings that are beautiful, durable, and low maintenance. Custom finishes for SLO County patios.",
     "audienceCallout": "For SLO County Homeowners Whose Patio Should Be the Favorite Room \u2014 But Isn't",
     "hero": "Designer Patio Coatings",
@@ -325,14 +335,18 @@
       }
     ],
     "gallery": [
-      "/images/gallery-extra/matt-onsite.jpeg"
+      "/images/gallery/patio-042-wow-1.jpg",
+      "/images/gallery/patio-042-wow-2.jpg",
+      "/images/gallery/patio-042-wow-3.jpg",
+      "/images/gallery/patio-038-flint-1.jpg",
+      "/images/gallery/patio-038-flint-2.jpg"
     ],
     "beforeAfter": []
   },
   {
     "slug": "driveway-coatings",
     "title": "Driveway Coatings",
-    "image": "/images/garage.jpg",
+    "image": "/images/heroes/driveway.jpg",
     "description": "Boost curb appeal and protect your driveway with professional-grade coatings that resist tire marks, oil, and weather damage. Installed across San Luis Obispo County.",
     "audienceCallout": "For SLO County Homeowners Whose Driveway Is Killing Their Curb Appeal",
     "hero": "Professional Driveway Coatings",
@@ -432,13 +446,19 @@
         "a": "We offer decorative flake blends and solid colors \u2014 dozens of combinations to complement your home."
       }
     ],
-    "gallery": [],
+    "gallery": [
+      "/images/gallery/driveway-029-chips-1.jpg",
+      "/images/gallery/driveway-029-chips-2.jpg",
+      "/images/gallery/driveway-029-chips-3.jpg",
+      "/images/gallery/driveway-037-rad-1.jpg",
+      "/images/gallery/driveway-037-rad-2.jpg"
+    ],
     "beforeAfter": []
   },
   {
     "slug": "epoxy-flooring",
     "title": "Epoxy Flooring",
-    "image": "/images/gallery-7.jpg",
+    "image": "/images/heroes/epoxy-flooring.jpg",
     "description": "Commercial and residential epoxy flooring systems built to handle heavy traffic, impacts, and daily abuse. Industrial-grade installations across SLO County.",
     "audienceCallout": "For Business Owners and Homeowners Who Need Floors That Actually Hold Up",
     "hero": "Industrial-Grade Epoxy Flooring",
@@ -543,16 +563,18 @@
       }
     ],
     "gallery": [
-      "/images/gallery-7.jpg",
-      "/images/garage.jpg",
-      "/images/gallery-8.jpg"
+      "/images/gallery/epoxy-003-commercial-1.jpg",
+      "/images/gallery/epoxy-003-commercial-2.jpg",
+      "/images/gallery/epoxy-003-commercial-3.jpg",
+      "/images/gallery/epoxy-002-sleek-1.jpg",
+      "/images/gallery/epoxy-002-sleek-2.jpg"
     ],
     "beforeAfter": []
   },
   {
     "slug": "epoxy-countertops",
     "title": "Epoxy Countertops",
-    "image": "/images/gallery-7.jpg",
+    "image": "/images/heroes/epoxy-countertops.jpg",
     "description": "Custom epoxy countertops that look like high-end granite, marble, or quartz at a fraction of the cost. Indoor and outdoor applications across SLO County.",
     "audienceCallout": "For SLO County Homeowners Who Want a High-End Kitchen or Outdoor Bar Without the High-End Price",
     "hero": "Custom Epoxy Countertops",
@@ -652,7 +674,13 @@
         "a": "Most kitchen countertops are completed in 2-3 days including cure time. You can use them within a week."
       }
     ],
-    "gallery": [],
+    "gallery": [
+      "/images/gallery/counter-010-earth-1.jpg",
+      "/images/gallery/counter-010-earth-2.jpg",
+      "/images/gallery/counter-010-earth-3.jpg",
+      "/images/gallery/counter-011-marble-1.jpg",
+      "/images/gallery/counter-011-marble-2.jpg"
+    ],
     "beforeAfter": []
   },
   {
@@ -759,9 +787,11 @@
       }
     ],
     "gallery": [
-      "/images/gallery-extra/job-1.webp",
-      "/images/gallery-extra/job-2.webp",
-      "/images/gallery-extra/job-3.webp"
+      "/images/gallery/paint-012-cayucos-1.jpg",
+      "/images/gallery/paint-012-cayucos-2.jpg",
+      "/images/gallery/paint-012-cayucos-3.jpg",
+      "/images/gallery/paint-043-transform-1.jpg",
+      "/images/gallery/paint-043-transform-2.jpg"
     ],
     "beforeAfter": []
   }

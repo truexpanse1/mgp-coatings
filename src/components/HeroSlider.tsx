@@ -9,20 +9,20 @@ import offers from "@/data/offers.json";
 
 const slides = [
   {
-    image: "/images/garage.jpg",
-    alt: "Premium flake epoxy garage floor coating by MGP Coatings",
+    image: "/images/heroes/home.jpg",
+    alt: "Showroom-quality garage floor coating by MGP Coatings",
   },
   {
-    image: "/images/gallery-8.jpg",
-    alt: "Showroom-quality garage floor coating in SLO County",
+    image: "/images/heroes/pool-deck.jpg",
+    alt: "Premium pool deck coating across San Luis Obispo County",
   },
   {
-    image: "/images/gallery-7.jpg",
-    alt: "Commercial epoxy flooring across San Luis Obispo County",
+    image: "/images/heroes/driveway.jpg",
+    alt: "Luxury driveway coating by MGP Coatings",
   },
   {
-    image: "/images/gallery-extra/job-1.webp",
-    alt: "30+ years of professional residential painting on the Central Coast",
+    image: "/images/heroes/patio.jpg",
+    alt: "Beautiful patio coating for outdoor living in SLO County",
   },
 ];
 
@@ -64,27 +64,6 @@ export default function HeroSlider() {
       {/* Dark gradient overlay — heavier at bottom for text readability */}
       <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-primary/40 z-10" />
       <div className="absolute inset-0 bg-gradient-to-r from-primary/60 via-transparent to-primary/30 z-10" />
-
-      {/* Trust chips strip — top of hero */}
-      <div className="absolute top-0 left-0 right-0 z-20 pt-24 md:pt-28">
-        <div className="max-w-site mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6, duration: 0.8 }}
-            className="flex flex-wrap items-center justify-center md:justify-start gap-2 md:gap-3"
-          >
-            {o.trustChips.map((chip, i) => (
-              <span
-                key={i}
-                className="bg-primary/60 backdrop-blur-md border border-gold/30 text-cream px-3 py-1.5 rounded-full text-[10px] md:text-xs font-montserrat tracking-wider"
-              >
-                {chip}
-              </span>
-            ))}
-          </motion.div>
-        </div>
-      </div>
 
       {/* Bottom content */}
       <div className="absolute bottom-0 left-0 right-0 z-20">
@@ -136,6 +115,23 @@ export default function HeroSlider() {
               >
                 <span className="text-gold font-bold">{o.headline}</span> — premium concrete coatings, epoxy flooring, and professional painting across San Luis Obispo County.
               </motion.p>
+
+              {/* Trust chips — inline with content, not floating at top */}
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.9, duration: 0.8 }}
+                className="flex flex-wrap items-center justify-center md:justify-start gap-2 mt-5"
+              >
+                {o.trustChips.map((chip: string, i: number) => (
+                  <span
+                    key={i}
+                    className="bg-primary/60 backdrop-blur-md border border-gold/30 text-cream px-3 py-1.5 rounded-full text-[10px] md:text-xs font-montserrat tracking-wider"
+                  >
+                    {chip}
+                  </span>
+                ))}
+              </motion.div>
 
               <motion.div
                 initial={{ opacity: 0 }}
