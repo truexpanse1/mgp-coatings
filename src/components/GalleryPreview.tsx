@@ -30,7 +30,7 @@ export default function GalleryPreview() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {galleryImages.map((img, i) => (
             <FadeIn key={img.src} delay={i * 0.08}>
-              <div className="group relative aspect-square rounded-lg overflow-hidden cursor-pointer">
+              <Link href="/results/" className="group relative aspect-square rounded-lg overflow-hidden cursor-pointer block">
                 <div className="absolute inset-0 bg-surface" />
                 <Image
                   src={img.src}
@@ -41,10 +41,10 @@ export default function GalleryPreview() {
                 />
                 <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/60 transition-colors duration-300 flex items-center justify-center">
                   <span className="font-montserrat text-xs uppercase tracking-[0.15em] text-cream opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    {img.label}
+                    {img.label} →
                   </span>
                 </div>
-              </div>
+              </Link>
             </FadeIn>
           ))}
         </div>
