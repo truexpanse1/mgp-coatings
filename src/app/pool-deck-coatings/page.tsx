@@ -6,9 +6,9 @@ import services from "@/data/services.json";
 const service = services.find((s) => s.slug === "pool-deck-coatings")!;
 
 export const metadata: Metadata = {
-  title: "Pool Deck Coatings SLO County | Cool-Touch & Slip-Resistant | MGP Coatings",
+  title: "Pool Deck Coatings SLO County | Slip-Resistant & Durable | MGP Coatings",
   description: service.description,
-  keywords: ["pool deck coatings", "cool deck", "slip resistant pool deck", "san luis obispo", "paso robles", "central coast"],
+  keywords: ["pool deck coatings", "slip resistant pool deck", "san luis obispo", "paso robles", "central coast"],
   openGraph: {
     title: "Pool Deck Coatings | MGP Coatings",
     description: service.description,

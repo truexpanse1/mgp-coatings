@@ -61,9 +61,9 @@ export default function HeroSlider() {
         </motion.div>
       </AnimatePresence>
 
-      {/* Dark gradient overlay — heavier at bottom for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-primary/40 z-10" />
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/60 via-transparent to-primary/30 z-10" />
+      {/* Dark gradient overlay — lighter to show image, heavier at bottom for text */}
+      <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/25 to-primary/15 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/40 via-transparent to-primary/15 z-10" />
 
       {/* Bottom content */}
       <div className="absolute bottom-0 left-0 right-0 z-20">

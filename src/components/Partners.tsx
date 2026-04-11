@@ -41,7 +41,7 @@ export default function Partners() {
             {[...partners, ...partners].map((partner, i) => (
               <div
                 key={`${partner.name}-${i}`}
-                className="flex-shrink-0 mx-8 flex items-center justify-center"
+                className="flex-shrink-0 mx-8 flex items-center justify-center bg-white/10 rounded-lg px-5 py-3 hover:bg-white/20 transition-all duration-300"
                 style={{ minWidth: "140px" }}
               >
                 <Image
@@ -49,7 +49,7 @@ export default function Partners() {
                   alt={partner.name}
                   width={120}
                   height={80}
-                  className="h-16 w-auto object-contain brightness-0 invert opacity-60 hover:opacity-100 transition-opacity duration-300"
+                  className="h-16 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity duration-300"
                 />
               </div>
             ))}

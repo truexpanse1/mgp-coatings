@@ -28,10 +28,8 @@ const cities = [
   "Los Osos",
   "Cayucos",
   "Cambria",
-  "Nipomo",
   "Santa Margarita",
   "San Miguel",
-  "Oceano",
   "Avila Beach",
 ];
 
@@ -46,7 +44,7 @@ export default function ServiceAreasPage() {
               Serving All of SLO County
             </h1>
             <p className="text-muted text-lg mt-4 max-w-2xl">
-              From Paso Robles to Nipomo, we bring 30+ years of coating expertise
+              From Paso Robles to Pismo Beach, we bring 30+ years of coating expertise
               to every corner of San Luis Obispo County.
             </p>
           </FadeIn>

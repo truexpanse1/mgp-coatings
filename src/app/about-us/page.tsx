@@ -60,10 +60,11 @@ export default function AboutPage() {
                 </h2>
                 <div className="mt-6 space-y-4 text-muted leading-relaxed">
                   <p>
-                    Matt Gifford grew up in Tulare County and has spent more than 30
-                    years mastering the art and science of surface coatings and
-                    professional painting. What started as a passion for hands-on work
-                    has grown into MGP Coatings — one of San Luis Obispo
+                    Matt Gifford was born and raised in Tulare County. In 2019 he
+                    launched Matt Gifford Painting, building a reputation for quality
+                    craftsmanship over more than 30 years in the trade. Two and a half
+                    years ago he moved to the Central Coast, and in 2024 expanded into
+                    surface coatings — becoming MGP Coatings, one of San Luis Obispo
                     County&apos;s most trusted names in concrete coatings and painting.
                   </p>
                   <p>

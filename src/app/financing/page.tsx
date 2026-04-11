@@ -51,7 +51,7 @@ export default function FinancingPage() {
               {
                 icon: Shield,
                 title: "Competitive Rates",
-                text: "Low interest rates starting from 0% APR for qualified applicants on select promotions.",
+                text: "Competitive interest rates for qualified applicants. Ask us about current promotions.",
               },
               {
                 icon: CheckCircle,

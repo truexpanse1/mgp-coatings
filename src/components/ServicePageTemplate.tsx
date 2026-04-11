@@ -148,8 +148,8 @@ export default function ServicePageTemplate({
             priority
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/70 to-primary/30" />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/60 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-primary/15" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/40 via-transparent to-transparent" />
 
         <div className="relative z-10 max-w-site mx-auto px-6 pb-16 pt-40 w-full">
           <FadeIn>

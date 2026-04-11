@@ -18,15 +18,17 @@ export default function MeetMatt() {
                 Matt Gifford
               </h2>
               <p className="text-muted mt-6 leading-relaxed">
-                With over 30 years in the coatings and painting industry, Matt Gifford
-                has built MGP Coatings on a simple foundation: do excellent work, treat
-                people right, and stand behind every project.
+                Matt Gifford started Matt Gifford Painting in 2019, bringing over 30
+                years of trade experience to every job. In 2024 he expanded into surface
+                coatings and became MGP Coatings — built on a simple foundation: do
+                excellent work, treat people right, and stand behind every project.
               </p>
               <p className="text-muted mt-4 leading-relaxed">
-                Born and raised on the Central Coast, Matt knows the unique challenges
-                California surfaces face — from UV exposure to coastal moisture. That
-                local expertise, combined with decades of hands-on craftsmanship, means
-                your project gets the attention and quality it deserves.
+                Born and raised in Tulare County, Matt moved to the Central Coast two
+                and a half years ago — and quickly became one of the area&apos;s most
+                in-demand coatings professionals. He knows the unique challenges
+                California surfaces face, from UV exposure to coastal moisture, and
+                brings decades of hands-on craftsmanship to every project.
               </p>
               <a
                 href="/about-us"

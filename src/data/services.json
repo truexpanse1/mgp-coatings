@@ -6,7 +6,7 @@
     "description": "Transform your garage with durable, beautiful epoxy and polyaspartic floor coatings that resist stains, chemicals, and daily wear. Most projects completed in 1-2 days across San Luis Obispo County.",
     "audienceCallout": "For SLO County Homeowners Tired of Looking at a Stained, Cracked Garage Floor",
     "hero": "Garage Floor Coatings That Last 15+ Years",
-    "heroSubtitle": "Polyaspartic topcoat system: walk on it tonight, drive on it tomorrow. Showroom-quality finish \u2014 guaranteed.",
+    "heroSubtitle": "Professional epoxy and polyaspartic systems. Showroom-quality finish that lasts.",
     "intro": "Your garage is more than storage. It is the first impression of your home, the place you spend Saturday mornings, and the room visitors see before they ever step inside. Our professional-grade system starts with diamond grinding your concrete, then an epoxy basecoat for maximum adhesion, decorative flake for style, and a polyaspartic topcoat for UV stability, chemical resistance, and fast cure. The result: a showroom-quality floor that resists hot tires, oil stains, and daily wear for decades.",
     "problemHeadline": "Your Garage Floor Is Embarrassing You \u2014 And You Know It",
     "problem": "Cracked, stained, and ugly garage floors don't just look bad \u2014 they decrease your property value and make your entire home feel neglected. DIY kits peel within months. You deserve a permanent solution.",
@@ -41,8 +41,8 @@
     ],
     "benefits": [
       {
-        "title": "Fast Turnaround",
-        "desc": "With our polyaspartic topcoat, walk on it the same evening and drive on it within 24 hours."
+        "title": "Proper Cure Time",
+        "desc": "Light foot traffic in 24 hours, heavy traffic in 48 hours. Full epoxy cure in 5 days for a rock-solid finish."
       },
       {
         "title": "15+ Year Lifespan",
@@ -71,14 +71,14 @@
         "desc": "Walk away with the cleaning tools and instructions to keep your floor looking brand new for years."
       },
       {
-        "title": "BONUS #3: 5-Year Written Guarantee",
+        "title": "BONUS #3: Workmanship Guarantee",
         "value": "",
-        "desc": "We back every garage floor with a 5-year written warranty against peeling, hot tire pickup, and adhesion failure."
+        "desc": "We stand behind every garage floor we install. If there's an issue, we make it right."
       }
     ],
     "guarantee": {
-      "title": "The MGP 5-Year Promise",
-      "body": "If your garage floor peels, lifts, or fails for any reason within 5 years of installation, we will fix it \u2014 no questions, no charges, no hassle. We stand behind every job because Matt has been doing this for over 30 years and we are not going anywhere."
+      "title": "The MGP Workmanship Promise",
+      "body": "We stand behind every job we install. If your garage floor has an issue, we make it right. Matt has been doing this for over 30 years and we are not going anywhere."
     },
     "warning": {
       "title": "What It Costs to Wait",
@@ -89,7 +89,7 @@
     "faqs": [
       {
         "q": "How long does installation take?",
-        "a": "Most garage floors are completed in 1-2 days. With our polyaspartic topcoat system, you can walk on it the same evening and park your car within 24 hours."
+        "a": "Most garage floors are completed in 1-2 days. Light foot traffic is safe after 24 hours, heavy foot traffic after 48 hours. The epoxy needs a full 5 days for a complete cure."
       },
       {
         "q": "Will it peel like the DIY kits?",
@@ -122,11 +122,11 @@
     "slug": "pool-deck-coatings",
     "title": "Pool Deck Coatings",
     "image": "/images/heroes/pool-deck.jpg",
-    "description": "Cool-touch, slip-resistant pool deck coatings that look stunning and keep bare feet comfortable all summer long. Custom finishes for SLO County backyards.",
+    "description": "Slip-resistant pool deck coatings that look stunning and help keep surfaces more comfortable in the summer. Custom finishes for SLO County backyards.",
     "audienceCallout": "For Pool Owners Whose Bare Concrete Burns Feet and Looks Worse Every Year",
-    "hero": "Cool-Touch Pool Deck Coatings",
-    "heroSubtitle": "Comfortable bare feet. Resort-quality looks. Slip-resistant safety. Most projects completed in 1-2 days.",
-    "intro": "A great pool deserves a great deck. Our textured, slip-resistant coatings keep surfaces cool to the touch while delivering a high-end resort look. No more burning feet on hot concrete. No more worrying about slippery surfaces around the pool. Our cool-touch technology can drop deck temperatures by up to 30% on the hottest days.",
+    "hero": "Pool Deck Coatings",
+    "heroSubtitle": "Resort-quality looks. Slip-resistant safety. Most projects completed in 1-2 days.",
+    "intro": "A great pool deserves a great deck. Our textured, slip-resistant coatings help reduce surface temperatures while delivering a high-end resort look. Less heat on bare feet, better traction around the pool, and a finish that looks incredible.",
     "problemHeadline": "Your Pool Deck Should Be Your Favorite Place \u2014 Not a Hazard",
     "problem": "Bare concrete around your pool gets dangerously hot, unbearably slippery when wet, and looks worse every year. Cracks widen, colors fade, and your backyard oasis turns into an eyesore.",
     "painPoints": [
@@ -148,18 +148,18 @@
       }
     ],
     "features": [
-      "Cool-touch technology \u2014 up to 30% cooler surface",
+      "Textured finish helps reduce surface temperatures",
       "Slip-resistant textured finish for safety",
       "UV-stable colors that won't fade in California sun",
       "Covers cracks and imperfections",
       "Custom colors to match your outdoor aesthetic",
       "Chemical resistant \u2014 pool water and chlorine safe",
-      "Comfortable for bare feet all day"
+      "More comfortable for bare feet"
     ],
     "benefits": [
       {
-        "title": "30% Cooler Surface",
-        "desc": "Cool-touch technology keeps your deck comfortable even in July heat."
+        "title": "Cooler Surface",
+        "desc": "Our textured coatings help reduce surface temperatures so your deck is more comfortable in the heat."
       },
       {
         "title": "Slip-Resistant",
@@ -178,7 +178,7 @@
     "valueTotal": "",
     "bonuses": [
       {
-        "title": "BONUS #1: Free Cool-Touch Demo",
+        "title": "BONUS #1: Free On-Site Demo",
         "value": "",
         "desc": "We'll bring a sample to your deck so you can see and feel the difference before you commit."
       },
@@ -188,14 +188,14 @@
         "desc": "We'll add slip-resistant pool-edge detail at no charge \u2014 critical for family safety."
       },
       {
-        "title": "BONUS #3: 5-Year Guarantee",
+        "title": "BONUS #3: Workmanship Guarantee",
         "value": "",
-        "desc": "Backed by a written 5-year warranty against peeling, fading, or adhesion failure."
+        "desc": "We stand behind every pool deck we install. If there's an issue, we make it right."
       }
     ],
     "guarantee": {
-      "title": "The MGP Cool-Touch Promise",
-      "body": "If your pool deck doesn't run noticeably cooler, doesn't grip when wet, or starts showing wear within 5 years, we will fix it free. No fine print. No fights. Just a craftsman who stands behind his work."
+      "title": "The MGP Pool Deck Promise",
+      "body": "We stand behind every pool deck we install. If your coating doesn't grip when wet or starts showing wear, we make it right. No fine print. Just a craftsman who stands behind his work."
     },
     "warning": {
       "title": "Every Summer You Wait Costs You",
@@ -214,7 +214,7 @@
       },
       {
         "q": "How long before we can use the pool area?",
-        "a": "Typically within 24-48 hours after application, depending on the system used."
+        "a": "Light foot traffic after 24 hours, heavy foot traffic after 48 hours. Full cure takes about 5 days."
       }
     ],
     "gallery": [
@@ -297,14 +297,14 @@
         "desc": "We repair existing cracks as part of every patio install \u2014 included in your quote."
       },
       {
-        "title": "BONUS #3: 5-Year Guarantee",
+        "title": "BONUS #3: Workmanship Guarantee",
         "value": "",
-        "desc": "Backed by a written 5-year warranty. We stand behind every job."
+        "desc": "We stand behind every patio we coat. If there's an issue, we make it right."
       }
     ],
     "guarantee": {
       "title": "The MGP Patio Promise",
-      "body": "If your patio coating cracks, peels, or fails within 5 years, we will fix it at no cost. Our prep is the most thorough in the county, and our installations are built to last."
+      "body": "We stand behind every job we install. Our prep is the most thorough in the county, and our installations are built to last. If there's an issue, we make it right."
     },
     "warning": {
       "title": "Cracks Don't Stop. They Spread.",
@@ -331,7 +331,7 @@
       },
       {
         "q": "How long until we can use the patio?",
-        "a": "Most patios are walkable the same evening and fully usable within 24 hours."
+        "a": "Light foot traffic after 24 hours, heavy foot traffic after 48 hours. Full cure takes about 5 days."
       }
     ],
     "gallery": [
@@ -361,7 +361,7 @@
       },
       {
         "title": "Hot Tire Pickup",
-        "desc": "Most coatings peel where your tires sit. Ours don't \u2014 guaranteed."
+        "desc": "Most coatings peel where your tires sit. Ours don't."
       },
       {
         "title": "Cracks Spreading",
@@ -388,7 +388,7 @@
       },
       {
         "title": "Hot Tire Resistant",
-        "desc": "No peeling or discoloration from hot tires \u2014 guaranteed."
+        "desc": "No peeling or discoloration from hot tires."
       },
       {
         "title": "Oil-Proof Surface",
@@ -413,14 +413,14 @@
         "desc": "Hairline crack repair included in every driveway project."
       },
       {
-        "title": "BONUS #3: 5-Year Guarantee",
+        "title": "BONUS #3: Workmanship Guarantee",
         "value": "",
-        "desc": "Written warranty against peeling, hot-tire pickup, and adhesion failure."
+        "desc": "We stand behind every driveway we coat. If there's an issue, we make it right."
       }
     ],
     "guarantee": {
       "title": "The MGP Driveway Promise",
-      "body": "If your driveway coating peels, lifts, or fails for any reason within 5 years, we fix it on our dime. Period. Our prep work and material selection make this an easy promise to keep."
+      "body": "We stand behind every job we install. Our prep work and material selection mean your driveway is built to last. If there's an issue, we make it right."
     },
     "warning": {
       "title": "Every Day You Wait, the Damage Compounds",
@@ -525,14 +525,14 @@
         "desc": "Custom maintenance plan to keep your epoxy floor performing for the next 10+ years."
       },
       {
-        "title": "BONUS #3: 5-Year Guarantee",
+        "title": "BONUS #3: Workmanship Guarantee",
         "value": "",
-        "desc": "Written warranty against peeling, delamination, and adhesion failure."
+        "desc": "We stand behind every epoxy floor we install. If there's an issue, we make it right."
       }
     ],
     "guarantee": {
       "title": "The MGP Industrial Promise",
-      "body": "If your epoxy floor delaminates, peels, or fails to perform under spec'd loads within 5 years, we will repair or replace it. We have built epoxy floors for warehouses, shops, and showrooms across SLO County and they are still going strong."
+      "body": "We stand behind every epoxy floor we install. We have built epoxy floors for warehouses, shops, and showrooms across SLO County and they are still going strong. If there's an issue, we make it right."
     },
     "warning": {
       "title": "Bare Concrete Costs You Money Every Day",
@@ -641,14 +641,14 @@
         "desc": "Walk away with the right cleaning products to keep your epoxy countertops looking new for years."
       },
       {
-        "title": "BONUS #3: 5-Year Guarantee",
+        "title": "BONUS #3: Workmanship Guarantee",
         "value": "",
-        "desc": "Written warranty against peeling, yellowing, or finish failure."
+        "desc": "We stand behind every countertop we pour. If there's an issue, we make it right."
       }
     ],
     "guarantee": {
       "title": "The MGP Countertop Promise",
-      "body": "If your epoxy countertop yellows, peels, or fails within 5 years, we will refinish or replace it free. Matt has been pouring epoxy for years and stands behind every single project."
+      "body": "We stand behind every countertop we pour. Matt takes pride in every single project and if there's an issue, we make it right."
     },
     "warning": {
       "title": "Every Day with Outdated Counters Is a Day Your Home Underperforms",

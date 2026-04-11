@@ -54,7 +54,6 @@ export function LocalBusinessJsonLd() {
       { "@type": "City", name: "Los Osos" },
       { "@type": "City", name: "Cayucos" },
       { "@type": "City", name: "Cambria" },
-      { "@type": "City", name: "Nipomo" },
       { "@type": "City", name: "Santa Margarita" },
       { "@type": "City", name: "Avila Beach" },
     ],
