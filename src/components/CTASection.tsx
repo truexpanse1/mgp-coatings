@@ -63,7 +63,7 @@ export default function CTASection() {
                       Email
                     </p>
                     <p className="text-cream text-lg mt-0.5 group-hover:text-gold transition-colors">
-                      matthew.gifford@yahoo.com
+                      Send Us an Email
                     </p>
                   </div>
                 </a>

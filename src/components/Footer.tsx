@@ -99,7 +99,7 @@ export default function Footer() {
                   className="flex items-center gap-3 text-muted text-sm hover:text-gold transition-colors"
                 >
                   <Mail size={16} className="text-gold shrink-0" />
-                  matthew.gifford@yahoo.com
+                  Send Us an Email
                 </a>
               </li>
               <li className="flex items-center gap-3 text-muted text-sm">
