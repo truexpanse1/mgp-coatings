@@ -8,10 +8,10 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "About Matt Gifford - 30+ Years of Excellence",
   description:
-    "Meet Matt Gifford — 30+ years of professional concrete coatings and painting experience across San Luis Obispo County. Licensed, insured, and trusted.",
+    "Meet Matt Gifford — 30+ years of professional concrete coatings and epoxy flooring experience across San Luis Obispo County. Licensed, insured, and trusted.",
   openGraph: {
     title: "About Matt Gifford | MGP Coatings",
-    description: "30+ years of professional concrete coatings and painting across SLO County.",
+    description: "30+ years of professional concrete coatings and epoxy flooring across SLO County.",
     images: ["/images/og-image.jpg"],
   },
   alternates: { canonical: "https://mgpcoatings.solutions/about-us/" },
@@ -61,11 +61,11 @@ export default function AboutPage() {
                 <div className="mt-6 space-y-4 text-muted leading-relaxed">
                   <p>
                     Matt Gifford was born and raised in Tulare County. In 2019 he
-                    launched Matt Gifford Painting, building a reputation for quality
+                    launched MGP Coatings, building a reputation for quality
                     craftsmanship over more than 30 years in the trade. Two and a half
                     years ago he moved to the Central Coast, and in 2024 expanded into
                     surface coatings — becoming MGP Coatings, one of San Luis Obispo
-                    County&apos;s most trusted names in concrete coatings and painting.
+                    County&apos;s most trusted names in concrete coatings and epoxy flooring.
                   </p>
                   <p>
                     Every project Matt takes on reflects his commitment to quality. From

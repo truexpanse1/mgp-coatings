@@ -18,7 +18,7 @@ export default function MeetMatt() {
                 Matt Gifford
               </h2>
               <p className="text-muted mt-6 leading-relaxed">
-                Matt Gifford started Matt Gifford Painting in 2019, bringing over 30
+                Matt Gifford started MGP Coatings in 2019, bringing over 30
                 years of trade experience to every job. In 2024 he expanded into surface
                 coatings and became MGP Coatings — built on a simple foundation: do
                 excellent work, treat people right, and stand behind every project.

@@ -19,7 +19,7 @@ export default function Footer() {
               />
             </Link>
             <p className="mt-4 text-muted text-sm leading-relaxed">
-              Premium concrete coatings and professional painting services across
+              Premium concrete coatings and epoxy flooring services across
               San Luis Obispo County. 30+ years of transforming surfaces.
             </p>
           </div>
@@ -64,7 +64,6 @@ export default function Footer() {
                 { name: "Driveway Coatings", href: "/driveway-coatings/" },
                 { name: "Epoxy Flooring", href: "/epoxy-flooring/" },
                 { name: "Epoxy Countertops", href: "/epoxy-countertops/" },
-                { name: "Painting", href: "/painting-slocounty/" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
@@ -156,7 +155,7 @@ export default function Footer() {
       <div className="border-t border-white/5">
         <div className="max-w-site mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-muted/60 text-xs">
-            License #1061424 &middot; &copy; {new Date().getFullYear()} Matt Gifford Painting
+            License #1061424 &middot; &copy; {new Date().getFullYear()} MGP Coatings
             LLC. All rights reserved.
           </p>
           <p className="text-muted/40 text-xs">

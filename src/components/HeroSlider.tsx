@@ -113,7 +113,7 @@ export default function HeroSlider() {
                 transition={{ delay: 0.8, duration: 0.8 }}
                 className="text-cream/85 mt-4 text-base md:text-lg max-w-xl mx-auto md:mx-0"
               >
-                <span className="text-gold font-bold">{o.headline}</span> — premium concrete coatings, epoxy flooring, and professional painting across San Luis Obispo County.
+                <span className="text-gold font-bold">{o.headline}</span> — premium concrete coatings, epoxy flooring, and epoxy countertops across San Luis Obispo County.
               </motion.p>
 
               {/* Trust chips — inline with content, not floating at top */}

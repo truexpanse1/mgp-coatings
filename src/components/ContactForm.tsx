@@ -79,7 +79,6 @@ export default function ContactForm({ className = "", dark = true }: ContactForm
         <option value="Patio Coatings">Patio Coatings</option>
         <option value="Driveway Coatings">Driveway Coatings</option>
         <option value="Epoxy Flooring">Epoxy Flooring</option>
-        <option value="Painting">Residential / Commercial Painting</option>
         <option value="Other">Other</option>
       </select>
       <textarea

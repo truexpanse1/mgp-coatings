@@ -8,9 +8,9 @@ import SectionLabel from "@/components/SectionLabel";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Coating & Painting Blog | Tips, Guides & Resources | MGP Coatings",
+  title: "Coatings Blog | Tips, Guides & Resources | MGP Coatings",
   description:
-    "Expert articles on garage floor coatings, pool decks, epoxy flooring, and professional painting from MGP Coatings — 30+ years of Central Coast experience.",
+    "Expert articles on garage floor coatings, pool decks, and epoxy flooring from MGP Coatings — 30+ years of Central Coast experience.",
   keywords: [
     "concrete coating blog",
     "garage floor tips",
@@ -29,10 +29,10 @@ export default function BlogIndexPage() {
           <FadeIn>
             <SectionLabel label="The MGP Blog" />
             <h1 className="font-playfair text-4xl md:text-6xl text-cream mt-3 leading-tight">
-              Coating & Painting Insights
+              Coating Insights
             </h1>
             <p className="text-cream/70 text-lg mt-4 max-w-2xl">
-              Real-world tips, guides, and resources from 30+ years of professional coating and painting experience across San Luis Obispo County.
+              Real-world tips, guides, and resources from 30+ years of professional coating experience across San Luis Obispo County.
             </p>
           </FadeIn>
         </div>

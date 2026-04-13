@@ -22,7 +22,6 @@ const serviceLinks = [
   { name: "Driveway Coatings", href: "/driveway-coatings/" },
   { name: "Epoxy Flooring", href: "/epoxy-flooring/" },
   { name: "Epoxy Countertops", href: "/epoxy-countertops/" },
-  { name: "Painting", href: "/painting-slocounty/" },
 ];
 
 export default function Navigation() {

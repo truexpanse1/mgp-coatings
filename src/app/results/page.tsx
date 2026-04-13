@@ -7,10 +7,10 @@ import GalleryGrid from "@/components/GalleryGrid";
 export const metadata: Metadata = {
   title: "Project Gallery - See Our Work | MGP Coatings",
   description:
-    "Browse our gallery of completed concrete coating, epoxy flooring, epoxy countertop, and painting projects across San Luis Obispo County. Real results from real projects.",
+    "Browse our gallery of completed concrete coating, epoxy flooring, and epoxy countertop projects across San Luis Obispo County. Real results from real projects.",
   openGraph: {
     title: "Project Gallery | MGP Coatings",
-    description: "Browse completed concrete coating and painting projects across SLO County.",
+    description: "Browse completed concrete coating and epoxy flooring projects across SLO County.",
     images: ["/images/og-image.jpg"],
   },
   alternates: { canonical: "https://mgpcoatings.solutions/results/" },
@@ -137,29 +137,6 @@ const galleryProjects = [
         images: [
           { src: "/images/gallery/epoxy-002-sleek-1.jpg", alt: "Sleek solid-color epoxy industrial floor" },
           { src: "/images/gallery/epoxy-002-sleek-2.jpg", alt: "Dark epoxy floor in testing facility" },
-        ],
-      },
-    ],
-  },
-  {
-    category: "Painting",
-    slug: "painting",
-    projects: [
-      {
-        title: "Coastal Home Repaint",
-        location: "Cayucos, CA",
-        images: [
-          { src: "/images/gallery/paint-012-cayucos-1.jpg", alt: "Exterior residential repaint in Cayucos" },
-          { src: "/images/gallery/paint-012-cayucos-2.jpg", alt: "Fresh exterior paint detail" },
-          { src: "/images/gallery/paint-012-cayucos-3.jpg", alt: "Cayucos home repaint completed" },
-        ],
-      },
-      {
-        title: "Full Exterior Transformation",
-        location: "Atascadero, CA",
-        images: [
-          { src: "/images/gallery/paint-043-transform-1.jpg", alt: "Repainted deck and stairway" },
-          { src: "/images/gallery/paint-043-transform-2.jpg", alt: "Full exterior house repaint" },
         ],
       },
     ],

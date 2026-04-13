@@ -11,7 +11,6 @@ const galleryImages = [
   { src: "/images/gallery/patio-042-wow-2.jpg", label: "Front Porch Coating" },
   { src: "/images/gallery/epoxy-003-commercial-1.jpg", label: "Commercial Epoxy Floor" },
   { src: "/images/gallery/counter-010-earth-1.jpg", label: "Epoxy Countertop" },
-  { src: "/images/gallery/paint-012-cayucos-1.jpg", label: "Exterior Painting" },
 ];
 
 export default function GalleryPreview() {

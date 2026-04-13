@@ -13,10 +13,10 @@ export function LocalBusinessJsonLd() {
     "@type": ["LocalBusiness", "GeneralContractor", "HomeAndConstructionBusiness"],
     "@id": `${SITE_URL}/#business`,
     name: "MGP Coatings",
-    alternateName: "Matt Gifford Painting LLC",
+    alternateName: "MGP Coatings",
     legalName: "Matt Gifford Painting LLC",
     description:
-      "Premium concrete coatings, epoxy flooring, epoxy countertops, and professional painting services across San Luis Obispo County. 30+ years of experience. Most projects completed in 1-2 days. Family owned since 2019.",
+      "Premium concrete coatings, epoxy flooring, and epoxy countertop services across San Luis Obispo County. 30+ years of experience. Most projects completed in 1-2 days. Family owned since 2019.",
     slogan: "Transforming Surfaces.",
     url: SITE_URL,
     telephone: "+1-805-952-5301",
@@ -29,7 +29,7 @@ export function LocalBusinessJsonLd() {
       "@type": "Person",
       name: "Matt Gifford",
       jobTitle: "Owner",
-      description: "30+ years of construction and painting experience since age 16.",
+      description: "30+ years of construction and coatings experience since age 16.",
     },
     address: {
       "@type": "PostalAddress",
@@ -48,8 +48,6 @@ export function LocalBusinessJsonLd() {
       { "@type": "City", name: "Atascadero" },
       { "@type": "City", name: "Templeton" },
       { "@type": "City", name: "Pismo Beach" },
-      { "@type": "City", name: "Arroyo Grande" },
-      { "@type": "City", name: "Grover Beach" },
       { "@type": "City", name: "Morro Bay" },
       { "@type": "City", name: "Los Osos" },
       { "@type": "City", name: "Cayucos" },
@@ -66,8 +64,6 @@ export function LocalBusinessJsonLd() {
       "Patio Coatings",
       "Driveway Coatings",
       "Epoxy Countertops",
-      "Residential Painting",
-      "Commercial Painting",
       "Surface Preparation",
       "Diamond Grinding",
     ],
@@ -93,7 +89,7 @@ export function LocalBusinessJsonLd() {
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Coating & Painting Services",
+      name: "Coating Services",
       itemListElement: [
         {
           "@type": "Offer",
@@ -118,10 +114,6 @@ export function LocalBusinessJsonLd() {
         {
           "@type": "Offer",
           itemOffered: { "@type": "Service", name: "Epoxy Countertops", url: `${SITE_URL}/epoxy-countertops/` },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: { "@type": "Service", name: "Residential & Commercial Painting", url: `${SITE_URL}/painting-slocounty/` },
         },
       ],
     },

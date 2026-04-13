@@ -313,7 +313,7 @@ export default function ServicePageTemplate({
                   Matt Gifford — 30+ Years on the Central Coast
                 </h3>
                 <p className="text-cream/80 mt-4 leading-relaxed">
-                  Matt started in construction and painting at 16 and has been perfecting his craft ever since. He founded MGP Coatings in 2019 to bring premium, no-shortcut coating systems to homeowners and businesses across San Luis Obispo County. Every project is run by Matt personally — no subcontractors, no learning curve, no excuses.
+                  Matt started in construction at 16 and has been perfecting his craft ever since. He founded MGP Coatings in 2019 to bring premium, no-shortcut coating systems to homeowners and businesses across San Luis Obispo County. Every project is run by Matt personally — no subcontractors, no learning curve, no excuses.
                 </p>
                 <div className="mt-5 flex flex-wrap items-center gap-4 text-xs text-cream/60 font-montserrat uppercase tracking-wider">
                   <span>CA License #1061424</span>

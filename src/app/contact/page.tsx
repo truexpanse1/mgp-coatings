@@ -6,10 +6,10 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "Contact Us - Free Estimate in SLO County",
   description:
-    "Get a free, no-obligation estimate for concrete coatings, epoxy flooring, or painting in San Luis Obispo County. Call (805) 952-5301 or submit our online form.",
+    "Get a free, no-obligation estimate for concrete coatings or epoxy flooring in San Luis Obispo County. Call (805) 952-5301 or submit our online form.",
   openGraph: {
     title: "Contact MGP Coatings | Free Estimate",
-    description: "Get a free estimate for concrete coatings or painting in SLO County. Call (805) 952-5301.",
+    description: "Get a free estimate for concrete coatings or epoxy flooring in SLO County. Call (805) 952-5301.",
     images: ["/images/og-image.jpg"],
   },
   alternates: { canonical: "https://mgpcoatings.solutions/contact/" },
