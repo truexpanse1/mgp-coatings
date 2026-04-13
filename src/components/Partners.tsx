@@ -8,13 +8,15 @@ const partners = [
   { src: "/images/partners/slo-chamber.png", name: "SLO Chamber of Commerce" },
   { src: "/images/partners/atascadero-chamber.png", name: "Atascadero Chamber of Commerce" },
   { src: "/images/partners/paso-robles-chamber.png", name: "Paso Robles Chamber of Commerce" },
-  { src: "/images/partners/white-wave-wellness.png", name: "White Wave Wellness" },
+  { src: "/images/partners/white-wave-wellness.webp", name: "White Wave Wellness" },
   { src: "/images/partners/charles-paddock-zoo.png", name: "Charles Paddock Zoo" },
   { src: "/images/partners/whats-up-north-county.png", name: "What's Up North County" },
-  { src: "/images/partners/le-vigne-winery.png", name: "Le Vigne Winery" },
+  { src: "/images/partners/le-vigne-winery.webp", name: "Le Vigne Winery" },
   { src: "/images/partners/805-customs.jpeg", name: "805 Customs" },
   { src: "/images/partner-peek-painting.png", name: "Peek Painting" },
-  { src: "/images/partner-peek-realty.png", name: "Peek Realty" },
+  { src: "/images/partner-peek-realty.jpg", name: "Peek Realty" },
+  { src: "/images/partners/airflow-filter-service.jpg", name: "Airflow Filter Service" },
+  { src: "/images/partners/avila-wireless-normile.webp", name: "Avila Wireless & Normile Construction" },
 ];
 
 export default function Partners() {
