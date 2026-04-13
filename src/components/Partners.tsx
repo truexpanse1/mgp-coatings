@@ -43,15 +43,15 @@ export default function Partners() {
             {[...partners, ...partners].map((partner, i) => (
               <div
                 key={`${partner.name}-${i}`}
-                className="flex-shrink-0 mx-8 flex items-center justify-center bg-white/10 rounded-lg px-5 py-3 hover:bg-white/20 transition-all duration-300"
-                style={{ minWidth: "140px" }}
+                className="flex-shrink-0 mx-8 flex items-center justify-center bg-white rounded-xl px-6 py-4 hover:scale-105 transition-all duration-300 shadow-lg shadow-black/20"
+                style={{ minWidth: "160px", maxWidth: "200px" }}
               >
                 <Image
                   src={partner.src}
                   alt={partner.name}
-                  width={120}
-                  height={80}
-                  className="h-16 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity duration-300"
+                  width={160}
+                  height={90}
+                  className="h-16 w-auto object-contain"
                 />
               </div>
             ))}
