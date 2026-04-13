@@ -43,11 +43,10 @@ export default function Partners() {
             {[...partners, ...partners].map((partner, i) => (
               <div
                 key={`${partner.name}-${i}`}
-                className="flex-shrink-0 mx-6 flex items-center justify-center rounded-2xl px-8 py-5 transition-all duration-300 hover:scale-105"
+                className="flex-shrink-0 mx-6 flex items-center justify-center rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105"
                 style={{
-                  minWidth: "180px",
-                  maxWidth: "220px",
-                  height: "100px",
+                  width: "200px",
+                  height: "120px",
                   background: "linear-gradient(145deg, #ffffff, #f8f8f8)",
                   boxShadow: "0 4px 20px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.8)",
                   border: "1px solid rgba(255, 255, 255, 0.15)",
@@ -56,9 +55,9 @@ export default function Partners() {
                 <Image
                   src={partner.src}
                   alt={partner.name}
-                  width={160}
-                  height={70}
-                  className="max-h-[60px] w-auto object-contain"
+                  width={200}
+                  height={120}
+                  className="w-[85%] h-[85%] object-contain"
                 />
               </div>
             ))}
