@@ -38,20 +38,27 @@ export default function Partners() {
           <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-[#0a0a0a] to-transparent z-10" />
           <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-[#0a0a0a] to-transparent z-10" />
 
-          <div className="flex animate-scroll">
+          <div className="flex animate-scroll items-center">
             {/* Double the logos for seamless loop */}
             {[...partners, ...partners].map((partner, i) => (
               <div
                 key={`${partner.name}-${i}`}
-                className="flex-shrink-0 mx-8 flex items-center justify-center bg-white rounded-xl px-6 py-4 hover:scale-105 transition-all duration-300 shadow-lg shadow-black/20"
-                style={{ minWidth: "160px", maxWidth: "200px" }}
+                className="flex-shrink-0 mx-6 flex items-center justify-center rounded-2xl px-8 py-5 transition-all duration-300 hover:scale-105"
+                style={{
+                  minWidth: "180px",
+                  maxWidth: "220px",
+                  height: "100px",
+                  background: "linear-gradient(145deg, #ffffff, #f8f8f8)",
+                  boxShadow: "0 4px 20px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.8)",
+                  border: "1px solid rgba(255, 255, 255, 0.15)",
+                }}
               >
                 <Image
                   src={partner.src}
                   alt={partner.name}
                   width={160}
-                  height={90}
-                  className="h-16 w-auto object-contain"
+                  height={70}
+                  className="max-h-[60px] w-auto object-contain"
                 />
               </div>
             ))}
