@@ -3,7 +3,37 @@
 import { Star } from "lucide-react";
 import FadeIn from "./FadeIn";
 import SectionLabel from "./SectionLabel";
-import reviews from "@/data/reviews.json";
+import placeholderReviews from "@/data/reviews.json";
+import googleData from "@/data/google-reviews.json";
+
+type DisplayReview = {
+  name: string;
+  rating: number;
+  text: string;
+  platform: string;
+  avatar?: string | null;
+  relativeTime?: string | null;
+};
+
+// Prefer real Google reviews when we have them (fetched by
+// scripts/fetch-google-reviews.mjs at build time). Fall back to the
+// curated placeholder set so the page never looks empty.
+const googleReviews: DisplayReview[] = Array.isArray(googleData?.reviews)
+  ? googleData.reviews.map((r: any) => ({
+      name: r.name,
+      rating: r.rating ?? 5,
+      text: r.text,
+      platform: r.platform ?? "Google",
+      avatar: r.avatar ?? null,
+      relativeTime: r.relativeTime ?? null,
+    }))
+  : [];
+
+const usingGoogle = googleReviews.length > 0;
+const reviews: DisplayReview[] = usingGoogle ? googleReviews : (placeholderReviews as DisplayReview[]);
+
+const overallRating = (googleData as any)?.rating ?? 5;
+const totalRatings = (googleData as any)?.total ?? null;
 
 export default function Reviews() {
   return (
@@ -15,12 +45,17 @@ export default function Reviews() {
             <h2 className="font-playfair text-4xl md:text-5xl text-cream mt-3">
               What People Are Saying
             </h2>
+            {usingGoogle && totalRatings ? (
+              <p className="text-muted text-sm mt-3">
+                {overallRating.toFixed(1)}★ average from {totalRatings} Google reviews
+              </p>
+            ) : null}
           </div>
         </FadeIn>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {reviews.map((review, i) => (
-            <FadeIn key={review.name} delay={i * 0.15}>
+            <FadeIn key={`${review.name}-${i}`} delay={i * 0.15}>
               <div className="bg-surface rounded-xl p-8 border border-white/5 h-full flex flex-col">
                 {/* Gold quote mark */}
                 <span className="font-playfair text-5xl text-gold/30 leading-none mb-4">
@@ -48,6 +83,7 @@ export default function Reviews() {
                   <p className="text-cream font-medium text-sm">{review.name}</p>
                   <p className="text-muted text-xs mt-1">
                     via {review.platform}
+                    {review.relativeTime ? ` · ${review.relativeTime}` : ""}
                   </p>
                 </div>
               </div>

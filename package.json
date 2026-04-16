@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run reviews:pull && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "reviews:pull": "node scripts/fetch-google-reviews.mjs"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^5.15.9",
