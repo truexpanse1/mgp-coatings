@@ -15,11 +15,30 @@ type DisplayReview = {
   relativeTime?: string | null;
 };
 
+// Shape of the JSON that scripts/fetch-google-reviews.mjs writes into
+// src/data/google-reviews.json at build time. Loose typing on purpose —
+// the fetch script fills in what Google returns and the Reviews UI
+// gracefully degrades if any field is missing.
+type GoogleReviewsData = {
+  rating?: number;
+  total?: number;
+  reviews?: Array<{
+    name: string;
+    rating?: number;
+    text: string;
+    platform?: string;
+    avatar?: string | null;
+    relativeTime?: string | null;
+  }>;
+};
+
+const google = googleData as GoogleReviewsData;
+
 // Prefer real Google reviews when we have them (fetched by
 // scripts/fetch-google-reviews.mjs at build time). Fall back to the
 // curated placeholder set so the page never looks empty.
-const googleReviews: DisplayReview[] = Array.isArray(googleData?.reviews)
-  ? googleData.reviews.map((r: any) => ({
+const googleReviews: DisplayReview[] = Array.isArray(google?.reviews)
+  ? google.reviews.map((r) => ({
       name: r.name,
       rating: r.rating ?? 5,
       text: r.text,
@@ -32,8 +51,8 @@ const googleReviews: DisplayReview[] = Array.isArray(googleData?.reviews)
 const usingGoogle = googleReviews.length > 0;
 const reviews: DisplayReview[] = usingGoogle ? googleReviews : (placeholderReviews as DisplayReview[]);
 
-const overallRating = (googleData as any)?.rating ?? 5;
-const totalRatings = (googleData as any)?.total ?? null;
+const overallRating = google?.rating ?? 5;
+const totalRatings = google?.total ?? null;
 
 export default function Reviews() {
   return (
