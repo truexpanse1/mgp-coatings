@@ -14,7 +14,7 @@ import Guarantee from "./Guarantee";
 import Warning from "./Warning";
 import BeforeAfter from "./BeforeAfter";
 import RelatedLinks from "./RelatedLinks";
-import reviewsData from "@/data/reviews.json";
+import { reviewsData } from "@/data/reviews-schema";
 
 interface Benefit {
   title: string;
@@ -128,7 +128,7 @@ export default function ServicePageTemplate({
   // Get 3 reviews relevant to this service if possible
   const serviceReviews = reviewsData
     .filter((r) =>
-      r.service.toLowerCase().includes(title.toLowerCase().split(" ")[0])
+      r.service?.toLowerCase().includes(title.toLowerCase().split(" ")[0])
     )
     .slice(0, 3);
   const displayReviews =
@@ -389,6 +389,7 @@ export default function ServicePageTemplate({
       )}
 
       {/* ===== 8. SOCIAL PROOF / SERVICE REVIEWS ===== */}
+      {displayReviews.length > 0 && (
       <section className="bg-secondary py-24">
         <div className="max-w-site mx-auto px-6">
           <FadeIn>
@@ -428,6 +429,7 @@ export default function ServicePageTemplate({
           </div>
         </div>
       </section>
+      )}
 
       {/* ===== 9-11. VALUE STACK (combines offer + features + values) ===== */}
       {valueStack && valueStack.length > 0 && valueTotal && (

@@ -1,4 +1,4 @@
-import reviewsData from "@/data/reviews.json";
+import { reviewsData } from "@/data/reviews-schema";
 import offersData from "@/data/offers.json";
 
 const SITE_URL = "https://mgpcoatings.solutions";
@@ -8,7 +8,7 @@ export function LocalBusinessJsonLd() {
   const avgRating =
     reviewsData.reduce((sum, r) => sum + r.rating, 0) / Math.max(reviewCount, 1);
 
-  const schema = {
+  const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "GeneralContractor", "HomeAndConstructionBusiness"],
     "@id": `${SITE_URL}/#business`,
@@ -125,14 +125,17 @@ export function LocalBusinessJsonLd() {
       eligibleRegion: { "@type": "AdministrativeArea", name: "San Luis Obispo County, CA" },
       validThrough: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().split("T")[0],
     },
-    aggregateRating: {
+  };
+
+  if (reviewCount > 0) {
+    schema.aggregateRating = {
       "@type": "AggregateRating",
       ratingValue: avgRating.toFixed(1),
       reviewCount: String(reviewCount),
       bestRating: "5",
       worstRating: "1",
-    },
-    review: reviewsData.slice(0, 5).map((r) => ({
+    };
+    schema.review = reviewsData.slice(0, 5).map((r) => ({
       "@type": "Review",
       reviewRating: {
         "@type": "Rating",
@@ -141,8 +144,8 @@ export function LocalBusinessJsonLd() {
       },
       author: { "@type": "Person", name: r.name },
       reviewBody: r.text,
-    })),
-  };
+    }));
+  }
 
   return (
     <script

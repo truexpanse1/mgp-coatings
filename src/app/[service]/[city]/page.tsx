@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { Phone, MapPin, Star, Check, Shield, Clock } from "lucide-react";
 import services from "@/data/services.json";
 import cities from "@/data/cities.json";
-import reviewsData from "@/data/reviews.json";
+import { reviewsData } from "@/data/reviews-schema";
 import { ServiceJsonLd, BreadcrumbJsonLd, FAQPageJsonLd } from "@/components/JsonLd";
 import IrresistibleOffer from "@/components/IrresistibleOffer";
 import ContactForm from "@/components/ContactForm";
@@ -252,6 +252,7 @@ export default async function CityServicePage({ params }: PageProps) {
       )}
 
       {/* ===== LOCAL REVIEWS ===== */}
+      {displayReviews.length > 0 && (
       <section className="bg-secondary py-24">
         <div className="max-w-site mx-auto px-6">
           <FadeIn>
@@ -289,6 +290,7 @@ export default async function CityServicePage({ params }: PageProps) {
           </div>
         </div>
       </section>
+      )}
 
       {/* ===== OFFER + CTA ===== */}
       <section id="estimate-form" className="bg-primary py-24">
