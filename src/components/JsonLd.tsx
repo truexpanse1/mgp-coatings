@@ -84,7 +84,7 @@ export function LocalBusinessJsonLd() {
       closes: "18:00",
     },
     sameAs: [
-      "https://www.facebook.com/mgpcoatings",
+      "https://www.facebook.com/MGPcoatings",
       "https://www.yelp.com/biz/mgp-coatings",
     ],
     hasOfferCatalog: {

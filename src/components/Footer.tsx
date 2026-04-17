@@ -113,7 +113,7 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex items-center gap-4 mt-6">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/MGPcoatings"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted hover:text-gold transition-colors"
