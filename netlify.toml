@@ -57,3 +57,40 @@
   from = "/booking"
   to = "/contact/"
   status = 301
+
+# Old Squarespace URLs that don't map to a new page — send to homepage
+[[redirects]]
+  from = "/coatings"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/coatings/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/preferred-vendors"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/manufacturedhomes"
+  to = "/"
+  status = 301
+
+# Painting service was removed 2026-04-13 — redirect to homepage
+[[redirects]]
+  from = "/painting-slocounty"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/painting-slocounty/*"
+  to = "/"
+  status = 301
