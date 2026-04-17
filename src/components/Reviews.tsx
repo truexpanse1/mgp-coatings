@@ -1,9 +1,8 @@
 "use client";
 
-import { Star } from "lucide-react";
+import { Star, Shield, Award, Clock } from "lucide-react";
 import FadeIn from "./FadeIn";
 import SectionLabel from "./SectionLabel";
-import placeholderReviews from "@/data/reviews.json";
 import googleData from "@/data/google-reviews.json";
 
 type DisplayReview = {
@@ -15,11 +14,11 @@ type DisplayReview = {
   relativeTime?: string | null;
 };
 
-// Shape of the JSON that scripts/fetch-google-reviews.mjs writes into
-// src/data/google-reviews.json at build time. Loose typing on purpose —
-// the fetch script fills in what Google returns and the Reviews UI
-// gracefully degrades if any field is missing.
+// Shape of the JSON that scripts/fetch-ghl-reviews.mjs or
+// scripts/fetch-google-reviews.mjs writes into src/data/google-reviews.json
+// at build time. Loose typing on purpose — the UI degrades gracefully.
 type GoogleReviewsData = {
+  source?: string;
   fetchedAt?: string | null;
   rating?: number | null;
   total?: number;
@@ -35,10 +34,7 @@ type GoogleReviewsData = {
 
 const google = googleData as GoogleReviewsData;
 
-// Prefer real Google reviews when we have them (fetched by
-// scripts/fetch-google-reviews.mjs at build time). Fall back to the
-// curated placeholder set so the page never looks empty.
-const googleReviews: DisplayReview[] = Array.isArray(google?.reviews)
+const realReviews: DisplayReview[] = Array.isArray(google?.reviews)
   ? google.reviews.map((r) => ({
       name: r.name,
       rating: r.rating ?? 5,
@@ -49,10 +45,8 @@ const googleReviews: DisplayReview[] = Array.isArray(google?.reviews)
     }))
   : [];
 
-const usingGoogle = googleReviews.length > 0;
-const reviews: DisplayReview[] = usingGoogle ? googleReviews : (placeholderReviews as DisplayReview[]);
-
-const overallRating = google?.rating ?? 5;
+const hasRealReviews = realReviews.length >= 3;
+const overallRating = google?.rating ?? null;
 const totalRatings = google?.total ?? null;
 
 export default function Reviews() {
@@ -63,55 +57,95 @@ export default function Reviews() {
           <div className="text-center mb-14">
             <SectionLabel label="Client Reviews" />
             <h2 className="font-playfair text-4xl md:text-5xl text-cream mt-3">
-              What People Are Saying
+              {hasRealReviews ? "What People Are Saying" : "Trusted Across the Central Coast"}
             </h2>
-            {usingGoogle && totalRatings ? (
+            {hasRealReviews && totalRatings ? (
               <p className="text-muted text-sm mt-3">
-                {overallRating.toFixed(1)}★ average from {totalRatings} Google reviews
+                {(overallRating ?? 5).toFixed(1)}★ average from {totalRatings} Google reviews
               </p>
             ) : null}
           </div>
         </FadeIn>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {reviews.map((review, i) => (
-            <FadeIn key={`${review.name}-${i}`} delay={i * 0.15}>
-              <div className="bg-surface rounded-xl p-8 border border-white/5 h-full flex flex-col">
-                {/* Gold quote mark */}
-                <span className="font-playfair text-5xl text-gold/30 leading-none mb-4">
-                  &ldquo;
-                </span>
-
-                {/* Stars */}
-                <div className="flex gap-1 mb-4">
-                  {Array.from({ length: review.rating }).map((_, j) => (
-                    <Star
-                      key={j}
-                      size={16}
-                      className="fill-gold text-gold"
-                    />
-                  ))}
+        {hasRealReviews ? (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {realReviews.slice(0, 6).map((review, i) => (
+              <FadeIn key={`${review.name}-${i}`} delay={i * 0.15}>
+                <div className="bg-surface rounded-xl p-8 border border-white/5 h-full flex flex-col">
+                  <span className="font-playfair text-5xl text-gold/30 leading-none mb-4">
+                    &ldquo;
+                  </span>
+                  <div className="flex gap-1 mb-4">
+                    {Array.from({ length: review.rating }).map((_, j) => (
+                      <Star key={j} size={16} className="fill-gold text-gold" />
+                    ))}
+                  </div>
+                  <p className="text-cream/80 text-sm leading-relaxed flex-1">{review.text}</p>
+                  <div className="mt-6 pt-4 border-t border-white/5">
+                    <p className="text-cream font-medium text-sm">{review.name}</p>
+                    <p className="text-muted text-xs mt-1">
+                      via {review.platform}
+                      {review.relativeTime ? ` · ${review.relativeTime}` : ""}
+                    </p>
+                  </div>
                 </div>
+              </FadeIn>
+            ))}
+          </div>
+        ) : (
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {[
+                { icon: Award, label: "BBB A+ Rated", sub: "Accredited since 2024" },
+                { icon: Shield, label: "Licensed, Bonded & Insured", sub: "CA License #1061424" },
+                { icon: Clock, label: "30+ Years Experience", sub: "Central Coast craftsmanship" },
+              ].map((item, i) => (
+                <FadeIn key={item.label} delay={i * 0.15}>
+                  <div className="bg-surface rounded-xl p-8 border border-white/5 h-full flex flex-col items-center text-center">
+                    <item.icon className="w-10 h-10 text-gold mb-4" strokeWidth={1.5} />
+                    <p className="text-cream font-playfair text-xl mb-2">{item.label}</p>
+                    <p className="text-muted text-sm">{item.sub}</p>
+                  </div>
+                </FadeIn>
+              ))}
+            </div>
 
-                {/* Review text */}
-                <p className="text-cream/80 text-sm leading-relaxed flex-1">
-                  {review.text}
+            <FadeIn delay={0.5}>
+              <div className="mt-12 text-center">
+                <p className="text-cream/80 text-base mb-6 max-w-2xl mx-auto">
+                  Read verified reviews from real MGP Coatings customers on our Google, Facebook, and BBB profiles.
                 </p>
-
-                {/* Author */}
-                <div className="mt-6 pt-4 border-t border-white/5">
-                  <p className="text-cream font-medium text-sm">{review.name}</p>
-                  <p className="text-muted text-xs mt-1">
-                    via {review.platform}
-                    {review.relativeTime ? ` · ${review.relativeTime}` : ""}
-                  </p>
+                <div className="flex flex-wrap items-center justify-center gap-4">
+                  <a
+                    href="https://www.google.com/search?q=MGP+Coatings+Atascadero+CA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-gold text-black font-medium rounded-lg hover:bg-gold/90 transition-colors"
+                  >
+                    Read Reviews on Google
+                  </a>
+                  <a
+                    href="https://www.facebook.com/MGPcoatings"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 py-3 border border-cream/20 text-cream font-medium rounded-lg hover:border-gold/60 hover:text-gold transition-colors"
+                  >
+                    Facebook Reviews
+                  </a>
+                  <a
+                    href="https://www.bbb.org/us/ca/atascadero/profile/general-contractor/mgp-coatings-llc-1236-92088370"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 py-3 border border-cream/20 text-cream font-medium rounded-lg hover:border-gold/60 hover:text-gold transition-colors"
+                  >
+                    BBB Profile
+                  </a>
                 </div>
               </div>
             </FadeIn>
-          ))}
-        </div>
+          </>
+        )}
 
-        {/* Platform badges */}
         <FadeIn delay={0.4}>
           <div className="flex items-center justify-center gap-8 mt-12">
             {["Google", "Yelp", "Facebook"].map((platform) => (

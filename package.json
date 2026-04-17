@@ -7,7 +7,7 @@
     "build": "npm run reviews:pull && next build",
     "start": "next start",
     "lint": "next lint",
-    "reviews:pull": "node scripts/fetch-google-reviews.mjs"
+    "reviews:pull": "node scripts/fetch-ghl-reviews.mjs && node scripts/fetch-google-reviews.mjs"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^5.15.9",
