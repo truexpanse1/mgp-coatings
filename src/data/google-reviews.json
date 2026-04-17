@@ -1,6 +1,329 @@
 {
-  "fetchedAt": null,
-  "rating": null,
-  "total": 0,
-  "reviews": []
+  "source": "apify-gmaps",
+  "fetchedAt": "2026-04-17T00:00:00Z",
+  "placeId": "ChIJ5Y3hV6sYQkkRdsjLN37SP6c",
+  "rating": 5,
+  "total": 94,
+  "reviews": [
+    {
+      "name": "Leon Tackitt",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "86 reviews and 5 stars speaks for itself but let's go ahead and make it 87 — 5 stars!! Matt and his team are true professionals. When they say they'll be there at 8am, they are there. Their work is beautiful and they have transformed our tasting room floor into a work of art. The pictures do not do it justice. Thanks Matt, and your sons for the outstanding service!!"
+    },
+    {
+      "name": "Jaclyn Hurst",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Amazing work! MGP accommodated my crazy schedule and was able to make it a surprise for my husband! Beautiful job. Easy to work with. Turned out better than I imagined. Showed up when they said. Finished the job when they said. Professional and without wasting time. Definitely hire them again on future projects."
+    },
+    {
+      "name": "Linda Warwick",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "MGP Coatings is the VERY BEST painting company on the Central Coast! I found them in an online search, and was impressed by their quick response and efficient scheduling process. On paint day, a polite and courteous group of painting staff arrived to do the prep work, and the painting was finished the next day. Later, the owner, Matt, stopped by with a bottle of wine and a handwritten thank you note! I am extremely happy and grateful with the work and the whole experience. I just hired them to do another project."
+    },
+    {
+      "name": "Laurie Sances",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and his sons did an absolutely INCREDIBLE job repairing and coating our driveway with quartz and applying new epoxy garage floor. I highly recommend him for his excellence and professionalism. If I could I would give him 6 stars ⭐️⭐️⭐️⭐️⭐️⭐️"
+    },
+    {
+      "name": "John Laycak",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "One word sums it up for the work that Matt and his family did on my patio restore..... SPECTACULAR!! I am so happy with the outcome! The crew was totally professional, diligent and caring in their work. I am so pleased that I am seriously thinking about having them do my driveway and walkway in front of my home real soon. Thank you so much, Matt."
+    },
+    {
+      "name": "Andrés Solá",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "MGP Coatings did an excellent job on our single-car garage epoxy floor. The finish looks professional and completely transformed the space. Working with Matt was great from start to finish. He was responsive, professional, and got the entire job done in just one day. The attention to detail really shows in the final result. We've already had multiple people compliment our garage. Highly recommend MGP Coatings if you're looking for a quality epoxy job done right."
+    },
+    {
+      "name": "Chris Brown",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "We had our patio coated by Matt and his crew. Extremely pleased with how it turned out. We love it! Matt explained the whole process clearly and followed through with all of it. His employees worked diligently and meticulously over the two days it took to install. The product used seems very good quality and came out better than I could imagine. If you want to have your garage floor, pool deck, walkways, or patio to have a unique and special look I highly recommend Matt and his crew."
+    },
+    {
+      "name": "Douglas Wildes",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "I originally just wanted to have the garage floor epoxy coated, but Matt talked me into using his system instead. As you can see from the pictures, the floor looks amazing. Matt walked me through his material selections and we customized it just a tad. I'm very happy with the results. The work was completed at the end of September, and I have absolutely no issues with the work or the material used on the floor. The work continues to look incredible! I would highly recommend this crew for any work that you'd like to have completed with amazing results."
+    },
+    {
+      "name": "Margie Linder",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Communication: responded to texts and calls promptly. Timeliness: arrived on time and completed the project within the estimated timeframe. Quality of work: professionally completed. The garage floor looks perfect. They take pride in their work. Cleanliness and professionalism: the crew left the garage area clean and tidy! Customer service: friendly, courteous, professional, pleasant, hardworking and fun! ⭐️⭐️⭐️⭐️⭐️ We will definitely call Matt for future jobs."
+    },
+    {
+      "name": "Bob Gooding",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Excellent experience from beginning to end. Matt and his sons helped us pick the best colors and texture and explained options and process before starting. Gave estimate timeline of 3 days but finished a day early 👍. Matt sent progress pics and personally came by after completion to walk through and explain warranty. Matt and his crew were friendly to questions and very professional. I would definitely hire or recommend."
+    },
+    {
+      "name": "Michelle Moss",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Excellent work! Matt and his team did a great job on a challenging winery floor repair project. The communication from start to finish far exceeded expectations. Matt listened to my project needs and presented various solutions that fit within my timeframe and budget. His whole crew was respectful of the space and staff, and operated professionally the entire time. MGP sets the bar high! I look forward to working with Matt again and will gladly recommend them to anyone!"
+    },
+    {
+      "name": "Dawn Smith",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "What a transformation! I had no idea our cracking 1989 porch could look so welcoming! The floor application even makes our outdated furniture look great! The team was professional, friendly, and efficient. Less than one day of work worked wonders for the entrance of our home. Thank you, MGP Coatings! Highly recommended!"
+    },
+    {
+      "name": "Teresa Dusi",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Awesome job coating our garage floor! It's beautiful! The owner Matt was so easy to work with and his crew was detail oriented, nice, and professional. They came when they said they would and were done on time. I highly recommend Matt Gifford!"
+    },
+    {
+      "name": "Judy Thomas",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matthew was so polite, very informative, and his quality of work was great. We got other estimates and Matthew beat them all. Very good work — our carport was beautiful. I would highly recommend him. The plus also is that it's a family-owned business — his sons work with him. Very, very happy with results."
+    },
+    {
+      "name": "Rob C.",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and his crew just redid the floor in my garage. They did an amazing job — the floor is better than new. They showed up on time, did a great job and cleaned up every little detail. I highly recommend them!"
+    },
+    {
+      "name": "Daniel York",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Refreshing to find such a professional crew with attention to detail and willing to take extra time to do a top quality job. They repaired my severely cracked and damaged driveway and made it look like a million dollars. Also appreciate how they honor military veterans. True excellence."
+    },
+    {
+      "name": "Haley Raymer",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and his team did an amazing job painting our house, decks, and pergolas. We needed quite a bit of repairs done prior to painting and Matt referred us to awesome contractors who were able to get the work done before Matt finished. Matt and the crew were timely, professional, communicative, detail-oriented, and great to have around. Highly recommend!!"
+    },
+    {
+      "name": "Regina Voge",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "I'm extremely pleased with the outcome of our home exterior paint job. Matt gave a fair estimate and held true to the timeline — took a little over a week to paint our 2,000 sq ft home, detached garage, exterior fencing and back patio pergola. Matt was in constant, clear and professional communication with me. He made sure we were happy at each step. MGP provided a quality, efficient, and smooth exterior painting experience at a reasonable price. Go with Matt, and like us, you will be glad you did. Our home looks brand new!"
+    },
+    {
+      "name": "PAT Kelly",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "This company is very professional and hard working. They are very concerned with customer satisfaction. They did a fantastic job on our 35 year old concrete patio and we love it. Matt and crew know what they're doing. We highly recommend this company."
+    },
+    {
+      "name": "Debbie Wofford",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and his team did an excellent job cleaning up and coating our beach house garage floor and made it inviting again. Great team, very well mannered, and pleasant to work with. Now on to painting the exterior."
+    },
+    {
+      "name": "Daniel O'Hare",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and his team were great to work with! They resurfaced our carport and outdoor kitchen floor and it turned out better than we hoped for. We would recommend MGP Coatings without reservation."
+    },
+    {
+      "name": "Roger S.",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and his team did a great job for us! He showed up on site to give us a quote and brought a selection of sample finishes to choose from. He explained the process from start to finish and set expectations accordingly. The price was competitive, and they completed the job within the two days they quoted us. We are very happy with our experience with MGP."
+    },
+    {
+      "name": "Alisa Gubler",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt runs a first-class company! Great experience from start to finish. He brought a whole bag of samples, gave us a reasonable quote, and got the job done quickly and professionally. Very knowledgeable, and great at communicating. I highly recommend him!"
+    },
+    {
+      "name": "Missy Garcia",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Love my new garage! It looks amazing. Matt Gifford and team were professional, fast, and communicated well throughout the whole process. I would definitely recommend them 100%. You will not be disappointed."
+    },
+    {
+      "name": "Devin Wilson",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and the crew were like family. They were amazing and went above and beyond. They were clean, efficient, and did a fantastic job. They exceeded my expectations and couldn't be happier. Thank you for a job well done. I highly recommend anyone who wants their garage resurfaced to get in touch with them."
+    },
+    {
+      "name": "Paul Patrick",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "We had MGP Coatings spruce up our entry sidewalks. Matt and his son showed up early and worked hard. They did an outstanding job and very clean as well. Great communication whether through email or text. Would definitely recommend. 👍"
+    },
+    {
+      "name": "Michelle Gill",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and team did a great job — HIGHLY recommend! Exactly what we wanted for our older barn and home. He and his team paid attention to all of the details, paint and stain. Professional and timely. We are so very grateful!"
+    },
+    {
+      "name": "Doug Rice",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "MGP started off our project with great communication through text and emails. Fast easy consultation and scheduled us within two weeks. Matt and his crew showed up on time and were finished in the exact time as quoted. The job was beautiful and flawless. We could not have been more happy."
+    },
+    {
+      "name": "Charles",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and his team installed a new garage floor epoxy coating for us. Their work was professional and the quality is excellent. It completely improved the appearance of our garage."
+    },
+    {
+      "name": "Brooke Crowley",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Very respectful and hardworking group of people. My kitchen cabinets look exactly how I was hoping for them to look. Would recommend to anyone!"
+    },
+    {
+      "name": "Michael Shipman",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and his team did an outstanding job painting our home! Our neighbors have all complimented us, and our home looks brand new!"
+    },
+    {
+      "name": "Thomas N.",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and his team at MGP are very professional. Matt was great from the estimation phase to install. I had no questions left unanswered anywhere in the process. Very happy with our front porch!"
+    },
+    {
+      "name": "Robert F.",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "They painted 4 bedrooms, 2 baths, and hallways in my house. Great work by a great crew. Matt and crew were always on time and respectful. They always cleaned up. Their work was top quality. Matt wants to do the best job possible. Recommend."
+    },
+    {
+      "name": "George Duck",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and his team did an awesome job — we could not be more pleased! Craftsmanship and excellent communications with high attention to the details!"
+    },
+    {
+      "name": "Terri Monell",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Working with Matt and his team was so easy. Matt was always available for concerns and questions and his crew could not have been more polite and capable. Matt painted a triplex which was a 2-week job and it was done on time and with great results. Thank you Matt for a job well done!"
+    },
+    {
+      "name": "Jennifer",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Very grateful for such a wonderful experience using MGP. Matt and his team were thorough, thoughtful, and professional. We had the inside of our house painted and they were very quick to get us a quote and on the books! The paint looks amazing and we can't wait to have them back for another home project :)"
+    },
+    {
+      "name": "Tina Kohler",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and his crew were efficient and did a great job painting the exterior of my home. The work was done on schedule and for a reasonable price. I would hire them again and have already recommended them to a client of mine. Wonderful company to work with."
+    },
+    {
+      "name": "Colby Crotzer",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt's and his crew are great! They are efficient and got the job done quickly and perfectly. I am very particular and made some specific requests and they accomplished them well! Matt's bid for the job was reasonable and the team charged the quoted price, with no markup."
+    },
+    {
+      "name": "Filomena Dias",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Matt and his son work together as a team. They are both so great! I was so pleased with how Matt explained every step as to what they were going to be doing! He was always up front with us and gave good advice. I'm so happy with the job! I most definitely would recommend these two for anyone who is looking for a reliable person."
+    },
+    {
+      "name": "Cindy Winter",
+      "rating": 5,
+      "platform": "Google",
+      "avatar": null,
+      "relativeTime": null,
+      "text": "Great job, great team! Thorough, careful, protected our plants, and worked with our schedule. Matt was very informative through the entire project and we appreciate the personal touch — love the new house numbers!"
+    }
+  ]
 }

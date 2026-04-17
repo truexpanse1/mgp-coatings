@@ -42,6 +42,26 @@ if (!apiKey || !locationId) {
   process.exit(0);
 }
 
+// Don't clobber a manually-seeded or Apify-scraped dataset.
+if (existsSync(OUTPUT_PATH)) {
+  try {
+    const current = JSON.parse(readFileSync(OUTPUT_PATH, "utf-8"));
+    const preservedSources = ["apify-gmaps", "manual"];
+    if (
+      preservedSources.includes(current.source) &&
+      Array.isArray(current.reviews) &&
+      current.reviews.length > 0
+    ) {
+      console.log(
+        `[reviews:ghl] Skipping — ${current.source} already populated ${current.reviews.length} review(s).`
+      );
+      process.exit(0);
+    }
+  } catch {
+    // Malformed — fall through to fetch.
+  }
+}
+
 const endpoint = `https://services.leadconnectorhq.com/reputation/reviews?locationId=${encodeURIComponent(
   locationId
 )}&limit=20`;

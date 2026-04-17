@@ -27,13 +27,19 @@ const OUTPUT_PATH = resolve(__dirname, "..", "src", "data", "google-reviews.json
 const apiKey = process.env.GOOGLE_PLACES_API_KEY;
 const placeId = process.env.GOOGLE_PLACE_ID;
 
-// If GHL populated google-reviews.json already, don't overwrite.
+// If GHL or a manual/apify snapshot already populated google-reviews.json,
+// don't overwrite with the 5-review cap from Places API.
 if (existsSync(OUTPUT_PATH)) {
   try {
     const current = JSON.parse(readFileSync(OUTPUT_PATH, "utf-8"));
-    if (current.source === "ghl" && Array.isArray(current.reviews) && current.reviews.length > 0) {
+    const preservedSources = ["ghl", "apify-gmaps", "manual"];
+    if (
+      preservedSources.includes(current.source) &&
+      Array.isArray(current.reviews) &&
+      current.reviews.length > 0
+    ) {
       console.log(
-        `[reviews:pull] Skipping Places API — GHL already populated ${current.reviews.length} review(s).`
+        `[reviews:pull] Skipping Places API — ${current.source} already populated ${current.reviews.length} review(s).`
       );
       process.exit(0);
     }
