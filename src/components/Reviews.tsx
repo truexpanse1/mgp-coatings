@@ -20,7 +20,8 @@ type DisplayReview = {
 // the fetch script fills in what Google returns and the Reviews UI
 // gracefully degrades if any field is missing.
 type GoogleReviewsData = {
-  rating?: number;
+  fetchedAt?: string | null;
+  rating?: number | null;
   total?: number;
   reviews?: Array<{
     name: string;
