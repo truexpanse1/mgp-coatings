@@ -1,12 +1,40 @@
 import { reviewsData } from "@/data/reviews-schema";
 import offersData from "@/data/offers.json";
+import googleData from "@/data/google-reviews.json";
 
 const SITE_URL = "https://mgpcoatings.solutions";
 
+type GoogleReviewsFile = {
+  rating?: number | null;
+  total?: number;
+  reviews?: Array<{ name: string; rating?: number; text: string }>;
+};
+
 export function LocalBusinessJsonLd() {
-  const reviewCount = reviewsData.length;
+  const google = googleData as GoogleReviewsFile;
+  const googleReviews = Array.isArray(google.reviews) ? google.reviews : [];
+
+  // Prefer Google data for AggregateRating; fall back to reviews.json.
+  const reviewCount =
+    google.total && google.total > 0 ? google.total : reviewsData.length;
   const avgRating =
-    reviewsData.reduce((sum, r) => sum + r.rating, 0) / Math.max(reviewCount, 1);
+    typeof google.rating === "number" && google.rating > 0
+      ? google.rating
+      : reviewsData.reduce((sum, r) => sum + r.rating, 0) /
+        Math.max(reviewsData.length, 1);
+
+  const reviewsForSchema =
+    googleReviews.length > 0
+      ? googleReviews.slice(0, 5).map((r) => ({
+          rating: r.rating ?? 5,
+          name: r.name,
+          text: r.text,
+        }))
+      : reviewsData.slice(0, 5).map((r) => ({
+          rating: r.rating,
+          name: r.name,
+          text: r.text,
+        }));
 
   const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -135,7 +163,7 @@ export function LocalBusinessJsonLd() {
       bestRating: "5",
       worstRating: "1",
     };
-    schema.review = reviewsData.slice(0, 5).map((r) => ({
+    schema.review = reviewsForSchema.map((r) => ({
       "@type": "Review",
       reviewRating: {
         "@type": "Rating",
