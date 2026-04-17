@@ -133,7 +133,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://google.com"
+                href="https://search.google.com/local/reviews?placeid=ChIJ5Y3hV6sYQkkRdsjLN37SP6c"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted hover:text-gold transition-colors"
