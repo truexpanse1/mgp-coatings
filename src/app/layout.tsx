@@ -4,7 +4,8 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import StickyMobileCTA from "@/components/StickyMobileCTA";
-import { LocalBusinessJsonLd } from "@/components/JsonLd";
+import { LocalBusinessJsonLd, WebSiteJsonLd, OrganizationJsonLd } from "@/components/JsonLd";
+import { AnalyticsHead, AnalyticsNoScript } from "@/components/Analytics";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -106,8 +107,7 @@ export const metadata: Metadata = {
     canonical: siteUrl,
   },
   verification: {
-    // Add Google Search Console verification when ready
-    // google: "your-verification-code",
+    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION,
   },
 };
 
@@ -120,8 +120,12 @@ export default function RootLayout({
     <html lang="en" className={`${playfair.variable} ${montserrat.variable} ${inter.variable}`}>
       <head>
         <LocalBusinessJsonLd />
+        <WebSiteJsonLd />
+        <OrganizationJsonLd />
+        <AnalyticsHead />
       </head>
       <body className="font-inter antialiased bg-primary text-cream">
+        <AnalyticsNoScript />
         <Navigation />
         <main>{children}</main>
         <Footer />

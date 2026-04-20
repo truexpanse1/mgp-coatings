@@ -40,6 +40,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const title = `${service.title} in ${city.name}, CA | MGP Coatings`;
   const description = `Premium ${service.title.toLowerCase()} for ${city.name} homeowners and businesses. 30+ years of experience. Free on-site estimate. Call (805) 952-5301.`;
 
+  const pageUrl = `https://mgpcoatings.solutions/${serviceSlug}/${citySlug}/`;
+
   return {
     title,
     description,
@@ -54,11 +56,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       title,
       description,
-      images: [service.image],
+      url: pageUrl,
+      siteName: "MGP Coatings",
+      images: [{ url: service.image, width: 1200, height: 630, alt: `${service.title} in ${city.name}, CA` }],
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [service.image],
+    },
     alternates: {
-      canonical: `https://mgpcoatings.solutions/${serviceSlug}/${citySlug}/`,
+      canonical: pageUrl,
     },
   };
 }

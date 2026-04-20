@@ -15,9 +15,24 @@ export const metadata: Metadata = {
     "concrete coating blog",
     "garage floor tips",
     "epoxy flooring guide",
+    "polyaspartic vs epoxy",
     "san luis obispo contractor blog",
     "central coast home improvement",
   ],
+  openGraph: {
+    type: "website",
+    url: "https://mgpcoatings.solutions/blog/",
+    title: "Coatings Blog | MGP Coatings",
+    description: "Expert articles on garage floor coatings, pool decks, and epoxy flooring — 30+ years of Central Coast experience.",
+    siteName: "MGP Coatings",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: "MGP Coatings blog — concrete coating tips and guides" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Coatings Blog | MGP Coatings",
+    description: "Expert articles on concrete coatings from 30+ years of experience.",
+    images: ["/images/og-image.jpg"],
+  },
   alternates: { canonical: "https://mgpcoatings.solutions/blog/" },
 };
 

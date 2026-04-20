@@ -2,6 +2,12 @@
 
 import { useState } from "react";
 
+declare global {
+  interface Window {
+    dataLayer?: Array<Record<string, unknown>>;
+  }
+}
+
 interface ContactFormProps {
   className?: string;
   dark?: boolean;
@@ -42,7 +48,13 @@ export default function ContactForm({ className = "", dark = true }: ContactForm
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: new URLSearchParams(formData as unknown as Record<string, string>).toString(),
         })
-          .then(() => setSubmitted(true))
+          .then(() => {
+            setSubmitted(true);
+            if (typeof window !== "undefined") {
+              window.dataLayer = window.dataLayer || [];
+              window.dataLayer.push({ event: "form_submit", form: "mgp-estimate" });
+            }
+          })
           .catch(() => setSubmitted(true));
       }}
       className={className}

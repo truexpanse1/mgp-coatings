@@ -5,12 +5,31 @@ import SectionLabel from "@/components/SectionLabel";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Service Areas - San Luis Obispo County",
+  title: "Service Areas | Coatings Across San Luis Obispo County, CA",
   description:
-    "MGP Coatings serves all of San Luis Obispo County including SLO, Paso Robles, Atascadero, Pismo Beach, Morro Bay, and surrounding areas.",
+    "MGP Coatings serves all of San Luis Obispo County — San Luis Obispo, Paso Robles, Atascadero, Templeton, Pismo Beach, Morro Bay, Los Osos, Cayucos, Cambria, Santa Margarita, San Miguel, and Avila Beach.",
+  keywords: [
+    "slo county coating contractor",
+    "san luis obispo service area",
+    "paso robles epoxy",
+    "atascadero concrete coatings",
+    "templeton garage floors",
+    "morro bay pool deck",
+    "pismo beach patio coatings",
+    "central coast california",
+  ],
   openGraph: {
+    type: "website",
+    url: "https://mgpcoatings.solutions/service-areas/",
     title: "Service Areas | MGP Coatings",
     description: "Serving all of SLO County — SLO, Paso Robles, Atascadero, Pismo Beach, and more.",
+    siteName: "MGP Coatings",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: "MGP Coatings service areas in SLO County" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Service Areas | MGP Coatings",
+    description: "Serving all of San Luis Obispo County, CA.",
     images: ["/images/og-image.jpg"],
   },
   alternates: { canonical: "https://mgpcoatings.solutions/service-areas/" },

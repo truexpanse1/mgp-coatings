@@ -4,12 +4,27 @@ import SectionLabel from "@/components/SectionLabel";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Financing - Inquire About Payment Options",
+  title: "Financing | Payment Options for Coating Projects",
   description:
     "Financing options may be available for concrete coatings and epoxy flooring projects in San Luis Obispo County. Contact MGP Coatings to discuss what works for your budget.",
+  keywords: [
+    "epoxy flooring financing",
+    "concrete coating payment options",
+    "san luis obispo home improvement financing",
+    "coating project budget",
+  ],
   openGraph: {
+    type: "website",
+    url: "https://mgpcoatings.solutions/financing/",
     title: "Financing May Be Available | MGP Coatings",
     description: "Financing may be available for concrete coatings and epoxy flooring in SLO County. Contact us to learn more.",
+    siteName: "MGP Coatings",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: "MGP Coatings financing options" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Financing May Be Available | MGP Coatings",
+    description: "Financing may be available for coating projects in SLO County.",
     images: ["/images/og-image.jpg"],
   },
   alternates: { canonical: "https://mgpcoatings.solutions/financing/" },

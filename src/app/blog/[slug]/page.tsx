@@ -22,18 +22,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const post = posts.find((p) => p.slug === slug);
   if (!post) return { title: "Not Found" };
+  const pageUrl = `https://mgpcoatings.solutions/blog/${slug}/`;
   return {
     title: `${post.title} | MGP Coatings Blog`,
     description: post.description,
     openGraph: {
       title: post.title,
       description: post.description,
-      images: [post.image],
+      url: pageUrl,
+      siteName: "MGP Coatings",
+      images: [{ url: post.image, width: 1200, height: 630, alt: post.title }],
       type: "article",
       publishedTime: post.datePublished,
       authors: [post.author],
     },
-    alternates: { canonical: `https://mgpcoatings.solutions/blog/${slug}/` },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: [post.image],
+    },
+    alternates: { canonical: pageUrl },
   };
 }
 

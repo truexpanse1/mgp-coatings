@@ -5,12 +5,29 @@ import CTASection from "@/components/CTASection";
 import GalleryGrid from "@/components/GalleryGrid";
 
 export const metadata: Metadata = {
-  title: "Project Gallery - See Our Work | MGP Coatings",
+  title: "Project Gallery | See Real MGP Coatings Work in SLO County",
   description:
-    "Browse our gallery of completed concrete coating, epoxy flooring, and epoxy countertop projects across San Luis Obispo County. Real results from real projects.",
+    "Browse our gallery of completed concrete coating, epoxy flooring, and epoxy countertop projects across San Luis Obispo County. Real results from real projects — garages, pool decks, patios, driveways, and more.",
+  keywords: [
+    "mgp coatings gallery",
+    "epoxy flooring before after",
+    "garage floor project gallery",
+    "san luis obispo coating projects",
+    "paso robles epoxy portfolio",
+    "atascadero coating examples",
+  ],
   openGraph: {
+    type: "website",
+    url: "https://mgpcoatings.solutions/results/",
     title: "Project Gallery | MGP Coatings",
     description: "Browse completed concrete coating and epoxy flooring projects across SLO County.",
+    siteName: "MGP Coatings",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: "MGP Coatings completed project gallery" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Project Gallery | MGP Coatings",
+    description: "Real coating projects across SLO County.",
     images: ["/images/og-image.jpg"],
   },
   alternates: { canonical: "https://mgpcoatings.solutions/results/" },

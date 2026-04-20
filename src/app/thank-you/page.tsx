@@ -6,6 +6,13 @@ import FadeIn from "@/components/FadeIn";
 export const metadata: Metadata = {
   title: "Thank You | MGP Coatings",
   description: "Thank you for contacting MGP Coatings. We will be in touch shortly.",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: { index: false, follow: false },
+  },
+  alternates: { canonical: "https://mgpcoatings.solutions/thank-you/" },
 };
 
 export default function ThankYouPage() {

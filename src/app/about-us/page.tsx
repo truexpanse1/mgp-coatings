@@ -6,12 +6,29 @@ import SectionLabel from "@/components/SectionLabel";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "About Matt Gifford - 30+ Years of Excellence",
+  title: "About Matt Gifford | 30+ Years of Coatings Expertise in SLO County",
   description:
-    "Meet Matt Gifford — 30+ years of professional concrete coatings and epoxy flooring experience across San Luis Obispo County. Licensed, insured, and trusted.",
+    "Meet Matt Gifford — 30+ years of professional concrete coatings and epoxy flooring experience across San Luis Obispo County. Licensed, insured, and trusted. CA License #1061424.",
+  keywords: [
+    "matt gifford",
+    "mgp coatings owner",
+    "san luis obispo contractor",
+    "concrete coatings expert",
+    "licensed contractor 1061424",
+    "central coast coatings",
+  ],
   openGraph: {
+    type: "website",
+    url: "https://mgpcoatings.solutions/about-us/",
     title: "About Matt Gifford | MGP Coatings",
     description: "30+ years of professional concrete coatings and epoxy flooring across SLO County.",
+    siteName: "MGP Coatings",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: "Matt Gifford — Owner, MGP Coatings" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Matt Gifford | MGP Coatings",
+    description: "30+ years of professional concrete coatings across SLO County.",
     images: ["/images/og-image.jpg"],
   },
   alternates: { canonical: "https://mgpcoatings.solutions/about-us/" },

@@ -113,7 +113,9 @@ export function LocalBusinessJsonLd() {
     },
     sameAs: [
       "https://www.facebook.com/MGPcoatings",
+      "https://www.instagram.com/mgpcoatings/",
       "https://www.yelp.com/biz/mgp-coatings",
+      "https://search.google.com/local/reviews?placeid=ChIJ5Y3hV6sYQkkRdsjLN37SP6c",
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -175,6 +177,62 @@ export function LocalBusinessJsonLd() {
     }));
   }
 
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function WebSiteJsonLd() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${SITE_URL}/#website`,
+    url: SITE_URL,
+    name: "MGP Coatings",
+    description:
+      "Premium concrete coatings, epoxy flooring, and epoxy countertops across San Luis Obispo County, CA.",
+    publisher: { "@id": `${SITE_URL}/#business` },
+    inLanguage: "en-US",
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function OrganizationJsonLd() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${SITE_URL}/#organization`,
+    name: "MGP Coatings",
+    legalName: "Matt Gifford Painting LLC",
+    url: SITE_URL,
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE_URL}/images/mgp-logo.png`,
+      width: 512,
+      height: 512,
+    },
+    sameAs: [
+      "https://www.facebook.com/MGPcoatings",
+      "https://www.instagram.com/mgpcoatings/",
+      "https://www.yelp.com/biz/mgp-coatings",
+      "https://search.google.com/local/reviews?placeid=ChIJ5Y3hV6sYQkkRdsjLN37SP6c",
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+1-805-952-5301",
+      contactType: "customer service",
+      areaServed: "US-CA",
+      availableLanguage: "en",
+    },
+  };
   return (
     <script
       type="application/ld+json"
