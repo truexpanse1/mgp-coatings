@@ -144,7 +144,7 @@ export default function LandingPage({ data }: { data: LandingPageData }) {
 
       {/* SOCIAL PROOF STRIP */}
       <section className="bg-surface py-6 border-y border-gold/20">
-        <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div className="max-w-5xl mx-auto px-4 grid grid-cols-3 gap-6 text-center">
           <div>
             <div className="font-playfair text-3xl text-gold">5.0★</div>
             <div className="text-xs uppercase tracking-wider text-cream/60">
@@ -158,15 +158,9 @@ export default function LandingPage({ data }: { data: LandingPageData }) {
             </div>
           </div>
           <div>
-            <div className="font-playfair text-3xl text-gold">500+</div>
+            <div className="font-playfair text-3xl text-gold">1-2</div>
             <div className="text-xs uppercase tracking-wider text-cream/60">
-              Projects Completed
-            </div>
-          </div>
-          <div>
-            <div className="font-playfair text-3xl text-gold">15-Yr</div>
-            <div className="text-xs uppercase tracking-wider text-cream/60">
-              Written Warranty
+              Day Install
             </div>
           </div>
         </div>
