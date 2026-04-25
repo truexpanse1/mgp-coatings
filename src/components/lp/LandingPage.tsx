@@ -97,7 +97,7 @@ export default function LandingPage({ data }: { data: LandingPageData }) {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/50" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/85 via-primary/60 to-primary/25" />
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 py-16 lg:py-24">
