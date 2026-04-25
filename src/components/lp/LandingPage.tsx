@@ -336,9 +336,8 @@ export default function LandingPage({ data }: { data: LandingPageData }) {
               </h2>
               <p className="text-cream/80 mb-6">
                 Matt Gifford personally handles every estimate. No subcontractors,
-                no high-pressure sales, no bait-and-switch pricing. You get a real
-                number you can count on — and the full $1,319 bonus stack if
-                you book this month.
+                no high-pressure sales, no bait-and-switch pricing. Just a real
+                number you can count on, from the owner himself.
               </p>
               <div className="space-y-3 text-cream/90">
                 <div className="flex items-center gap-3">
@@ -351,7 +350,7 @@ export default function LandingPage({ data }: { data: LandingPageData }) {
                 </div>
                 <div className="flex items-center gap-3">
                   <Shield className="text-gold" size={20} />
-                  <span>15-year written warranty on every project.</span>
+                  <span>Premium workmanship warranty on every project.</span>
                 </div>
               </div>
             </div>
@@ -397,11 +396,10 @@ export default function LandingPage({ data }: { data: LandingPageData }) {
       <section className="py-16 lg:py-20 bg-gradient-to-b from-surface to-primary border-t border-gold/20">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="font-playfair text-3xl sm:text-4xl text-cream mb-4">
-            One day. 15-year warranty. 94 five-star reviews.
+            Done in a day. Premium warranty. 94 five-star reviews.
           </h2>
           <p className="text-cream/80 mb-8 text-lg">
-            Book your free consultation today and claim the full $1,319 bonus
-            stack before slots run out this month.
+            Book your free in-home consultation today before this month&apos;s slots run out.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

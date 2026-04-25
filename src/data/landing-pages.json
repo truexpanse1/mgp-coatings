@@ -9,10 +9,10 @@
     "hero": {
       "preHeadline": "SLO County Homeowners",
       "headline": "Transform Your Garage in 1-2 Days",
-      "subheadline": "Polyaspartic + epoxy systems that last 15+ years. Backed by 94 five-star reviews, a 15-year warranty, and 30 years of Matt Gifford doing this work himself.",
+      "subheadline": "Polyurea + polyaspartic systems built to last. Backed by 94 five-star reviews, a premium workmanship warranty, and 30 years of Matt Gifford doing this work himself.",
       "trustChips": [
         "94 Five-Star Reviews",
-        "15-Year Warranty",
+        "Premium Warranty",
         "Licensed #1061424",
         "30+ Years Experience"
       ],
@@ -20,15 +20,15 @@
       "secondaryCta": "Download the Free Buyer's Guide"
     },
     "offer": {
-      "title": "Book Your Free Consultation This Month & Get $1,319 in Bonuses \u2014 FREE",
+      "title": "Every Free Estimate Includes",
       "bonuses": [
-        { "name": "In-Home Color & Finish Consultation", "value": "$497" },
-        { "name": "Mailed Sample Kit (3 colors, flake chips, metallic)", "value": "$47" },
-        { "name": "Diamond-Ground Professional Surface Prep", "value": "$200" },
-        { "name": "15-Year Material + Workmanship Warranty", "value": "$500" },
-        { "name": "Aftercare Kit (stain remover + touch-up)", "value": "$75" }
+        { "name": "In-Home Color & Finish Consultation", "value": "\u2713" },
+        { "name": "Surface Inspection & Moisture Check", "value": "\u2713" },
+        { "name": "Sample Color, Flake & Finish Options", "value": "\u2713" },
+        { "name": "Custom Project Quote With No Pressure", "value": "\u2713" },
+        { "name": "Premium Workmanship Warranty", "value": "\u2713" }
       ],
-      "totalValue": "$1,319",
+      "totalValue": "Always Free",
       "scarcity": "Matt installs every job himself. Only 3 garage slots per week."
     },
     "problem": {
@@ -44,15 +44,15 @@
       "headline": "The MGP polyaspartic system. Why it's different.",
       "points": [
         "Full diamond-grind prep. We strip your floor to bare concrete and moisture-test it \u2014 most competitors skip this because it's expensive.",
-        "Two-coat polyaspartic + epoxy system. Bottom: 100% solids epoxy for structure. Top: polyaspartic for UV stability and hot tire resistance.",
-        "15-year written warranty. If it peels, chips, or fails \u2014 we come back and fix it. Free. In writing.",
+        "Two-layer polyurea + polyaspartic system. Base: industrial polyurea for toughness and adhesion. Top: polyaspartic for UV stability and hot tire resistance.",
+        "Premium workmanship warranty. If it peels, chips, or fails within the warranty period \u2014 we come back and fix it. Free. In writing.",
         "Done in 1-2 days. Drop your cars at 7am. Pick up a showroom-quality garage at 5pm the next day.",
         "Chip colors, gloss levels, and custom finishes. Your garage, your taste."
       ]
     },
     "guarantees": [
       {
-        "title": "15-Year Written Warranty",
+        "title": "Premium Workmanship Warranty",
         "body": "If it peels, cracks, fades, or chips in the first 15 years \u2014 we redo it. Free. No fine print."
       },
       {
@@ -83,11 +83,11 @@
       },
       {
         "q": "Is polyaspartic really better than epoxy?",
-        "a": "For garages exposed to heat, UV, and hot tires \u2014 yes, by a lot. Polyaspartic is UV-stable where epoxy alone yellows and cracks. That's why we use both: epoxy base for structure, polyaspartic top for durability."
+        "a": "For garages exposed to heat, UV, and hot tires \u2014 yes, by a lot. Polyaspartic is UV-stable where epoxy alone yellows and cracks. That's why our system pairs an industrial polyurea basecoat for toughness with a polyaspartic topcoat for UV durability."
       },
       {
         "q": "How long does the floor last?",
-        "a": "Our full system carries a 15-year written warranty. Real-world data from our installs: 8-year-old Central Coast garages still look like day one."
+        "a": "Our full system is backed by a premium workmanship warranty. Real-world data from our installs: 8-year-old Central Coast garages still look like day one."
       },
       {
         "q": "How long is the install?",
@@ -116,7 +116,7 @@
       "subheadline": "Slip-resistant, temperature-reducing coatings that make your deck safer for kids and gentler on bare feet. Installed in 1-2 days before pool season hits.",
       "trustChips": [
         "94 Five-Star Reviews",
-        "15-Year Warranty",
+        "Premium Warranty",
         "Chlorine + UV Stable",
         "Slip-Resistant Texture"
       ],
@@ -124,15 +124,15 @@
       "secondaryCta": "Download the Free Pool Deck Guide"
     },
     "offer": {
-      "title": "Book Your Free Pool Deck Consultation This Month & Get $1,319 in Bonuses \u2014 FREE",
+      "title": "Every Free Pool Deck Estimate Includes",
       "bonuses": [
-        { "name": "On-Site Color & Texture Consultation", "value": "$497" },
-        { "name": "Mailed Sample Kit (cool-touch finishes + chip options)", "value": "$47" },
-        { "name": "Diamond-Ground Surface Prep + Crack Repair", "value": "$200" },
-        { "name": "15-Year Material + Workmanship Warranty", "value": "$500" },
-        { "name": "Aftercare Kit (gentle cleaner + touch-up)", "value": "$75" }
+        { "name": "On-Site Color & Texture Consultation", "value": "\u2713" },
+        { "name": "Surface Inspection & Slip-Resistance Check", "value": "\u2713" },
+        { "name": "Sample Cool-Touch Finishes & Chip Options", "value": "\u2713" },
+        { "name": "Custom Project Quote With No Pressure", "value": "\u2713" },
+        { "name": "Premium Workmanship Warranty", "value": "\u2713" }
       ],
-      "totalValue": "$1,319",
+      "totalValue": "Always Free",
       "scarcity": "Matt personally installs every pool deck. Only 2 pool deck slots per week during peak season."
     },
     "problem": {
@@ -151,12 +151,12 @@
         "Chlorine + UV stable. Formulated for decades of pool chemistry and direct California sun.",
         "Crack repair included. We fix what's broken before we coat \u2014 no hiding problems under a pretty finish.",
         "Custom texture + color. Match your home, your landscaping, or go resort-style bold.",
-        "15-year warranty on material and workmanship. If it fails, we fix it."
+        "Premium workmanship warranty on material and installation. If it fails within the warranty period, we fix it."
       ]
     },
     "guarantees": [
       {
-        "title": "15-Year Written Warranty",
+        "title": "Premium Workmanship Warranty",
         "body": "Material and workmanship. Peeling, cracking, fading \u2014 we come back and make it right."
       },
       {
@@ -175,7 +175,7 @@
         "The slip-resistance question most contractors can't answer honestly",
         "Why 'chlorine-safe' means nothing without the right spec sheet",
         "The prep step 7 out of 10 pool deck contractors skip",
-        "How to spot a real 15-year warranty vs. fine-print fake",
+        "How to spot a legitimate workmanship warranty vs. fine-print fake",
         "The question that reveals whether they've actually done pool decks before"
       ],
       "filename": "mgp-pool-deck-5-questions.html"
@@ -217,10 +217,10 @@
     "hero": {
       "preHeadline": "SLO County Homeowners",
       "headline": "The #1 Curb Appeal Upgrade, Done in 1-2 Days",
-      "subheadline": "Hot-tire resistant, oil-proof driveway coatings that add thousands to your home's curb appeal. 15-year warranty. 94 five-star reviews. Installed by Matt Gifford personally.",
+      "subheadline": "Hot-tire resistant, oil-proof polyurea + polyaspartic driveway coatings that add thousands to your home's curb appeal. Premium workmanship warranty. 94 five-star reviews. Installed by Matt Gifford personally.",
       "trustChips": [
         "94 Five-Star Reviews",
-        "15-Year Warranty",
+        "Premium Warranty",
         "Hot Tire Resistant",
         "Licensed #1061424"
       ],
@@ -228,15 +228,15 @@
       "secondaryCta": "Download the Free Driveway Guide"
     },
     "offer": {
-      "title": "Book Your Free Driveway Consultation This Month & Get $1,319 in Bonuses \u2014 FREE",
+      "title": "Every Free Driveway Estimate Includes",
       "bonuses": [
-        { "name": "On-Site Color & Finish Consultation", "value": "$497" },
-        { "name": "Mailed Sample Kit (driveway-spec finishes)", "value": "$47" },
-        { "name": "Diamond-Ground Surface Prep + Crack Repair", "value": "$200" },
-        { "name": "15-Year Material + Workmanship Warranty", "value": "$500" },
-        { "name": "Aftercare Kit (driveway cleaner + touch-up)", "value": "$75" }
+        { "name": "On-Site Color & Finish Consultation", "value": "\u2713" },
+        { "name": "Surface Inspection & Hot-Tire Suitability Check", "value": "\u2713" },
+        { "name": "Sample Driveway-Spec Finishes & Chip Options", "value": "\u2713" },
+        { "name": "Custom Project Quote With No Pressure", "value": "\u2713" },
+        { "name": "Premium Workmanship Warranty", "value": "\u2713" }
       ],
-      "totalValue": "$1,319",
+      "totalValue": "Always Free",
       "scarcity": "Matt installs every driveway himself. Only 2 driveway slots per week."
     },
     "problem": {
@@ -260,7 +260,7 @@
     },
     "guarantees": [
       {
-        "title": "15-Year Written Warranty",
+        "title": "Premium Workmanship Warranty",
         "body": "Material and workmanship. Peeling, cracking, fading \u2014 we come back and make it right. In writing."
       },
       {
@@ -291,7 +291,7 @@
       },
       {
         "q": "Will it really survive hot tires?",
-        "a": "Yes \u2014 if you use the right system. Cheap epoxy fails from hot tire lift almost immediately. Our polyaspartic topcoat is specifically rated for hot tire contact, which is why the warranty is 15 years."
+        "a": "Yes \u2014 if you use the right system. Cheap epoxy fails from hot tire lift almost immediately. Our polyurea base + polyaspartic topcoat is specifically rated for hot tire contact, which is why our workmanship warranty stands behind it."
       },
       {
         "q": "What about oil stains?",
