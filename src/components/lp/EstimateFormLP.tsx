@@ -32,10 +32,10 @@ export default function EstimateFormLP({
       <div className={`text-center py-10 ${className}`}>
         <div className="text-gold text-5xl mb-4">✓</div>
         <h3 className="font-playfair text-2xl text-cream mb-2">
-          Got it. Matt will be in touch within 24 hours.
+          Got it. Matt will call you personally within 24 hours.
         </h3>
         <p className="text-cream/70 text-sm">
-          You&apos;ll get a confirmation text shortly. If it&apos;s urgent, call{" "}
+          Your request is in. If it&apos;s urgent, call{" "}
           <a href="tel:+18059525301" className="text-gold underline">
             (805) 952-5301
           </a>
