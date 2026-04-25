@@ -138,7 +138,7 @@ export default function LeadMagnetForm({
         disabled={submitting}
         className="w-full font-montserrat text-sm uppercase tracking-[0.12em] bg-gold text-primary px-6 py-3.5 rounded-lg hover:bg-gold/90 transition-all duration-300 font-bold disabled:opacity-70"
       >
-        {submitting ? "Opening..." : "Get Instant Access"}
+        {submitting ? "Opening..." : "Download My Free Guide"}
       </button>
       <p className="text-center text-xs text-cream/50">
         Your guide opens immediately. Matt personally follows up within 2
