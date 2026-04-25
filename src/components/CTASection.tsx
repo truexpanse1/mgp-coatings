@@ -52,7 +52,7 @@ export default function CTASection() {
                 </a>
 
                 <a
-                  href="mailto:matthew.gifford@yahoo.com"
+                  href="mailto:matt.gifford@mgpcoatings.com"
                   className="flex items-center gap-4 group"
                 >
                   <div className="w-12 h-12 rounded-lg bg-gold/10 flex items-center justify-center shrink-0 group-hover:bg-gold/20 transition-colors">

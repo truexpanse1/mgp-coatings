@@ -48,7 +48,7 @@ export function LocalBusinessJsonLd() {
     slogan: "Transforming Surfaces.",
     url: SITE_URL,
     telephone: "+1-805-952-5301",
-    email: "matthew.gifford@yahoo.com",
+    email: "matt.gifford@mgpcoatings.com",
     image: `${SITE_URL}/images/og-image.jpg`,
     logo: `${SITE_URL}/images/mgp-logo.png`,
     priceRange: "$$",
