@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Montserrat, Inter } from "next/font/google";
 import "./globals.css";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-import StickyMobileCTA from "@/components/StickyMobileCTA";
+import SiteChrome from "@/components/SiteChrome";
 import { LocalBusinessJsonLd, WebSiteJsonLd, OrganizationJsonLd } from "@/components/JsonLd";
 import { AnalyticsHead, AnalyticsNoScript } from "@/components/Analytics";
 
@@ -126,10 +124,7 @@ export default function RootLayout({
       </head>
       <body className="font-inter antialiased bg-primary text-cream">
         <AnalyticsNoScript />
-        <Navigation />
-        <main>{children}</main>
-        <Footer />
-        <StickyMobileCTA />
+        <SiteChrome>{children}</SiteChrome>
       </body>
     </html>
   );

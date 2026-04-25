@@ -1,0 +1,314 @@
+{
+  "garage-floors": {
+    "slug": "garage-floors",
+    "service": "Garage Floor Coatings",
+    "serviceShort": "Garage Floor",
+    "leadMagnetTag": "nurture-garage",
+    "ghlServiceInterest": "Garage Floor Coatings",
+    "heroImage": "/images/heroes/home.jpg",
+    "hero": {
+      "preHeadline": "SLO County Homeowners",
+      "headline": "Transform Your Garage in 1-2 Days",
+      "subheadline": "Polyaspartic + epoxy systems that last 15+ years. Backed by 94 five-star reviews, a 15-year warranty, and 30 years of Matt Gifford doing this work himself.",
+      "trustChips": [
+        "94 Five-Star Reviews",
+        "15-Year Warranty",
+        "Licensed #1061424",
+        "30+ Years Experience"
+      ],
+      "primaryCta": "Get My Free Garage Estimate",
+      "secondaryCta": "Download the Free Buyer's Guide"
+    },
+    "offer": {
+      "title": "Book Your Free Consultation This Month & Get $1,319 in Bonuses \u2014 FREE",
+      "bonuses": [
+        { "name": "In-Home Color & Finish Consultation", "value": "$497" },
+        { "name": "Mailed Sample Kit (3 colors, flake chips, metallic)", "value": "$47" },
+        { "name": "Diamond-Ground Professional Surface Prep", "value": "$200" },
+        { "name": "15-Year Material + Workmanship Warranty", "value": "$500" },
+        { "name": "Aftercare Kit (stain remover + touch-up)", "value": "$75" }
+      ],
+      "totalValue": "$1,319",
+      "scarcity": "Matt installs every job himself. Only 3 garage slots per week."
+    },
+    "problem": {
+      "headline": "Why most garage floors look like hell 3 years in",
+      "points": [
+        "Cheap DIY epoxy kits peel within 18-36 months. They're UV-sensitive and fail from hot tire lift.",
+        "85% of coating failures come from bad prep \u2014 and DIY kits skip the diamond grinding and moisture testing that actually matter.",
+        "Oil stains, tire marks, and concrete dust eat away at untreated concrete every day you wait.",
+        "Once a bad coating fails, removing it costs more than the original install did."
+      ]
+    },
+    "solution": {
+      "headline": "The MGP polyaspartic system. Why it's different.",
+      "points": [
+        "Full diamond-grind prep. We strip your floor to bare concrete and moisture-test it \u2014 most competitors skip this because it's expensive.",
+        "Two-coat polyaspartic + epoxy system. Bottom: 100% solids epoxy for structure. Top: polyaspartic for UV stability and hot tire resistance.",
+        "15-year written warranty. If it peels, chips, or fails \u2014 we come back and fix it. Free. In writing.",
+        "Done in 1-2 days. Drop your cars at 7am. Pick up a showroom-quality garage at 5pm the next day.",
+        "Chip colors, gloss levels, and custom finishes. Your garage, your taste."
+      ]
+    },
+    "guarantees": [
+      {
+        "title": "15-Year Written Warranty",
+        "body": "If it peels, cracks, fades, or chips in the first 15 years \u2014 we redo it. Free. No fine print."
+      },
+      {
+        "title": "Price-Match + 10%",
+        "body": "Bring us any licensed contractor's written quote. We beat it by 10% or we pay you $100."
+      },
+      {
+        "title": "Done-in-2-Days or Day 3 Is Free",
+        "body": "If we go past 2 business days on your project, every additional day is on us."
+      }
+    ],
+    "leadMagnet": {
+      "title": "The SLO County Homeowner's Guide to Garage Floor Coatings",
+      "subtitle": "Free 10-page PDF: what to ask, what to avoid, and how to tell the pros from the cowboys.",
+      "bullets": [
+        "The 5 questions every coating contractor hopes you won't ask",
+        "Why polyaspartic beats epoxy for Central Coast garages",
+        "Real-world cost ranges for SLO County installs (not national averages)",
+        "The DIY kit trap: why $300 saves you $300 and costs you $5,000 later",
+        "Checklist: how to compare quotes apples-to-apples"
+      ],
+      "filename": "mgp-garage-floor-buyers-guide.html"
+    },
+    "faqs": [
+      {
+        "q": "How much does a garage floor coating cost?",
+        "a": "Most residential 2-car garages run $3,200-$5,800 depending on square footage, concrete condition, and chip choices. Detailed quotes are always free and Matt does them in person."
+      },
+      {
+        "q": "Is polyaspartic really better than epoxy?",
+        "a": "For garages exposed to heat, UV, and hot tires \u2014 yes, by a lot. Polyaspartic is UV-stable where epoxy alone yellows and cracks. That's why we use both: epoxy base for structure, polyaspartic top for durability."
+      },
+      {
+        "q": "How long does the floor last?",
+        "a": "Our full system carries a 15-year written warranty. Real-world data from our installs: 8-year-old Central Coast garages still look like day one."
+      },
+      {
+        "q": "How long is the install?",
+        "a": "Most residential garages are done in 1-2 days. Walk on it after 24 hours, drive on it after 3 days, fully cured in 5-7 days."
+      },
+      {
+        "q": "Do I need to prep anything?",
+        "a": "Just move everything out of the garage the day before. We handle grinding, repair, cleanup, everything."
+      },
+      {
+        "q": "What's the warranty actually cover?",
+        "a": "Material AND workmanship. If it peels, chips, delaminates, or fades unnaturally in the first 15 years, we come back and make it right. Written, not a handshake."
+      }
+    ]
+  },
+  "pool-decks": {
+    "slug": "pool-decks",
+    "service": "Pool Deck Coatings",
+    "serviceShort": "Pool Deck",
+    "leadMagnetTag": "nurture-pool-deck",
+    "ghlServiceInterest": "Pool Deck Coatings",
+    "heroImage": "/images/heroes/pool-deck.jpg",
+    "hero": {
+      "preHeadline": "SLO County Pool Owners",
+      "headline": "Safer. Cooler. Resort-Quality Pool Decks.",
+      "subheadline": "Slip-resistant, temperature-reducing coatings that make your deck safer for kids and gentler on bare feet. Installed in 1-2 days before pool season hits.",
+      "trustChips": [
+        "94 Five-Star Reviews",
+        "15-Year Warranty",
+        "Chlorine + UV Stable",
+        "Slip-Resistant Texture"
+      ],
+      "primaryCta": "Get My Free Pool Deck Estimate",
+      "secondaryCta": "Download the Free Pool Deck Guide"
+    },
+    "offer": {
+      "title": "Book Your Free Pool Deck Consultation This Month & Get $1,319 in Bonuses \u2014 FREE",
+      "bonuses": [
+        { "name": "On-Site Color & Texture Consultation", "value": "$497" },
+        { "name": "Mailed Sample Kit (cool-touch finishes + chip options)", "value": "$47" },
+        { "name": "Diamond-Ground Surface Prep + Crack Repair", "value": "$200" },
+        { "name": "15-Year Material + Workmanship Warranty", "value": "$500" },
+        { "name": "Aftercare Kit (gentle cleaner + touch-up)", "value": "$75" }
+      ],
+      "totalValue": "$1,319",
+      "scarcity": "Matt personally installs every pool deck. Only 2 pool deck slots per week during peak season."
+    },
+    "problem": {
+      "headline": "Why most pool decks become painful \u2014 literally",
+      "points": [
+        "Untreated concrete bakes in the Central Coast sun and can scorch bare feet at 140\u00b0F+ on a 90\u00b0 day.",
+        "Smooth concrete + pool water = fall hazard, especially for kids running between the pool and the patio.",
+        "Pool chemicals (chlorine, muriatic acid) slowly eat untreated concrete. The cracks you're ignoring now turn into expensive repairs in 2-3 years.",
+        "Cheap pool-deck paint peels in a single summer. DIY kits aren't built for constant water, sun, and chemical exposure."
+      ]
+    },
+    "solution": {
+      "headline": "Our pool deck system. Cool, grippy, chlorine-proof.",
+      "points": [
+        "Cool-touch textured coating. Reflects heat and adds grip \u2014 meaningfully safer for bare feet and kids.",
+        "Chlorine + UV stable. Formulated for decades of pool chemistry and direct California sun.",
+        "Crack repair included. We fix what's broken before we coat \u2014 no hiding problems under a pretty finish.",
+        "Custom texture + color. Match your home, your landscaping, or go resort-style bold.",
+        "15-year warranty on material and workmanship. If it fails, we fix it."
+      ]
+    },
+    "guarantees": [
+      {
+        "title": "15-Year Written Warranty",
+        "body": "Material and workmanship. Peeling, cracking, fading \u2014 we come back and make it right."
+      },
+      {
+        "title": "Price-Match + 10%",
+        "body": "Any licensed contractor's written quote: we beat it by 10% or pay you $100."
+      },
+      {
+        "title": "Done-in-2-Days or Day 3 Is Free",
+        "body": "If we don't finish in 2 business days, every day after is on us."
+      }
+    ],
+    "leadMagnet": {
+      "title": "5 Questions to Ask Any Pool Deck Contractor Before You Sign",
+      "subtitle": "Free 1-page checklist: the exact questions that separate real pros from part-time hustlers.",
+      "bullets": [
+        "The slip-resistance question most contractors can't answer honestly",
+        "Why 'chlorine-safe' means nothing without the right spec sheet",
+        "The prep step 7 out of 10 pool deck contractors skip",
+        "How to spot a real 15-year warranty vs. fine-print fake",
+        "The question that reveals whether they've actually done pool decks before"
+      ],
+      "filename": "mgp-pool-deck-5-questions.html"
+    },
+    "faqs": [
+      {
+        "q": "How much does pool deck coating cost?",
+        "a": "Most SLO County pool decks run $4,000-$8,500 depending on square footage, condition of the existing concrete, and texture choices. Every quote is free and on-site."
+      },
+      {
+        "q": "How much cooler will it actually be?",
+        "a": "Cool-touch coatings typically reduce surface temp meaningfully versus bare concrete. In Central Coast summer sun, that's the difference between walking barefoot and hopping for the nearest towel."
+      },
+      {
+        "q": "Is it really slip-resistant when wet?",
+        "a": "Any coated surface can be slippery when wet. Our textured topcoats provide significantly better grip than bare or painted concrete, but no coating is 100% slip-proof. We'll show you actual samples during your consultation."
+      },
+      {
+        "q": "Will pool chemistry hurt the coating?",
+        "a": "Not ours. We use chlorine-stable, UV-stable systems formulated specifically for pool environments. That's why the warranty is 15 years and not 1."
+      },
+      {
+        "q": "How long until we can use the pool again?",
+        "a": "Most decks are done in 1-2 days. Walk on it after 24 hours. Back to normal pool use in 5-7 days once fully cured."
+      },
+      {
+        "q": "Can you work around our existing decking or landscaping?",
+        "a": "Yes. We protect everything adjacent \u2014 tile coping, plants, pool equipment \u2014 and clean up like we were never there."
+      }
+    ]
+  },
+  "driveways": {
+    "slug": "driveways",
+    "service": "Driveway Coatings",
+    "serviceShort": "Driveway",
+    "leadMagnetTag": "nurture-driveway",
+    "ghlServiceInterest": "Driveway Coatings",
+    "heroImage": "/images/heroes/driveway.jpg",
+    "hero": {
+      "preHeadline": "SLO County Homeowners",
+      "headline": "The #1 Curb Appeal Upgrade, Done in 1-2 Days",
+      "subheadline": "Hot-tire resistant, oil-proof driveway coatings that add thousands to your home's curb appeal. 15-year warranty. 94 five-star reviews. Installed by Matt Gifford personally.",
+      "trustChips": [
+        "94 Five-Star Reviews",
+        "15-Year Warranty",
+        "Hot Tire Resistant",
+        "Licensed #1061424"
+      ],
+      "primaryCta": "Get My Free Driveway Estimate",
+      "secondaryCta": "Download the Free Driveway Guide"
+    },
+    "offer": {
+      "title": "Book Your Free Driveway Consultation This Month & Get $1,319 in Bonuses \u2014 FREE",
+      "bonuses": [
+        { "name": "On-Site Color & Finish Consultation", "value": "$497" },
+        { "name": "Mailed Sample Kit (driveway-spec finishes)", "value": "$47" },
+        { "name": "Diamond-Ground Surface Prep + Crack Repair", "value": "$200" },
+        { "name": "15-Year Material + Workmanship Warranty", "value": "$500" },
+        { "name": "Aftercare Kit (driveway cleaner + touch-up)", "value": "$75" }
+      ],
+      "totalValue": "$1,319",
+      "scarcity": "Matt installs every driveway himself. Only 2 driveway slots per week."
+    },
+    "problem": {
+      "headline": "Your driveway is the first thing buyers and guests see",
+      "points": [
+        "Oil stains, tire marks, and concrete dust send a signal: this house is tired.",
+        "Untreated concrete cracks faster under Central Coast heat cycles and winter rain \u2014 once cracks spread, repair cost climbs fast.",
+        "Hot tires peel most DIY coatings within a year. Cheap driveway paint = money in the trash.",
+        "The longer you wait, the more the concrete degrades underneath \u2014 and prep cost goes up."
+      ]
+    },
+    "solution": {
+      "headline": "Our driveway system. Built for hot tires, oil, and UV.",
+      "points": [
+        "Hot tire resistant polyaspartic topcoat \u2014 the only coating system proven to survive hot tire lift.",
+        "Oil-proof + chemical-resistant. Spills wipe clean like tile.",
+        "UV stable. Won't yellow, chalk, or fade in Central Coast sun like cheap acrylic sealers do.",
+        "Diamond-grind prep + crack repair included. We fix what's broken, then coat.",
+        "Custom color, gloss, and chip options to complement your home's exterior."
+      ]
+    },
+    "guarantees": [
+      {
+        "title": "15-Year Written Warranty",
+        "body": "Material and workmanship. Peeling, cracking, fading \u2014 we come back and make it right. In writing."
+      },
+      {
+        "title": "Price-Match + 10%",
+        "body": "Any licensed contractor's written quote: we beat it by 10% or pay you $100."
+      },
+      {
+        "title": "Done-in-2-Days or Day 3 Is Free",
+        "body": "If we don't finish in 2 business days, every day after is on us."
+      }
+    ],
+    "leadMagnet": {
+      "title": "Before & After: Real SLO County Driveway Transformations",
+      "subtitle": "Free PDF gallery: 12 real Central Coast driveways, with costs, timelines, and what we fixed.",
+      "bullets": [
+        "12 before/after driveway projects across SLO County",
+        "Actual install cost + timeline for each (no ranges \u2014 real numbers)",
+        "What the concrete looked like underneath (the part contractors hide)",
+        "Which finish adds the most curb appeal (the answer surprised us)",
+        "Matt's notes on what went right \u2014 and the one thing he'd do differently"
+      ],
+      "filename": "mgp-driveway-before-after-gallery.html"
+    },
+    "faqs": [
+      {
+        "q": "How much does a driveway coating cost?",
+        "a": "Most SLO County driveways run $3,800-$9,500 depending on square footage and concrete condition. Every quote is free and done on-site so you get an exact number, not an estimate."
+      },
+      {
+        "q": "Will it really survive hot tires?",
+        "a": "Yes \u2014 if you use the right system. Cheap epoxy fails from hot tire lift almost immediately. Our polyaspartic topcoat is specifically rated for hot tire contact, which is why the warranty is 15 years."
+      },
+      {
+        "q": "What about oil stains?",
+        "a": "Oil sits on top of our coating \u2014 it doesn't soak in. Spills wipe clean with any household degreaser. Same for brake fluid, transmission fluid, coolant."
+      },
+      {
+        "q": "Can you coat a cracked driveway?",
+        "a": "Yes. We repair cracks with structural epoxy before coating. If the concrete is severely damaged, we'll tell you honestly whether coating is the right call or whether you need replacement first."
+      },
+      {
+        "q": "How long is the install?",
+        "a": "Most driveways are done in 1-2 days. Walk on it after 24 hours, drive on it after 3 days."
+      },
+      {
+        "q": "Does it add to resale value?",
+        "a": "Curb appeal is one of the highest-ROI upgrades for a home. A professionally coated driveway is often the first detail buyers mention positively."
+      }
+    ]
+  }
+}
