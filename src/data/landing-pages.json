@@ -17,7 +17,7 @@
         "Simiron Distributor"
       ],
       "primaryCta": "Get My Free Garage Estimate",
-      "secondaryCta": "Download the Free Buyer's Guide"
+      "secondaryCta": "Download the Free 5-Question Guide"
     },
     "offer": {
       "title": "Every Free Estimate Includes",
@@ -121,7 +121,7 @@
         "Slip-Resistant Texture"
       ],
       "primaryCta": "Get My Free Pool Deck Estimate",
-      "secondaryCta": "Download the Free Pool Deck Guide"
+      "secondaryCta": "Download the Free 5-Question Guide"
     },
     "offer": {
       "title": "Every Free Pool Deck Estimate Includes",
@@ -133,7 +133,7 @@
         { "name": "Premium Workmanship Warranty", "value": "\u2713" }
       ],
       "totalValue": "Always Free",
-      "scarcity": "Matt personally installs every pool deck. Only 2 pool deck slots per week during peak season."
+      "scarcity": "Matt personally oversees every pool deck install. Only 2 pool deck slots per week during peak season."
     },
     "problem": {
       "headline": "Why most pool decks become painful \u2014 literally",
@@ -157,15 +157,15 @@
     "guarantees": [
       {
         "title": "Premium Workmanship Warranty",
-        "body": "Material and workmanship. Peeling, cracking, fading \u2014 we come back and make it right."
+        "body": "If our coating peels or delaminates within the warranty period, we come back and make it right. Full warranty terms are written into your project contract."
       },
       {
-        "title": "Owner-Installed, Every Job",
-        "body": "Matt Gifford personally handles every install. No subcontractors, no rotating crews. The owner is on-site, hands-on, every project."
+        "title": "Owner-Overseen, Every Job",
+        "body": "Matt Gifford personally oversees every install — vetting your concrete, selecting the right system, and standing behind the finished work."
       },
       {
-        "title": "Done-in-2-Days or Day 3 Is Free",
-        "body": "If we don't finish in 2 business days, every day after is on us."
+        "title": "Simiron-Authorized Distributor",
+        "body": "We install Simiron's professional-grade coatings — chlorine- and UV-stable systems built for pool environments."
       }
     ],
     "leadMagnet": {
@@ -217,7 +217,7 @@
     "hero": {
       "preHeadline": "SLO County Homeowners",
       "headline": "The #1 Curb Appeal Upgrade, Done in 1-2 Days",
-      "subheadline": "Hot-tire resistant, oil-proof polyurea + polyaspartic driveway coatings that add thousands to your home's curb appeal. Premium workmanship warranty. 94 five-star reviews. Installed by Matt Gifford personally.",
+      "subheadline": "Hot-tire resistant, oil-proof polyurea + polyaspartic driveway coatings that add thousands to your home's curb appeal. Premium workmanship warranty. 94 five-star reviews. Overseen by Matt Gifford on every install.",
       "trustChips": [
         "94 Five-Star Reviews",
         "Premium Warranty",
@@ -225,7 +225,7 @@
         "Licensed #1061424"
       ],
       "primaryCta": "Get My Free Driveway Estimate",
-      "secondaryCta": "Download the Free Driveway Guide"
+      "secondaryCta": "Download the Free 5-Question Guide"
     },
     "offer": {
       "title": "Every Free Driveway Estimate Includes",
@@ -237,7 +237,7 @@
         { "name": "Premium Workmanship Warranty", "value": "\u2713" }
       ],
       "totalValue": "Always Free",
-      "scarcity": "Matt installs every driveway himself. Only 2 driveway slots per week."
+      "scarcity": "Matt personally oversees every driveway install. Only 2 driveway slots per week."
     },
     "problem": {
       "headline": "Your driveway is the first thing buyers and guests see",
@@ -261,15 +261,15 @@
     "guarantees": [
       {
         "title": "Premium Workmanship Warranty",
-        "body": "Material and workmanship. Peeling, cracking, fading \u2014 we come back and make it right. In writing."
+        "body": "If our coating peels or delaminates within the warranty period, we come back and make it right. Full warranty terms are written into your project contract."
       },
       {
-        "title": "Owner-Installed, Every Job",
-        "body": "Matt Gifford personally handles every install. No subcontractors, no rotating crews. The owner is on-site, hands-on, every project."
+        "title": "Owner-Overseen, Every Job",
+        "body": "Matt Gifford personally oversees every install \u2014 vetting your concrete, selecting the right system, and standing behind the finished work."
       },
       {
-        "title": "Done-in-2-Days or Day 3 Is Free",
-        "body": "If we don't finish in 2 business days, every day after is on us."
+        "title": "Simiron-Authorized Distributor",
+        "body": "We install Simiron's professional-grade polyurea and polyaspartic driveway systems \u2014 built for hot tires, oil, and Central Coast UV."
       }
     ],
     "leadMagnet": {
@@ -291,7 +291,7 @@
       },
       {
         "q": "Will it really survive hot tires?",
-        "a": "Yes \u2014 if you use the right system. Cheap epoxy fails from hot tire lift almost immediately. Our polyurea base + polyaspartic topcoat is specifically rated for hot tire contact, which is why our workmanship warranty stands behind it."
+        "a": "Yes \u2014 when you use the right system for a driveway. Our polyurea base with a polyaspartic topcoat is specifically rated for hot tire contact, which is why our workmanship warranty stands behind it on driveway installs."
       },
       {
         "q": "What about oil stains?",
