@@ -9,12 +9,12 @@
     "hero": {
       "preHeadline": "SLO County Homeowners",
       "headline": "Transform Your Garage in 1-2 Days",
-      "subheadline": "Polyurea + polyaspartic systems built to last. Backed by 94 five-star reviews, a premium workmanship warranty, and 30 years of Matt Gifford doing this work himself.",
+      "subheadline": "We install either an epoxy or polyurea basecoat with a polyaspartic topcoat — chosen for what your concrete actually needs. Backed by 94 five-star reviews, a premium workmanship warranty, and 30+ years of Matt Gifford overseeing every install.",
       "trustChips": [
         "94 Five-Star Reviews",
         "Premium Warranty",
         "Licensed #1061424",
-        "30+ Years Experience"
+        "Simiron Distributor"
       ],
       "primaryCta": "Get My Free Garage Estimate",
       "secondaryCta": "Download the Free Buyer's Guide"
@@ -29,7 +29,7 @@
         { "name": "Premium Workmanship Warranty", "value": "\u2713" }
       ],
       "totalValue": "Always Free",
-      "scarcity": "Matt installs every job himself. Only 3 garage slots per week."
+      "scarcity": "Matt personally oversees every install. Only 3 garage slots per week."
     },
     "problem": {
       "headline": "Why most garage floors look like hell 3 years in",
@@ -41,27 +41,27 @@
       ]
     },
     "solution": {
-      "headline": "The MGP polyaspartic system. Why it's different.",
+      "headline": "The MGP coating system. Built around what your concrete needs.",
       "points": [
-        "Full diamond-grind prep. We strip your floor to bare concrete and moisture-test it \u2014 most competitors skip this because it's expensive.",
-        "Two-layer polyurea + polyaspartic system. Base: industrial polyurea for toughness and adhesion. Top: polyaspartic for UV stability and hot tire resistance.",
-        "Premium workmanship warranty. If it peels, chips, or fails within the warranty period \u2014 we come back and fix it. Free. In writing.",
-        "Done in 1-2 days. Drop your cars at 7am. Pick up a showroom-quality garage at 5pm the next day.",
+        "Full diamond-grind prep with moisture testing. Once we see what your concrete is actually doing, we recommend the right system \u2014 most competitors skip this because it's expensive.",
+        "Either an industrial epoxy or polyurea basecoat \u2014 selected based on the moisture content and condition of your concrete \u2014 finished with a polyaspartic topcoat for UV stability and hot tire resistance.",
+        "Premium workmanship warranty. If our coating peels or delaminates within the warranty period, we come back and make it right. Full terms are spelled out in your project contract.",
+        "Most installs done in 1-2 days. Walk on it after 24 hours. If we use an epoxy system, allow a full 5-day cure before driving on it.",
         "Chip colors, gloss levels, and custom finishes. Your garage, your taste."
       ]
     },
     "guarantees": [
       {
         "title": "Premium Workmanship Warranty",
-        "body": "If it peels, cracks, fades, or chips within the warranty period \u2014 we redo it. Free. No fine print."
+        "body": "If our coating peels or delaminates within the warranty period, we come back and make it right. Full warranty terms are written into your project contract."
       },
       {
-        "title": "Owner-Installed, Every Job",
-        "body": "Matt Gifford personally handles every install. No subcontractors, no rotating crews. The owner is on-site, hands-on, every project."
+        "title": "Owner-Overseen, Every Job",
+        "body": "Matt Gifford personally oversees every install — vetting your concrete, selecting the right system, and standing behind the finished work."
       },
       {
-        "title": "Done-in-2-Days or Day 3 Is Free",
-        "body": "If we go past 2 business days on your project, every additional day is on us."
+        "title": "Simiron-Authorized Distributor",
+        "body": "We install Simiron's professional-grade epoxy and polyaspartic systems — the same coatings spec'd for commercial and industrial floors."
       }
     ],
     "leadMagnet": {
@@ -82,8 +82,8 @@
         "a": "Most residential 2-car garages run $3,200-$5,800 depending on square footage, concrete condition, and chip choices. Detailed quotes are always free and Matt does them in person."
       },
       {
-        "q": "Is polyaspartic really better than epoxy?",
-        "a": "For garages exposed to heat, UV, and hot tires \u2014 yes, by a lot. Polyaspartic is UV-stable where epoxy alone yellows and cracks. That's why our system pairs an industrial polyurea basecoat for toughness with a polyaspartic topcoat for UV durability."
+        "q": "Should I get epoxy or polyurea?",
+        "a": "Both are great, durable systems \u2014 they just suit different concrete. Epoxy is a strong, time-tested basecoat for many residential garages. Polyurea is more flexible and faster-curing, which can be the better choice on slabs with higher moisture content or unusual shapes. Either way, we finish with a polyaspartic topcoat for UV stability and hot tire resistance. After we moisture-test your slab, Matt will recommend the right system for your project."
       },
       {
         "q": "How long does the floor last?",
@@ -91,7 +91,7 @@
       },
       {
         "q": "How long is the install?",
-        "a": "Most residential garages are done in 1-2 days. Walk on it after 24 hours, drive on it after 3 days, fully cured in 5-7 days."
+        "a": "Most residential garages are done in 1-2 days. Walk on it after 24 hours. If we use a polyurea basecoat, you can typically drive on it after 3 days. If we use an epoxy basecoat, please allow the full 5-day cure before driving on it."
       },
       {
         "q": "Do I need to prep anything?",
@@ -99,7 +99,7 @@
       },
       {
         "q": "What's the warranty actually cover?",
-        "a": "Material AND workmanship. If it peels, chips, delaminates, or fades unnaturally within the warranty period, we come back and make it right. Written, not a handshake."
+        "a": "Our premium workmanship warranty covers peeling and delamination of the coating system within the warranty period. Note: it doesn't cover impact damage like chips from dropped tools, or new cracks in the underlying concrete — neither of those is something any installer can fully control. The full terms are spelled out in writing in your project contract before you sign anything."
       }
     ]
   },
