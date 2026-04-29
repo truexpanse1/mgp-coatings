@@ -12,7 +12,7 @@
  *     sourcePage,           // e.g. "lp-garage-floors"
  *     leadMagnetTag,        // e.g. "nurture-garage"
  *     leadMagnetTitle,
- *     leadMagnetFilename    // e.g. "mgp-garage-floor-buyers-guide.html"
+ *     leadMagnetFilename    // e.g. "mgp-5-questions-installer.html"
  *   }
  *
  * Env required:
