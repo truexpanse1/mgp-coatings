@@ -256,11 +256,10 @@ export default function LandingPage({ data }: { data: LandingPageData }) {
       <section className="py-16 lg:py-20 bg-surface/40">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="font-playfair text-3xl sm:text-4xl text-cream mb-4 text-center">
-            Triple Guarantee. No Fine Print.
+            Promises We Stand Behind.
           </h2>
           <p className="text-center text-cream/70 mb-12 max-w-2xl mx-auto">
-            Risk-reversal is how confident contractors separate themselves from
-            fly-by-night ones. Here&apos;s ours.
+            Real risk-reversal — every term spelled out in writing in your project contract.
           </p>
           <div className="grid md:grid-cols-3 gap-6">
             {data.guarantees.map((g, i) => (
@@ -329,9 +328,9 @@ export default function LandingPage({ data }: { data: LandingPageData }) {
                 Get your free on-site {data.serviceShort.toLowerCase()} estimate.
               </h2>
               <p className="text-cream/80 mb-6">
-                Matt Gifford personally handles every estimate. No subcontractors,
-                no high-pressure sales, no bait-and-switch pricing. Just a real
-                number you can count on, from the owner himself.
+                Matt Gifford personally handles every estimate and oversees every
+                install. No high-pressure sales, no bait-and-switch pricing.
+                Just a real number you can count on, from the owner himself.
               </p>
               <div className="space-y-3 text-cream/90">
                 <div className="flex items-center gap-3">
@@ -390,7 +389,7 @@ export default function LandingPage({ data }: { data: LandingPageData }) {
       <section className="py-16 lg:py-20 bg-gradient-to-b from-surface to-primary border-t border-gold/20">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="font-playfair text-3xl sm:text-4xl text-cream mb-4">
-            Done in a day. Premium warranty. 94 five-star reviews.
+            Done in 1-2 days. Premium warranty. 94 five-star reviews.
           </h2>
           <p className="text-cream/80 mb-8 text-lg">
             Book your free in-home consultation today before this month&apos;s slots run out.
