@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, ChevronLeft, ChevronRight, MapPin } from "lucide-react";
+import { X, ChevronLeft, ChevronRight, MapPin, ExternalLink, Camera } from "lucide-react";
 import FadeIn from "./FadeIn";
 
 interface GalleryImage {
@@ -15,6 +15,7 @@ interface Project {
   title: string;
   location: string;
   images: GalleryImage[];
+  externalUrl?: string;
 }
 
 interface Category {
@@ -126,56 +127,96 @@ export default function GalleryGrid({ categories }: GalleryGridProps) {
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.3 }}
             >
-              {filteredCategories.map((cat) => (
+              {filteredCategories.map((cat) => {
+                const isCompanyCam = cat.slug === "company-cam";
+                return (
                 <div key={cat.slug} className="mt-12 first:mt-8">
                   <FadeIn>
                     <h2 className="font-playfair text-2xl md:text-3xl text-cream mb-2">
                       {cat.category}
                     </h2>
-                    <div className="gold-line mb-8" />
+                    <div className="gold-line mb-4" />
+                    {isCompanyCam && (
+                      <p className="text-cream/60 text-sm max-w-2xl mb-8 leading-relaxed">
+                        Live project galleries straight from the field. Each card opens the full photo set on CompanyCam — the same platform our crew uses to document every job in real time.
+                      </p>
+                    )}
+                    {!isCompanyCam && <div className="mb-4" />}
                   </FadeIn>
 
-                  {cat.projects.map((project) => (
-                    <div key={project.title} className="mb-12">
-                      <FadeIn>
-                        <div className="flex items-center gap-3 mb-4">
-                          <h3 className="font-montserrat text-xs uppercase tracking-[0.15em] text-gold font-bold">
-                            {project.title}
-                          </h3>
-                          <span className="flex items-center gap-1 text-cream/40 text-xs">
-                            <MapPin size={12} />
-                            {project.location}
-                          </span>
-                        </div>
-                      </FadeIn>
-
-                      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-                        {project.images.map((img, imgIdx) => (
-                          <FadeIn key={img.src} delay={imgIdx * 0.05}>
-                            <button
-                              onClick={() => openLightbox(project, imgIdx)}
-                              className="group relative aspect-[4/3] rounded-lg overflow-hidden w-full cursor-pointer focus:outline-none focus:ring-2 focus:ring-gold/50"
-                            >
-                              <Image
-                                src={img.src}
-                                alt={img.alt}
-                                fill
-                                className="object-cover group-hover:scale-105 transition-transform duration-700"
-                                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                              />
-                              <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/40 transition-colors duration-300 flex items-center justify-center">
-                                <span className="font-montserrat text-[10px] uppercase tracking-[0.15em] text-cream opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-primary/60 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                                  View
-                                </span>
+                  {isCompanyCam ? (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                      {cat.projects.map((project, idx) => (
+                        <FadeIn key={project.externalUrl || project.title} delay={idx * 0.05}>
+                          <a
+                            href={project.externalUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group relative block aspect-[4/3] rounded-lg overflow-hidden border border-white/10 hover:border-gold/60 transition-colors duration-300 bg-gradient-to-br from-primary via-primary to-black"
+                          >
+                            <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
+                              <div className="w-14 h-14 rounded-full border-2 border-gold/40 flex items-center justify-center mb-4 group-hover:border-gold group-hover:scale-110 transition-all duration-300">
+                                <Camera size={22} className="text-gold" />
                               </div>
-                            </button>
-                          </FadeIn>
-                        ))}
-                      </div>
+                              <h3 className="font-playfair text-xl text-cream mb-1">
+                                {project.title}
+                              </h3>
+                              <p className="font-montserrat text-[10px] uppercase tracking-[0.15em] text-gold/80 mb-4">
+                                CompanyCam Gallery
+                              </p>
+                              <span className="font-montserrat text-[11px] uppercase tracking-[0.12em] text-cream/70 group-hover:text-gold transition-colors duration-300 inline-flex items-center gap-1.5">
+                                View Photos
+                                <ExternalLink size={12} />
+                              </span>
+                            </div>
+                          </a>
+                        </FadeIn>
+                      ))}
                     </div>
-                  ))}
+                  ) : (
+                    cat.projects.map((project) => (
+                      <div key={project.title} className="mb-12">
+                        <FadeIn>
+                          <div className="flex items-center gap-3 mb-4">
+                            <h3 className="font-montserrat text-xs uppercase tracking-[0.15em] text-gold font-bold">
+                              {project.title}
+                            </h3>
+                            <span className="flex items-center gap-1 text-cream/40 text-xs">
+                              <MapPin size={12} />
+                              {project.location}
+                            </span>
+                          </div>
+                        </FadeIn>
+
+                        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                          {project.images.map((img, imgIdx) => (
+                            <FadeIn key={img.src} delay={imgIdx * 0.05}>
+                              <button
+                                onClick={() => openLightbox(project, imgIdx)}
+                                className="group relative aspect-[4/3] rounded-lg overflow-hidden w-full cursor-pointer focus:outline-none focus:ring-2 focus:ring-gold/50"
+                              >
+                                <Image
+                                  src={img.src}
+                                  alt={img.alt}
+                                  fill
+                                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                                />
+                                <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/40 transition-colors duration-300 flex items-center justify-center">
+                                  <span className="font-montserrat text-[10px] uppercase tracking-[0.15em] text-cream opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-primary/60 backdrop-blur-sm px-3 py-1.5 rounded-full">
+                                    View
+                                  </span>
+                                </div>
+                              </button>
+                            </FadeIn>
+                          ))}
+                        </div>
+                      </div>
+                    ))
+                  )}
                 </div>
-              ))}
+                );
+              })}
             </motion.div>
           </AnimatePresence>
         </div>

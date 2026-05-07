@@ -181,6 +181,18 @@ const galleryProjects = [
       },
     ],
   },
+  {
+    category: "Company Cam",
+    slug: "company-cam",
+    projects: [
+      { title: "Project 1", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/UXsaeBRW" },
+      { title: "Project 2", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/DjZDt8Yj" },
+      { title: "Project 3", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/GizrcKwQ" },
+      { title: "Project 4", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/mMHPKMqZ" },
+      { title: "Project 5", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/dByHYde8" },
+      { title: "Project 6", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/VWjVGBjo" },
+    ],
+  },
 ];
 
 export default function GalleryPage() {
