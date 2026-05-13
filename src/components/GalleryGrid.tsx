@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, ChevronLeft, ChevronRight, MapPin, ExternalLink, Camera } from "lucide-react";
+import { X, ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 import FadeIn from "./FadeIn";
 
 interface GalleryImage {
@@ -138,41 +138,25 @@ export default function GalleryGrid({ categories }: GalleryGridProps) {
                     <div className="gold-line mb-4" />
                     {isCompanyCam && (
                       <p className="text-cream/60 text-sm max-w-2xl mb-8 leading-relaxed">
-                        Live project galleries straight from the field. Each card opens the full photo set on CompanyCam — the same platform our crew uses to document every job in real time.
+                        Live project galleries straight from the field — the latest six jobs our crew has documented on CompanyCam, embedded here in real time. Tap any project to see the full photo set.
                       </p>
                     )}
                     {!isCompanyCam && <div className="mb-4" />}
                   </FadeIn>
 
                   {isCompanyCam ? (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                      {cat.projects.map((project, idx) => (
-                        <FadeIn key={project.externalUrl || project.title} delay={idx * 0.05}>
-                          <a
-                            href={project.externalUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="group relative block aspect-[4/3] rounded-lg overflow-hidden border border-white/10 hover:border-gold/60 transition-colors duration-300 bg-gradient-to-br from-primary via-primary to-black"
-                          >
-                            <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
-                              <div className="w-14 h-14 rounded-full border-2 border-gold/40 flex items-center justify-center mb-4 group-hover:border-gold group-hover:scale-110 transition-all duration-300">
-                                <Camera size={22} className="text-gold" />
-                              </div>
-                              <h3 className="font-playfair text-xl text-cream mb-1">
-                                {project.title}
-                              </h3>
-                              <p className="font-montserrat text-[10px] uppercase tracking-[0.15em] text-gold/80 mb-4">
-                                CompanyCam Gallery
-                              </p>
-                              <span className="font-montserrat text-[11px] uppercase tracking-[0.12em] text-cream/70 group-hover:text-gold transition-colors duration-300 inline-flex items-center gap-1.5">
-                                View Photos
-                                <ExternalLink size={12} />
-                              </span>
-                            </div>
-                          </a>
-                        </FadeIn>
-                      ))}
-                    </div>
+                    <FadeIn>
+                      <div className="rounded-lg overflow-hidden border border-white/10 bg-gradient-to-br from-primary via-primary to-black">
+                        <iframe
+                          src="https://trusty.app/embed/website-gallery/8151a7c1-7282-4e5e-9297-02bce3272eab?limit=6"
+                          title="MGP Coatings — Recent Project Photos"
+                          loading="lazy"
+                          allow="fullscreen"
+                          className="w-full"
+                          style={{ height: "780px", border: 0, background: "transparent" }}
+                        />
+                      </div>
+                    </FadeIn>
                   ) : (
                     cat.projects.map((project) => (
                       <div key={project.title} className="mb-12">
