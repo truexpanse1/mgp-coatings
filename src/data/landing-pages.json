@@ -8,52 +8,67 @@
     "heroImage": "/images/heroes/home.jpg",
     "hero": {
       "preHeadline": "SLO County Homeowners",
-      "headline": "Transform Your Garage in 1-2 Days",
-      "subheadline": "We install either an epoxy or polyurea basecoat with a polyaspartic topcoat — chosen for what your concrete actually needs. Backed by 94 five-star reviews, a premium workmanship warranty, and 30+ years of Matt Gifford overseeing every install.",
+      "headline": "Your Showroom Garage Floor — Installed in as Little as 1 Day",
+      "subheadline": "We install Simiron's polyurea-based system finished with a UV-stable polyaspartic topcoat — the floor that won't yellow, peel, or lift. Backed by 101 five-star reviews and 30+ years of Matt Gifford overseeing every install. Flexible financing available.",
       "trustChips": [
-        "94 Five-Star Reviews",
-        "Premium Warranty",
+        "101 Five-Star Reviews",
+        "1-2 Day Install",
         "Licensed #1061424",
-        "Simiron Distributor"
+        "Flexible Financing"
       ],
-      "primaryCta": "Get My Free Garage Estimate",
+      "primaryCta": "Get My Free Garage Quote",
       "secondaryCta": "Download the Free 5-Question Guide"
     },
     "offer": {
-      "title": "Every Free Estimate Includes",
+      "title": "Every Install Includes — Free",
       "bonuses": [
-        { "name": "In-Home Color & Finish Consultation", "value": "\u2713" },
-        { "name": "Surface Inspection & Moisture Check", "value": "\u2713" },
-        { "name": "Sample Color, Flake & Finish Options", "value": "\u2713" },
-        { "name": "Custom Project Quote With No Pressure", "value": "\u2713" },
-        { "name": "Premium Workmanship Warranty", "value": "\u2713" }
+        {
+          "name": "In-Home Designer Color & Flake Consultation",
+          "value": "✓"
+        },
+        {
+          "name": "Full Diamond-Grind Prep + Moisture Testing",
+          "value": "✓"
+        },
+        {
+          "name": "Anti-Slip Safety Additive Upgrade",
+          "value": "✓"
+        },
+        {
+          "name": "Minor Crack Repair Included",
+          "value": "✓"
+        },
+        {
+          "name": "Our Workmanship Assurance — We Stand Behind Our Work",
+          "value": "✓"
+        }
       ],
-      "totalValue": "Always Free",
-      "scarcity": "Matt personally oversees every install. Only 3 garage slots per week."
+      "totalValue": "Always Included",
+      "scarcity": "Matt personally oversees every install — only 3 garage slots a week. Flexible financing available."
     },
     "problem": {
       "headline": "Why most garage floors look like hell 3 years in",
       "points": [
         "Cheap DIY epoxy kits peel within 18-36 months. They're UV-sensitive and fail from hot tire lift.",
-        "85% of coating failures come from bad prep \u2014 and DIY kits skip the diamond grinding and moisture testing that actually matter.",
+        "85% of coating failures come from bad prep — and DIY kits skip the diamond grinding and moisture testing that actually matter.",
         "Oil stains, tire marks, and concrete dust eat away at untreated concrete every day you wait.",
         "Once a bad coating fails, removing it costs more than the original install did."
       ]
     },
     "solution": {
-      "headline": "The MGP coating system. Built around what your concrete needs.",
+      "headline": "The MGP coating system. Built around what your concrete actually needs.",
       "points": [
-        "Full diamond-grind prep with moisture testing. Once we see what your concrete is actually doing, we recommend the right system \u2014 most competitors skip this because it's expensive.",
-        "Either an industrial epoxy or polyurea basecoat \u2014 selected based on the moisture content and condition of your concrete \u2014 finished with a polyaspartic topcoat for UV stability and hot tire resistance.",
-        "Premium workmanship warranty. If our coating peels or delaminates within the warranty period, we come back and make it right. Full terms are spelled out in your project contract.",
-        "Most installs done in 1-2 days. Walk on it after 24 hours. If we use an epoxy system, allow a full 5-day cure before driving on it.",
-        "Chip colors, gloss levels, and custom finishes. Your garage, your taste."
+        "Full diamond-grind prep with moisture testing — we profile the concrete and check for moisture before a drop of coating goes down, because bad prep is the #1 reason floors fail.",
+        "A tough polyurea basecoat — Simiron's industrial-grade SIMFLAKE SB system — bonded to your prepped slab and sealed with a UV-stable polyaspartic topcoat that won't yellow, peel, or lift.",
+        "We stand behind our work. If a genuine workmanship issue appears under normal residential use, we come back and make it right.",
+        "Most installs done in 1-2 days. Walk on it the next day; allow 5 days before driving or parking while the system fully cures.",
+        "Chip colors, gloss levels, and custom finishes — your garage, your taste."
       ]
     },
     "guarantees": [
       {
-        "title": "Premium Workmanship Warranty",
-        "body": "If our coating peels or delaminates within the warranty period, we come back and make it right. Full warranty terms are written into your project contract."
+        "title": "We Stand Behind Our Work",
+        "body": "If a genuine workmanship issue appears under normal residential use, contact us — we'll inspect the floor and make it right. It's our commitment to your satisfaction, and we review exactly what that means with you before we begin."
       },
       {
         "title": "Owner-Overseen, Every Job",
@@ -61,17 +76,17 @@
       },
       {
         "title": "Simiron-Authorized Distributor",
-        "body": "We install Simiron's professional-grade epoxy and polyaspartic systems — the same coatings spec'd for commercial and industrial floors."
+        "body": "We install Simiron's professional-grade polyurea + polyaspartic systems — the same coatings spec'd for commercial and industrial floors."
       }
     ],
     "leadMagnet": {
       "title": "5 Questions Smart Homeowners Ask Before Hiring a Concrete Coating Installer",
       "subtitle": "The questions a real pro will welcome — and a part-timer will dodge. Use these on every quote.",
       "bullets": [
-        "The chemistry question (epoxy or polyurea?) that separates 5-year coatings from 15-year coatings",
+        "The chemistry question (epoxy vs. polyurea base) that separates a floor that lasts from one that peels in a few years",
         "How long the install actually takes — and the timeline that signals 'no real prep'",
         "The CSLB license question, plus how to verify it yourself in 60 seconds",
-        "What a real installer-backed warranty covers — and what 'manufacturer warranty' really means",
+        "What a real installer-backed assurance covers — and what 'manufacturer warranty' really means",
         "How many local Google reviews are enough — and how to spot the fakes"
       ],
       "filename": "mgp-5-questions-installer.html"
@@ -79,27 +94,27 @@
     "faqs": [
       {
         "q": "How much does a garage floor coating cost?",
-        "a": "Most residential 2-car garages run $3,200-$5,800 depending on square footage, concrete condition, and chip choices. Detailed quotes are always free and Matt does them in person."
+        "a": "Most residential 2-car garages run $3,200–$5,800 depending on square footage, concrete condition, and chip choices. Featured pricing reflects a standard 2-car garage up to 400 sq ft; larger or more-damaged floors are quoted individually after an on-site inspection. Detailed quotes are always free and Matt does them in person."
       },
       {
         "q": "Should I get epoxy or polyurea?",
-        "a": "Both are great, durable systems \u2014 they just suit different concrete. Epoxy is a strong, time-tested basecoat for many residential garages. Polyurea is more flexible and faster-curing, which can be the better choice on slabs with higher moisture content or unusual shapes. Either way, we finish with a polyaspartic topcoat for UV stability and hot tire resistance. After we moisture-test your slab, Matt will recommend the right system for your project."
+        "a": "For a residential garage, we install a polyurea-based system rather than straight epoxy. Polyurea is more flexible and faster-curing, and it won't get brittle and lift under hot tires the way epoxy can. We finish with a UV-stable polyaspartic topcoat so it won't yellow in the sun. After we moisture-test your slab, Matt confirms the exact build for your concrete."
       },
       {
         "q": "How long does the floor last?",
-        "a": "Our full system is backed by a premium workmanship warranty. Real-world data from our installs: 8-year-old Central Coast garages still look like day one."
+        "a": "It's built to last. The polyurea + polyaspartic system is industrial-grade, and because we diamond-grind and moisture-test every slab, our Central Coast installs hold up beautifully over the years. We stand behind our workmanship, too."
       },
       {
         "q": "How long is the install?",
-        "a": "Most residential garages are done in 1-2 days. Walk on it after 24 hours. If we use a polyurea basecoat, you can typically drive on it after 3 days. If we use an epoxy basecoat, please allow the full 5-day cure before driving on it."
+        "a": "Most residential garages are done in 1-2 days. Walk on it the next day; allow 5 days before driving or parking while the system fully cures."
       },
       {
         "q": "Do I need to prep anything?",
         "a": "Just move everything out of the garage the day before. We handle grinding, repair, cleanup, everything."
       },
       {
-        "q": "What's the warranty actually cover?",
-        "a": "Our premium workmanship warranty covers peeling and delamination of the coating system within the warranty period. Note: it doesn't cover impact damage like chips from dropped tools, or new cracks in the underlying concrete — neither of those is something any installer can fully control. The full terms are spelled out in writing in your project contract before you sign anything."
+        "q": "What does your workmanship assurance actually cover?",
+        "a": "We stand behind our workmanship. If a genuine workmanship issue — like peeling or delamination from our installation — shows up under normal use, we'll come make it right. As you'd expect, it doesn't cover things outside our control: impact damage like chips from dropped tools, new cracks in the underlying concrete, chemical spills, or abuse. We'll walk you through exactly what's covered before we begin."
       }
     ]
   },
@@ -126,19 +141,34 @@
     "offer": {
       "title": "Every Free Pool Deck Estimate Includes",
       "bonuses": [
-        { "name": "On-Site Color & Texture Consultation", "value": "\u2713" },
-        { "name": "Surface Inspection & Slip-Resistance Check", "value": "\u2713" },
-        { "name": "Sample Cool-Touch Finishes & Chip Options", "value": "\u2713" },
-        { "name": "Custom Project Quote With No Pressure", "value": "\u2713" },
-        { "name": "Premium Workmanship Warranty", "value": "\u2713" }
+        {
+          "name": "On-Site Color & Texture Consultation",
+          "value": "✓"
+        },
+        {
+          "name": "Surface Inspection & Slip-Resistance Check",
+          "value": "✓"
+        },
+        {
+          "name": "Sample Cool-Touch Finishes & Chip Options",
+          "value": "✓"
+        },
+        {
+          "name": "Custom Project Quote With No Pressure",
+          "value": "✓"
+        },
+        {
+          "name": "Premium Workmanship Warranty",
+          "value": "✓"
+        }
       ],
       "totalValue": "Always Free",
       "scarcity": "Matt personally oversees every pool deck install. Only 2 pool deck slots per week during peak season."
     },
     "problem": {
-      "headline": "Why most pool decks become painful \u2014 literally",
+      "headline": "Why most pool decks become painful — literally",
       "points": [
-        "Untreated concrete bakes in the Central Coast sun and can scorch bare feet at 140\u00b0F+ on a 90\u00b0 day.",
+        "Untreated concrete bakes in the Central Coast sun and can scorch bare feet at 140°F+ on a 90° day.",
         "Smooth concrete + pool water = fall hazard, especially for kids running between the pool and the patio.",
         "Pool chemicals (chlorine, muriatic acid) slowly eat untreated concrete. The cracks you're ignoring now turn into expensive repairs in 2-3 years.",
         "Cheap pool-deck paint peels in a single summer. DIY kits aren't built for constant water, sun, and chemical exposure."
@@ -147,9 +177,9 @@
     "solution": {
       "headline": "Our pool deck system. Cool, grippy, chlorine-proof.",
       "points": [
-        "Cool-touch textured coating. Reflects heat and adds grip \u2014 meaningfully safer for bare feet and kids.",
+        "Cool-touch textured coating. Reflects heat and adds grip — meaningfully safer for bare feet and kids.",
         "Chlorine + UV stable. Formulated for decades of pool chemistry and direct California sun.",
-        "Crack repair included. We fix what's broken before we coat \u2014 no hiding problems under a pretty finish.",
+        "Crack repair included. We fix what's broken before we coat — no hiding problems under a pretty finish.",
         "Custom texture + color. Match your home, your landscaping, or go resort-style bold.",
         "Premium workmanship warranty on material and installation. If it fails within the warranty period, we fix it."
       ]
@@ -203,7 +233,7 @@
       },
       {
         "q": "Can you work around our existing decking or landscaping?",
-        "a": "Yes. We protect everything adjacent \u2014 tile coping, plants, pool equipment \u2014 and clean up like we were never there."
+        "a": "Yes. We protect everything adjacent — tile coping, plants, pool equipment — and clean up like we were never there."
       }
     ]
   },
@@ -230,11 +260,26 @@
     "offer": {
       "title": "Every Free Driveway Estimate Includes",
       "bonuses": [
-        { "name": "On-Site Color & Finish Consultation", "value": "\u2713" },
-        { "name": "Surface Inspection & Hot-Tire Suitability Check", "value": "\u2713" },
-        { "name": "Sample Driveway-Spec Finishes & Chip Options", "value": "\u2713" },
-        { "name": "Custom Project Quote With No Pressure", "value": "\u2713" },
-        { "name": "Premium Workmanship Warranty", "value": "\u2713" }
+        {
+          "name": "On-Site Color & Finish Consultation",
+          "value": "✓"
+        },
+        {
+          "name": "Surface Inspection & Hot-Tire Suitability Check",
+          "value": "✓"
+        },
+        {
+          "name": "Sample Driveway-Spec Finishes & Chip Options",
+          "value": "✓"
+        },
+        {
+          "name": "Custom Project Quote With No Pressure",
+          "value": "✓"
+        },
+        {
+          "name": "Premium Workmanship Warranty",
+          "value": "✓"
+        }
       ],
       "totalValue": "Always Free",
       "scarcity": "Matt personally oversees every driveway install. Only 2 driveway slots per week."
@@ -243,15 +288,15 @@
       "headline": "Your driveway is the first thing buyers and guests see",
       "points": [
         "Oil stains, tire marks, and concrete dust send a signal: this house is tired.",
-        "Untreated concrete cracks faster under Central Coast heat cycles and winter rain \u2014 once cracks spread, repair cost climbs fast.",
+        "Untreated concrete cracks faster under Central Coast heat cycles and winter rain — once cracks spread, repair cost climbs fast.",
         "Hot tires peel most DIY coatings within a year. Cheap driveway paint = money in the trash.",
-        "The longer you wait, the more the concrete degrades underneath \u2014 and prep cost goes up."
+        "The longer you wait, the more the concrete degrades underneath — and prep cost goes up."
       ]
     },
     "solution": {
       "headline": "Our driveway system. Built for hot tires, oil, and UV.",
       "points": [
-        "Hot tire resistant polyaspartic topcoat \u2014 the only coating system proven to survive hot tire lift.",
+        "Hot tire resistant polyaspartic topcoat — the only coating system proven to survive hot tire lift.",
         "Oil-proof + chemical-resistant. Spills wipe clean like tile.",
         "UV stable. Won't yellow, chalk, or fade in Central Coast sun like cheap acrylic sealers do.",
         "Diamond-grind prep + crack repair included. We fix what's broken, then coat.",
@@ -265,22 +310,22 @@
       },
       {
         "title": "Owner-Overseen, Every Job",
-        "body": "Matt Gifford personally oversees every install \u2014 vetting your concrete, selecting the right system, and standing behind the finished work."
+        "body": "Matt Gifford personally oversees every install — vetting your concrete, selecting the right system, and standing behind the finished work."
       },
       {
         "title": "Simiron-Authorized Distributor",
-        "body": "We install Simiron's professional-grade polyurea and polyaspartic driveway systems \u2014 built for hot tires, oil, and Central Coast UV."
+        "body": "We install Simiron's professional-grade polyurea and polyaspartic driveway systems — built for hot tires, oil, and Central Coast UV."
       }
     ],
     "leadMagnet": {
       "title": "5 Questions Smart Homeowners Ask Before Hiring a Concrete Coating Installer",
-      "subtitle": "The questions a real pro will welcome \u2014 and a part-timer will dodge. Use these on every driveway quote.",
+      "subtitle": "The questions a real pro will welcome — and a part-timer will dodge. Use these on every driveway quote.",
       "bullets": [
         "The chemistry question (epoxy or polyurea?) that separates 5-year coatings from 15-year coatings",
-        "How long the install actually takes \u2014 and the timeline that signals 'no real prep'",
+        "How long the install actually takes — and the timeline that signals 'no real prep'",
         "The CSLB license question, plus how to verify it yourself in 60 seconds",
-        "What a real installer-backed warranty covers \u2014 and what 'manufacturer warranty' really means",
-        "How many local Google reviews are enough \u2014 and how to spot the fakes"
+        "What a real installer-backed warranty covers — and what 'manufacturer warranty' really means",
+        "How many local Google reviews are enough — and how to spot the fakes"
       ],
       "filename": "mgp-5-questions-installer.html"
     },
@@ -291,11 +336,11 @@
       },
       {
         "q": "Will it really survive hot tires?",
-        "a": "Yes \u2014 when you use the right system for a driveway. Our polyurea base with a polyaspartic topcoat is specifically rated for hot tire contact, which is why our workmanship warranty stands behind it on driveway installs."
+        "a": "Yes — when you use the right system for a driveway. Our polyurea base with a polyaspartic topcoat is specifically rated for hot tire contact, which is why our workmanship warranty stands behind it on driveway installs."
       },
       {
         "q": "What about oil stains?",
-        "a": "Oil sits on top of our coating \u2014 it doesn't soak in. Spills wipe clean with any household degreaser. Same for brake fluid, transmission fluid, coolant."
+        "a": "Oil sits on top of our coating — it doesn't soak in. Spills wipe clean with any household degreaser. Same for brake fluid, transmission fluid, coolant."
       },
       {
         "q": "Can you coat a cracked driveway?",

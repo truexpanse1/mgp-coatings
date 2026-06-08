@@ -259,7 +259,7 @@ export default function LandingPage({ data }: { data: LandingPageData }) {
             Promises We Stand Behind.
           </h2>
           <p className="text-center text-cream/70 mb-12 max-w-2xl mx-auto">
-            Real risk-reversal — every term spelled out in writing in your project contract.
+            Real risk-reversal — we stand behind our work and review exactly what&apos;s covered before we begin.
           </p>
           <div className="grid md:grid-cols-3 gap-6">
             {data.guarantees.map((g, i) => (
@@ -339,11 +339,11 @@ export default function LandingPage({ data }: { data: LandingPageData }) {
                 </div>
                 <div className="flex items-center gap-3">
                   <Star className="text-gold fill-gold" size={20} />
-                  <span>94 five-star Google reviews.</span>
+                  <span>101 five-star Google reviews.</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Shield className="text-gold" size={20} />
-                  <span>Premium workmanship warranty on every project.</span>
+                  <span>We stand behind our workmanship on every project.</span>
                 </div>
               </div>
             </div>
@@ -389,7 +389,7 @@ export default function LandingPage({ data }: { data: LandingPageData }) {
       <section className="py-16 lg:py-20 bg-gradient-to-b from-surface to-primary border-t border-gold/20">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="font-playfair text-3xl sm:text-4xl text-cream mb-4">
-            Done in 1-2 days. Premium warranty. 94 five-star reviews.
+            Done in 1-2 days. We stand behind our work. 101 five-star reviews.
           </h2>
           <p className="text-cream/80 mb-8 text-lg">
             Book your free in-home consultation today before this month&apos;s slots run out.
