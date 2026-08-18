@@ -34,6 +34,20 @@ export const metadata: Metadata = {
 };
 
 const galleryProjects = [
+  // Company Cam stays FIRST (Matt's ask via Don, 2026-08-18): the live widget
+  // is the top thing a prospect sees — recent jobs, colors, full photo sets.
+  {
+    category: "Company Cam",
+    slug: "company-cam",
+    projects: [
+      { title: "Project 1", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/UXsaeBRW" },
+      { title: "Project 2", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/DjZDt8Yj" },
+      { title: "Project 3", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/GizrcKwQ" },
+      { title: "Project 4", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/mMHPKMqZ" },
+      { title: "Project 5", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/dByHYde8" },
+      { title: "Project 6", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/VWjVGBjo" },
+    ],
+  },
   {
     category: "Garage Floor Coatings",
     slug: "garage",
@@ -179,18 +193,6 @@ const galleryProjects = [
           { src: "/images/gallery/counter-011-marble-2.jpg", alt: "Grey marble countertop detail" },
         ],
       },
-    ],
-  },
-  {
-    category: "Company Cam",
-    slug: "company-cam",
-    projects: [
-      { title: "Project 1", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/UXsaeBRW" },
-      { title: "Project 2", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/DjZDt8Yj" },
-      { title: "Project 3", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/GizrcKwQ" },
-      { title: "Project 4", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/mMHPKMqZ" },
-      { title: "Project 5", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/dByHYde8" },
-      { title: "Project 6", location: "View on CompanyCam", images: [], externalUrl: "https://app.companycam.com/galleries/VWjVGBjo" },
     ],
   },
 ];
