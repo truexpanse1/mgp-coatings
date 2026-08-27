@@ -124,6 +124,15 @@ export default function RootLayout({
       </head>
       <body className="font-inter antialiased bg-primary text-cream">
         <AnalyticsNoScript />
+        {/* MAT first-party traffic beacon — counts EVERY visit (direct, Maps,
+            social, referral), which Google-organic SEO estimates cannot see.
+            No cookies, nothing personal collected. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{navigator.sendBeacon('https://truexpansemat.com/api/site-visit',JSON.stringify({t:'a3f19c58d02b7e64',p:location.pathname,s:location.search,r:document.referrer}))}catch(e){}",
+          }}
+        />
         <SiteChrome>{children}</SiteChrome>
       </body>
     </html>
