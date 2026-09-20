@@ -116,6 +116,7 @@ export function LocalBusinessJsonLd() {
       "https://www.instagram.com/mgpcoatings/",
       "https://www.yelp.com/biz/mgp-coatings",
       "https://search.google.com/local/reviews?placeid=ChIJ5Y3hV6sYQkkRdsjLN37SP6c",
+      "https://www.google.com/maps/place/?q=place_id:ChIJ5Y3hV6sYQkkRdsjLN37SP6c",
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -224,6 +225,7 @@ export function OrganizationJsonLd() {
       "https://www.instagram.com/mgpcoatings/",
       "https://www.yelp.com/biz/mgp-coatings",
       "https://search.google.com/local/reviews?placeid=ChIJ5Y3hV6sYQkkRdsjLN37SP6c",
+      "https://www.google.com/maps/place/?q=place_id:ChIJ5Y3hV6sYQkkRdsjLN37SP6c",
     ],
     contactPoint: {
       "@type": "ContactPoint",

@@ -13,9 +13,9 @@ import IrresistibleOffer from "@/components/IrresistibleOffer";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
-  title: "MGP Coatings | Premium Concrete Coatings & Epoxy Flooring in SLO County",
+  title: "MGP Coatings | Concrete Coatings & Epoxy Flooring, SLO County",
   description:
-    "MGP Coatings delivers premium concrete coatings, epoxy flooring, and epoxy countertops across San Luis Obispo County. 30+ years experience. Most projects completed in 1-2 days. Free on-site estimate. Call (805) 952-5301.",
+    "Premium concrete coatings, epoxy flooring, and epoxy countertops across San Luis Obispo County. Most projects completed in 1-2 days. Free estimate: (805) 952-5301.",
   openGraph: {
     type: "website",
     url: "https://mgpcoatings.solutions/",
