@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackFormSubmit } from "@/lib/analytics-events";
 
 declare global {
   interface Window {
@@ -51,8 +52,7 @@ export default function ContactForm({ className = "", dark = true }: ContactForm
           .then(() => {
             setSubmitted(true);
             if (typeof window !== "undefined") {
-              window.dataLayer = window.dataLayer || [];
-              window.dataLayer.push({ event: "form_submit", form: "mgp-estimate" });
+              trackFormSubmit("mgp-estimate");
             }
           })
           .catch(() => setSubmitted(true));

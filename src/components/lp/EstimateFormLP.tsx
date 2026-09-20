@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { pushEvent } from "@/lib/analytics-events";
 
 declare global {
   interface Window {
@@ -57,16 +58,11 @@ export default function EstimateFormLP({
         const form = e.currentTarget;
         const formData = new FormData(form);
         if (typeof window !== "undefined") {
-          window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push({
-            event: "estimate_form_submit",
+          pushEvent("generate_lead", {
+            form_id: "mgp-estimate-lp",
+            lead_type: "quote_request",
             service,
             source: sourcePage,
-          });
-          window.dataLayer.push({
-            event: "conversion",
-            conversion_type: "estimate_request",
-            service,
           });
         }
         fetch("/", {

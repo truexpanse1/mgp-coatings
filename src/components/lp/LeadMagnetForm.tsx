@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { pushEvent } from "@/lib/analytics-events";
 
 declare global {
   interface Window {
@@ -40,17 +41,17 @@ export default function LeadMagnetForm({
     const formData = new FormData(form);
 
     if (typeof window !== "undefined") {
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({
-        event: "lead_magnet_download",
+      pushEvent("generate_lead", {
+        form_id: "mgp-lead-magnet",
+        lead_type: "lead_magnet",
         service,
         lead_magnet: leadMagnetTag,
         source: sourcePage,
       });
-      window.dataLayer.push({
-        event: "conversion",
-        conversion_type: "lead_magnet",
+      pushEvent("lead_magnet_download", {
         service,
+        lead_magnet: leadMagnetTag,
+        source: sourcePage,
       });
       window.open(downloadUrl, "_blank", "noopener,noreferrer");
     }

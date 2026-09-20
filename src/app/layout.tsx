@@ -4,6 +4,7 @@ import "./globals.css";
 import SiteChrome from "@/components/SiteChrome";
 import { LocalBusinessJsonLd, WebSiteJsonLd, OrganizationJsonLd } from "@/components/JsonLd";
 import { AnalyticsHead, AnalyticsNoScript } from "@/components/Analytics";
+import AutoTracking from "@/components/AutoTracking";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -133,6 +134,7 @@ export default function RootLayout({
               "try{navigator.sendBeacon('https://truexpansemat.com/api/site-visit',JSON.stringify({t:'a3f19c58d02b7e64',p:location.pathname,s:location.search,r:document.referrer}))}catch(e){}",
           }}
         />
+        <AutoTracking />
         <SiteChrome>{children}</SiteChrome>
       </body>
     </html>

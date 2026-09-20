@@ -1,45 +1,60 @@
 /**
  * TrueXpanse Standard Event Tracking
  *
- * Pushes events to the GTM dataLayer. GTM then routes them to GA4, Google Ads,
- * Meta Pixel, etc. — configured in the GTM UI, not in code.
+ * Dual-path by design: every event is sent to GA4 directly via gtag AND pushed
+ * to the GTM dataLayer. Direct gtag is what records today; the dataLayer push
+ * means a GTM container can be dropped in later without touching code.
+ *
+ * (Earlier versions pushed to the dataLayer only. With no GTM container on the
+ * site, nothing was ever recorded — see the 2026-09-19 entry in status.md.)
  *
  * Standard event set across every TrueXpanse client site:
- *   - phone_click    (tel: link tapped)
- *   - form_submit    (contact form succeeded)
- *   - cta_click      (primary CTA button clicked)
- *   - financing_view (financing page viewed — warm lead)
+ *   - generate_lead     (form succeeded — GA4 recommended lead-gen event)
+ *   - phone_call_click  (tel: link tapped)
+ *   - cta_click         (primary CTA clicked)
+ *   - scroll_depth      (25 / 50 / 75 / 90)
+ *   - outbound_click / file_download / engaged_time
  *
- * Usage:
- *   import { trackPhoneClick } from "@/lib/analytics-events";
- *   <a href="tel:+18059525301" onClick={() => trackPhoneClick("hero")}>Call</a>
+ * Most events bind automatically via <AutoTracking />. Call these helpers only
+ * for things a click listener cannot infer.
  */
+
+type GtagFn = (command: string, target: string, params?: Record<string, unknown>) => void;
 
 declare global {
   interface Window {
     dataLayer?: Array<Record<string, unknown>>;
+    gtag?: GtagFn;
   }
 }
 
-function pushEvent(event: string, params: Record<string, unknown> = {}) {
+export function pushEvent(event: string, params: Record<string, unknown> = {}) {
   if (typeof window === "undefined") return;
+
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({ event, ...params });
+
+  if (typeof window.gtag === "function") {
+    window.gtag("event", event, params);
+  }
 }
 
 /** Track a phone number click. `source` identifies where on the page. */
 export function trackPhoneClick(source: string) {
-  pushEvent("phone_click", { source });
+  pushEvent("phone_call_click", { link_placement: source });
 }
 
 /** Track a successful form submission. `form` identifies which form. */
 export function trackFormSubmit(form: string) {
-  pushEvent("form_submit", { form });
+  pushEvent("generate_lead", {
+    form_id: form,
+    lead_type: form.includes("magnet") || form.includes("guide") ? "lead_magnet" : "quote_request",
+  });
 }
 
 /** Track a primary CTA button click. */
 export function trackCtaClick(cta: string, location: string) {
-  pushEvent("cta_click", { cta, location });
+  pushEvent("cta_click", { cta, link_placement: location });
 }
 
 /** Track a warm-lead financing page view. Call once on mount. */
