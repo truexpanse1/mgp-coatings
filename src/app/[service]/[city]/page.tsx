@@ -83,8 +83,18 @@ export default async function CityServicePage({ params }: PageProps) {
   }
 
   const cityReviews = reviewsData.filter((r) => r.city === city.name).slice(0, 2);
-  const fallbackReviews = reviewsData.slice(0, 2);
-  const displayReviews = cityReviews.length >= 2 ? cityReviews : fallbackReviews;
+  // Not one review in the pool names a city, so a fallback selection must never
+  // be presented as local — the heading below switches when it isn't. Rotate the
+  // fallback deterministically by city name so the 15 city pages don't all
+  // surface the identical pair.
+  const offset =
+    city.name.split("").reduce((sum, ch) => sum + ch.charCodeAt(0), 0) %
+    Math.max(reviewsData.length, 1);
+  const fallbackReviews = reviewsData.length
+    ? [reviewsData[offset], reviewsData[(offset + 1) % reviewsData.length]].filter(Boolean)
+    : [];
+  const hasLocalReviews = cityReviews.length >= 2;
+  const displayReviews = hasLocalReviews ? cityReviews : fallbackReviews;
 
   const pageUrl = `https://mgpcoatings.solutions/${serviceSlug}/${citySlug}/`;
 
@@ -267,9 +277,9 @@ export default async function CityServicePage({ params }: PageProps) {
         <div className="max-w-site mx-auto px-6">
           <FadeIn>
             <div className="text-center mb-12">
-              <SectionLabel label={`${city.name} Reviews`} />
+              <SectionLabel label={hasLocalReviews ? `${city.name} Reviews` : "Customer Reviews"} />
               <h2 className="font-playfair text-3xl md:text-5xl text-cream mt-3 leading-tight">
-                What Local Clients Say
+                {hasLocalReviews ? "What Local Clients Say" : "What Our Clients Say"}
               </h2>
             </div>
           </FadeIn>
